@@ -9,9 +9,9 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID")
 RAPIDAPI_KEY       = os.getenv("RAPIDAPI_KEY")
 
-# 2. CONFIG
-MIN_LIKES = 1        # Set to 1 for testing!
-ALERT_THRESHOLD = 10 # Set to 10 for testing!
+# 2. CONFIG (Keep these low for the first test!)
+MIN_LIKES = 1        
+ALERT_THRESHOLD = 5 
 HOST = "twitter-x.p.rapidapi.com"
 
 WATCHLIST = [
@@ -30,19 +30,9 @@ def get_user_id(handle):
     headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
     try:
         res = requests.get(url, headers=headers, params={"username": handle}, timeout=15)
-        if res.status_code != 200:
-            print(f"⚠️ API Error {res.status_code}: {res.text}")
-            return None
-        
         data = res.json()
-        # Trying two different JSON paths just in case
-        user_id = data.get("data", {}).get("user", {}).get("result", {}).get("rest_id")
-        if not user_id:
-            user_id = data.get("rest_id") or data.get("id")
-        
-        return user_id
-    except Exception as e:
-        print(f"❌ Connection error: {e}")
+        return data.get("data", {}).get("user", {}).get("result", {}).get("rest_id")
+    except:
         return None
 
 def get_tweets(user_id):
@@ -50,17 +40,13 @@ def get_tweets(user_id):
     headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
     try:
         res = requests.get(url, headers=headers, params={"user_id": user_id, "limit": "10"}, timeout=15)
-        data = res.json()
-        return data.get("data", {}).get("user", {}).get("result", {}).get("timeline_v2", {}).get("timeline", {}).get("instructions", [])
+        return res.json().get("data", {}).get("user", {}).get("result", {}).get("timeline_v2", {}).get("timeline", {}).get("instructions", [])
     except:
         return []
 
 def run():
     print(f"🚀 Scan started at {datetime.now()}")
-    if not RAPIDAPI_KEY:
-        print("❌ ERROR: RAPIDAPI_KEY secret is missing!")
-        return
-
+    
     for acc in WATCHLIST:
         print(f"Checking @{acc['handle']}...")
         user_id = get_user_id(acc['handle'])
@@ -69,7 +55,6 @@ def run():
             print(f"❌ Could not find ID for @{acc['handle']}")
             continue
 
-        print(f"✅ Found ID {user_id}. Fetching tweets...")
         instructions = get_tweets(user_id)
         entries = []
         for instr in instructions:
@@ -77,34 +62,43 @@ def run():
                 entries = instr.get("entries", [])
                 break
 
-        for entry in entries[:5]:
-            item = entry.get("content", {}).get("itemContent", {}).get("tweet_results", {}).get("result", {})
-            if not item: continue
+        print(f"🔍 Analyzing {len(entries)} items for @{acc['handle']}...")
+        found_count = 0
+
+        for entry in entries:
+            # Step 1: Find the tweet data inside the entry
+            result = entry.get("content", {}).get("itemContent", {}).get("tweet_results", {}).get("result", {})
+            if not result: continue
             
-            # Handle possible nested 'tweet' object
-            if "tweet" in item: item = item["tweet"]
+            # Step 2: Handle "Tweet" vs "Retweet" structure
+            if "tweet" in result: result = result["tweet"]
             
-            legacy = item.get("legacy", {})
+            legacy = result.get("legacy", {})
             text = legacy.get("full_text", "")
             likes = int(legacy.get("favorite_count", 0))
             tweet_id = legacy.get("id_str")
 
-            if likes < MIN_LIKES: continue
-
+            if not text: continue
+            
+            # Step 3: Scoring
             tickers = TICKER_PATTERN.findall(text.upper())
             score = (likes / 1000) + (len(tickers) * 10) + (acc['weight'] * 20)
             score = round(min(100, score), 1)
 
-            if score >= ALERT_THRESHOLD:
+            if likes >= MIN_LIKES and score >= ALERT_THRESHOLD:
                 msg = (
                     f"🚨 *High Signal Detected*\n\n"
                     f"👤 *{acc['name']}* (@{acc['handle']})\n"
                     f"📊 Score: {score}/100 | ❤️ {likes:,}\n\n"
-                    f"📝 {text[:300]}...\n\n"
+                    f"📝 {text[:350]}...\n\n"
                     f"🔗 [View on X](https://x.com/any/status/{tweet_id})"
                 )
                 send_tg(msg)
-                print(f"📬 Alert sent for @{acc['handle']}")
+                found_count += 1
+                print(f"📬 Alert sent for: {text[:30]}...")
+        
+        if found_count == 0:
+            print(f"ℹ️ No high-signal posts found for @{acc['handle']} this run.")
         
         time.sleep(2)
 
