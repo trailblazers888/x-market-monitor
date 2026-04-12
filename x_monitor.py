@@ -82,3 +82,5 @@ def run():
 
 if __name__ == "__main__":
     run()
+send_tg("🤖 Connection Test: The bot is working!")
+run()
