@@ -2,6 +2,7 @@ import os
 import re
 import time
 import requests
+import json
 from datetime import datetime
 
 # 1. SECRETS
@@ -9,7 +10,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID")
 RAPIDAPI_KEY       = os.getenv("RAPIDAPI_KEY")
 
-# 2. CONFIG
+# 2. CONFIG (Keep low for this final verification)
 MIN_LIKES = 1        
 ALERT_THRESHOLD = 5  
 HOST = "twitter-x.p.rapidapi.com"
@@ -35,24 +36,11 @@ def get_user_id(handle):
     headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
     try:
         res = requests.get(url, headers=headers, params={"username": handle}, timeout=15)
-        # Search for numeric ID anywhere in the response text
+        # Nuclear ID search
         match = re.search(r'"rest_id":"(\d+)"', res.text)
-        if not match: match = re.search(r'"id":"(\d+)"', res.text)
         return match.group(1) if match else None
     except:
         return None
-
-def find_tweets_universal(data, tweets_list):
-    """Deep search: finds every object that contains tweet-like content."""
-    if isinstance(data, dict):
-        # Look for the two common tweet text keys
-        if "full_text" in data or "text" in data:
-            tweets_list.append(data)
-        for value in data.values():
-            find_tweets_universal(value, tweets_list)
-    elif isinstance(data, list):
-        for item in data:
-            find_tweets_universal(item, tweets_list)
 
 def run():
     print(f"--- STARTING SCAN: {datetime.now()} ---")
@@ -62,47 +50,66 @@ def run():
         user_id = get_user_id(acc['handle'])
         
         if not user_id:
-            print(f"❌ ID not found for @{acc['handle']}")
+            print(f"❌ Failed to get ID for @{acc['handle']}")
             continue
 
-        # Using /user/tweets (Better for main posts of big accounts)
-        url = f"https://{HOST}/user/tweets"
+        # Using /user/tweetsandreplies - It's the most data-rich endpoint
+        url = f"https://{HOST}/user/tweetsandreplies"
         headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
         try:
             res = requests.get(url, headers=headers, params={"user_id": user_id, "limit": "20"}, timeout=15)
-            raw_data = res.json()
+            raw_text = res.text # Treat as raw text
         except:
             continue
 
-        tweets_found = []
-        find_tweets_universal(raw_data, tweets_found)
+        # ── NUCLEAR PARSER: REGEX EXTRACTION ──
+        # We find every "legacy" block. This is the only way to catch Elon/Ackman tweets.
+        tweet_blocks = raw_text.split('"legacy":')
         
-        print(f"🔍 Found {len(tweets_found)} tweet objects for @{acc['handle']}")
+        valid_tweets = []
+        for block in tweet_blocks[1:]: # Skip the first bit
+            try:
+                # Extract Text
+                text_match = re.search(r'"full_text":"(.*?)"', block)
+                # Extract Likes
+                likes_match = re.search(r'"favorite_count":(\d+)', block)
+                # Extract ID
+                id_match = re.search(r'"id_str":"(\d+)"', block)
+                
+                if text_match and likes_match and id_match:
+                    valid_tweets.append({
+                        "text": text_match.group(1).encode().decode('unicode_escape'),
+                        "likes": int(likes_match.group(1)),
+                        "id": id_match.group(1)
+                    })
+            except:
+                continue
+
+        print(f"🔍 Found {len(valid_tweets)} tweets for @{acc['handle']}")
         
         processed_ids = set()
         alerts_sent = 0
 
-        for tweet in tweets_found:
-            # Check both possible text fields
-            text = tweet.get("full_text") or tweet.get("text") or ""
-            likes = int(tweet.get("favorite_count", 0))
-            t_id = tweet.get("id_str")
-
-            if not text or not t_id or t_id in processed_ids:
-                continue
-            
+        for tweet in valid_tweets:
+            t_id = tweet["id"]
+            if t_id in processed_ids: continue
             processed_ids.add(t_id)
 
-            # Calculation
+            text = tweet["text"]
+            likes = tweet["likes"]
+
+            # Scoring
             tickers = TICKER_PATTERN.findall(text.upper())
             score = (likes / 1000) + (len(tickers) * 10) + (acc['weight'] * 20)
             score = round(min(100, score), 1)
 
             if likes >= MIN_LIKES and score >= ALERT_THRESHOLD:
+                # Clean the text a bit for Telegram
+                clean_text = text.replace('\\n', '\n').replace('\\"', '"')
                 msg = (
                     f"🚨 *High Signal* (@{acc['handle']})\n\n"
-                    f"{text[:350]}...\n\n"
-                    f"❤️ {likes:,} | [Link](https://x.com/i/web/status/{t_id})"
+                    f"{clean_text[:400]}...\n\n"
+                    f"❤️ {likes:,} | [Link](https://x.com/any/status/{t_id})"
                 )
                 send_tg(msg)
                 alerts_sent += 1
