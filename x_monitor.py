@@ -2,7 +2,6 @@ import os
 import re
 import time
 import requests
-import json
 from datetime import datetime
 
 # 1. SECRETS
@@ -10,7 +9,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID")
 RAPIDAPI_KEY       = os.getenv("RAPIDAPI_KEY")
 
-# 2. CONFIG (Keep low for this final verification)
+# 2. CONFIG
 MIN_LIKES = 1        
 ALERT_THRESHOLD = 5  
 HOST = "twitter-x.p.rapidapi.com"
@@ -36,8 +35,9 @@ def get_user_id(handle):
     headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
     try:
         res = requests.get(url, headers=headers, params={"username": handle}, timeout=15)
-        # Nuclear ID search
+        # Search for rest_id or id in the raw text
         match = re.search(r'"rest_id":"(\d+)"', res.text)
+        if not match: match = re.search(r'"id":"(\d+)"', res.text)
         return match.group(1) if match else None
     except:
         return None
@@ -53,32 +53,36 @@ def run():
             print(f"❌ Failed to get ID for @{acc['handle']}")
             continue
 
-        # Using /user/tweetsandreplies - It's the most data-rich endpoint
-        url = f"https://{HOST}/user/tweetsandreplies"
+        url = f"https://{HOST}/user/tweets" # Switched to main Tweets for stability
         headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
         try:
             res = requests.get(url, headers=headers, params={"user_id": user_id, "limit": "20"}, timeout=15)
-            raw_text = res.text # Treat as raw text
+            raw_text = res.text
         except:
             continue
 
-        # ── NUCLEAR PARSER: REGEX EXTRACTION ──
-        # We find every "legacy" block. This is the only way to catch Elon/Ackman tweets.
+        # ── FIXED NUCLEAR PARSER: DOTALL FLAG ADDED ──
+        # re.DOTALL allows the search to find text across multiple lines/paragraphs
         tweet_blocks = raw_text.split('"legacy":')
         
         valid_tweets = []
-        for block in tweet_blocks[1:]: # Skip the first bit
+        for block in tweet_blocks[1:]:
             try:
-                # Extract Text
-                text_match = re.search(r'"full_text":"(.*?)"', block)
-                # Extract Likes
+                # Look for full_text or text
+                text_match = re.search(r'"full_text":"(.*?)"', block, re.DOTALL)
+                if not text_match:
+                    text_match = re.search(r'"text":"(.*?)"', block, re.DOTALL)
+                
                 likes_match = re.search(r'"favorite_count":(\d+)', block)
-                # Extract ID
                 id_match = re.search(r'"id_str":"(\d+)"', block)
                 
                 if text_match and likes_match and id_match:
+                    # Clean up unicode and line breaks
+                    raw_text_val = text_match.group(1)
+                    clean_text = raw_text_val.encode().decode('unicode_escape', 'ignore')
+                    
                     valid_tweets.append({
-                        "text": text_match.group(1).encode().decode('unicode_escape'),
+                        "text": clean_text,
                         "likes": int(likes_match.group(1)),
                         "id": id_match.group(1)
                     })
@@ -104,11 +108,10 @@ def run():
             score = round(min(100, score), 1)
 
             if likes >= MIN_LIKES and score >= ALERT_THRESHOLD:
-                # Clean the text a bit for Telegram
-                clean_text = text.replace('\\n', '\n').replace('\\"', '"')
+                clean_msg = text.replace('\\n', '\n').replace('\\"', '"')
                 msg = (
                     f"🚨 *High Signal* (@{acc['handle']})\n\n"
-                    f"{clean_text[:400]}...\n\n"
+                    f"{clean_msg[:450]}...\n\n"
                     f"❤️ {likes:,} | [Link](https://x.com/any/status/{t_id})"
                 )
                 send_tg(msg)
