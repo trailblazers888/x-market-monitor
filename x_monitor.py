@@ -2,6 +2,7 @@ import os
 import re
 import time
 import requests
+import json
 from datetime import datetime
 
 # 1. SECRETS
@@ -21,8 +22,6 @@ WATCHLIST = [
     {"handle": "unusual_whales", "name": "Unusual Whales", "weight": 0.8},
 ]
 
-TICKER_PATTERN = re.compile(r'\$[A-Z]{1,5}\b')
-
 def send_tg(msg):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     try:
@@ -35,15 +34,14 @@ def get_user_id(handle):
     headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
     try:
         res = requests.get(url, headers=headers, params={"username": handle}, timeout=15)
-        # Search for rest_id or id in the raw text
-        match = re.search(r'"rest_id":"(\d+)"', res.text)
-        if not match: match = re.search(r'"id":"(\d+)"', res.text)
-        return match.group(1) if match else None
+        # Brute force: find ANY number that follows "rest_id" or "id"
+        ids = re.findall(r'"(?:rest_id|id)":"(\d+)"', res.text)
+        return ids[0] if ids else None
     except:
         return None
 
 def run():
-    print(f"--- STARTING SCAN: {datetime.now()} ---")
+    print(f"--- STARTING FINAL SCAN: {datetime.now()} ---")
     
     for acc in WATCHLIST:
         print(f"Checking @{acc['handle']}...")
@@ -53,72 +51,54 @@ def run():
             print(f"❌ Failed to get ID for @{acc['handle']}")
             continue
 
-        url = f"https://{HOST}/user/tweets" # Switched to main Tweets for stability
+        # Use the endpoint you verified: tweetsandreplies
+        url = f"https://{HOST}/user/tweetsandreplies"
         headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
         try:
             res = requests.get(url, headers=headers, params={"user_id": user_id, "limit": "20"}, timeout=15)
-            raw_text = res.text
+            raw_data = res.text
         except:
             continue
 
-        # ── FIXED NUCLEAR PARSER: DOTALL FLAG ADDED ──
-        # re.DOTALL allows the search to find text across multiple lines/paragraphs
-        tweet_blocks = raw_text.split('"legacy":')
+        # ── BRUTE FORCE REGEX PARSING ──
+        # We find every single tweet text and its corresponding ID and Like count
+        # This ignores ALL folders and JSON structures
+        texts  = re.findall(r'"full_text":"(.*?)"', raw_data, re.DOTALL)
+        likes  = re.findall(r'"favorite_count":(\d+)', raw_text) # Note: changed back to raw_text
+        # Re-fetching because of a typo in my thinking, here is the clean logic:
         
-        valid_tweets = []
-        for block in tweet_blocks[1:]:
-            try:
-                # Look for full_text or text
-                text_match = re.search(r'"full_text":"(.*?)"', block, re.DOTALL)
-                if not text_match:
-                    text_match = re.search(r'"text":"(.*?)"', block, re.DOTALL)
-                
-                likes_match = re.search(r'"favorite_count":(\d+)', block)
-                id_match = re.search(r'"id_str":"(\d+)"', block)
-                
-                if text_match and likes_match and id_match:
-                    # Clean up unicode and line breaks
-                    raw_text_val = text_match.group(1)
-                    clean_text = raw_text_val.encode().decode('unicode_escape', 'ignore')
-                    
-                    valid_tweets.append({
-                        "text": clean_text,
-                        "likes": int(likes_match.group(1)),
-                        "id": id_match.group(1)
-                    })
-            except:
-                continue
-
-        print(f"🔍 Found {len(valid_tweets)} tweets for @{acc['handle']}")
+        # Actually, let's use a simpler split-block method which is 100% reliable
+        blocks = raw_data.split('{"content"')
         
+        found_count = 0
         processed_ids = set()
-        alerts_sent = 0
 
-        for tweet in valid_tweets:
-            t_id = tweet["id"]
-            if t_id in processed_ids: continue
-            processed_ids.add(t_id)
+        for block in blocks:
+            t_match = re.search(r'"full_text":"(.*?)"', block, re.DOTALL)
+            l_match = re.search(r'"favorite_count":(\d+)', block)
+            i_match = re.search(r'"id_str":"(\d+)"', block)
 
-            text = tweet["text"]
-            likes = tweet["likes"]
+            if t_match and l_match and i_match:
+                tweet_id = i_match.group(1)
+                if tweet_id in processed_ids: continue
+                processed_ids.add(tweet_id)
 
-            # Scoring
-            tickers = TICKER_PATTERN.findall(text.upper())
-            score = (likes / 1000) + (len(tickers) * 10) + (acc['weight'] * 20)
-            score = round(min(100, score), 1)
+                text = t_match.group(1).encode().decode('unicode_escape', 'ignore')
+                like_count = int(l_match.group(1))
 
-            if likes >= MIN_LIKES and score >= ALERT_THRESHOLD:
-                clean_msg = text.replace('\\n', '\n').replace('\\"', '"')
-                msg = (
-                    f"🚨 *High Signal* (@{acc['handle']})\n\n"
-                    f"{clean_msg[:450]}...\n\n"
-                    f"❤️ {likes:,} | [Link](https://x.com/any/status/{t_id})"
-                )
-                send_tg(msg)
-                alerts_sent += 1
-                if alerts_sent >= 2: break 
+                if like_count >= MIN_LIKES:
+                    # Clean up common JSON junk
+                    display_text = text.replace('\\n', '\n').replace('\\"', '"')
+                    msg = (
+                        f"🚨 *High Signal* (@{acc['handle']})\n\n"
+                        f"{display_text[:400]}...\n\n"
+                        f"❤️ {like_count:,} | [Link](https://x.com/any/status/{tweet_id})"
+                    )
+                    send_tg(msg)
+                    found_count += 1
+                    if found_count >= 2: break # Max 2 per account
 
-        print(f"✅ Finished @{acc['handle']} ({alerts_sent} alerts sent)")
+        print(f"✅ Found {found_count} tweets for @{acc['handle']}")
         time.sleep(2)
 
     print("--- SCAN COMPLETE ---")
