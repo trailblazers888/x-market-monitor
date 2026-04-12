@@ -2,7 +2,6 @@ import os
 import re
 import time
 import requests
-import json
 from datetime import datetime
 
 # 1. SECRETS
@@ -34,7 +33,7 @@ def get_user_id(handle):
     headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
     try:
         res = requests.get(url, headers=headers, params={"username": handle}, timeout=15)
-        # Brute force: find ANY number that follows "rest_id" or "id"
+        # Search for numeric ID anywhere in the response text
         ids = re.findall(r'"(?:rest_id|id)":"(\d+)"', res.text)
         return ids[0] if ids else None
     except:
@@ -43,6 +42,10 @@ def get_user_id(handle):
 def run():
     print(f"--- STARTING FINAL SCAN: {datetime.now()} ---")
     
+    if not RAPIDAPI_KEY:
+        print("❌ RAPIDAPI_KEY is missing!")
+        return
+
     for acc in WATCHLIST:
         print(f"Checking @{acc['handle']}...")
         user_id = get_user_id(acc['handle'])
@@ -51,52 +54,58 @@ def run():
             print(f"❌ Failed to get ID for @{acc['handle']}")
             continue
 
-        # Use the endpoint you verified: tweetsandreplies
         url = f"https://{HOST}/user/tweetsandreplies"
         headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
         try:
             res = requests.get(url, headers=headers, params={"user_id": user_id, "limit": "20"}, timeout=15)
-            raw_data = res.text
-        except:
+            # This is the variable name that caused the previous error
+            full_api_response = res.text 
+        except Exception as e:
+            print(f"❌ API Request failed: {e}")
             continue
 
-        # ── BRUTE FORCE REGEX PARSING ──
-        # We find every single tweet text and its corresponding ID and Like count
-        # This ignores ALL folders and JSON structures
-        texts  = re.findall(r'"full_text":"(.*?)"', raw_data, re.DOTALL)
-        likes  = re.findall(r'"favorite_count":(\d+)', raw_text) # Note: changed back to raw_text
-        # Re-fetching because of a typo in my thinking, here is the clean logic:
-        
-        # Actually, let's use a simpler split-block method which is 100% reliable
-        blocks = raw_data.split('{"content"')
+        # ── BRUTE FORCE PARSER ──
+        # Split the raw data into individual blocks based on the word 'legacy'
+        blocks = full_api_response.split('"legacy":')
         
         found_count = 0
         processed_ids = set()
 
-        for block in blocks:
+        # Skip the first block because it's just header data
+        for block in blocks[1:]:
+            # Use Regex to find the three things we need
             t_match = re.search(r'"full_text":"(.*?)"', block, re.DOTALL)
             l_match = re.search(r'"favorite_count":(\d+)', block)
             i_match = re.search(r'"id_str":"(\d+)"', block)
 
             if t_match and l_match and i_match:
                 tweet_id = i_match.group(1)
-                if tweet_id in processed_ids: continue
+                
+                # Don't process the same tweet twice
+                if tweet_id in processed_ids: 
+                    continue
                 processed_ids.add(tweet_id)
 
-                text = t_match.group(1).encode().decode('unicode_escape', 'ignore')
-                like_count = int(l_match.group(1))
+                # Clean up the text
+                raw_text = t_match.group(1).encode().decode('unicode_escape', 'ignore')
+                likes = int(l_match.group(1))
 
-                if like_count >= MIN_LIKES:
-                    # Clean up common JSON junk
-                    display_text = text.replace('\\n', '\n').replace('\\"', '"')
+                if likes >= MIN_LIKES:
+                    # Clean common escape characters
+                    display_text = raw_text.replace('\\n', '\n').replace('\\"', '"')
+                    
+                    # Send alert
                     msg = (
                         f"🚨 *High Signal* (@{acc['handle']})\n\n"
                         f"{display_text[:400]}...\n\n"
-                        f"❤️ {like_count:,} | [Link](https://x.com/any/status/{tweet_id})"
+                        f"❤️ {likes:,} | [Link](https://x.com/any/status/{tweet_id})"
                     )
                     send_tg(msg)
                     found_count += 1
-                    if found_count >= 2: break # Max 2 per account
+                    
+                    # Stop after 2 alerts per account to keep it fast
+                    if found_count >= 2: 
+                        break
 
         print(f"✅ Found {found_count} tweets for @{acc['handle']}")
         time.sleep(2)
