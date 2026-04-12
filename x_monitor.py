@@ -1,86 +1,104 @@
 import os
 import re
+import time
+import random
 import requests
 from datetime import datetime, timezone
-from apify_client import ApifyClient
 
-# Secrets pulled from GitHub Settings
+# Secrets (We only need Telegram now)
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID")
-APIFY_TOKEN        = os.getenv("APIFY_TOKEN")
 
 # Configuration
 ALERT_THRESHOLD = 60
 MIN_LIKES = 50
 
+# List of working Nitter mirrors
+NITTER_MIRRORS = [
+    "https://nitter.poast.org",
+    "https://nitter.privacydev.net",
+    "https://nitter.no-logs.com",
+    "https://nitter.projectsegfau.lt",
+    "https://nitter.perennialte.ch"
+]
+
 WATCHLIST = [
-    {"handle": "BillAckman", "name": "Bill Ackman", "type": "activist", "weight": 1.0},
-    {"handle": "HindenburgRes", "name": "Hindenburg Research", "type": "short", "weight": 1.0},
-    {"handle": "elonmusk", "name": "Elon Musk", "type": "activist", "weight": 1.0},
-    {"handle": "unusual_whales", "name": "Unusual Whales", "type": "options", "weight": 0.8},
-    {"handle": "zerohedge", "name": "Zero Hedge", "type": "media", "weight": 0.6},
+    {"handle": "BillAckman", "name": "Bill Ackman", "weight": 1.0},
+    {"handle": "HindenburgRes", "name": "Hindenburg Research", "weight": 1.0},
+    {"handle": "elonmusk", "name": "Elon Musk", "weight": 1.0},
+    {"handle": "unusual_whales", "name": "Unusual Whales", "weight": 0.8},
+    {"handle": "zerohedge", "name": "Zero Hedge", "weight": 0.6},
 ]
 
 TICKER_PATTERN = re.compile(r'\$[A-Z]{1,5}\b')
 
-def get_sentiment(text):
-    bull = ["undervalued", "buying", "long", "upside", "conviction"]
-    bear = ["short", "fraud", "overvalued", "bubble", "sell", "warning"]
-    t = text.lower()
-    b_score = sum(1 for w in bull if w in t)
-    s_score = sum(1 for w in bear if w in t)
-    return "bullish" if b_score > s_score else ("bearish" if s_score > b_score else "neutral")
-
-def calculate_score(likes, reposts, text, weight):
-    import math
-    eng = math.log1p(likes + (reposts * 3)) * 4
-    tickers = len(TICKER_PATTERN.findall(text.upper())) * 5
-    return round(min(100, eng + tickers + (weight * 10)), 1)
-
 def send_tg(msg):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": msg, "parse_mode": "Markdown"})
+    try:
+        requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": msg, "parse_mode": "Markdown"}, timeout=10)
+    except:
+        print("Failed to send Telegram")
+
+def scrape_nitter(handle):
+    """Tries multiple mirrors to find the user's latest posts."""
+    random.shuffle(NITTER_MIRRORS)
+    for mirror in NITTER_MIRRORS:
+        url = f"{mirror}/{handle}"
+        print(f"Trying {url}...")
+        try:
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+            response = requests.get(url, headers=headers, timeout=15)
+            if response.status_code == 200 and "timeline-item" in response.text:
+                return response.text
+        except:
+            continue
+    return None
+
+def parse_posts(html, acc):
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html, 'html.parser')
+    posts_found = 0
+    
+    for item in soup.select(".timeline-item"):
+        try:
+            text = item.select_one(".tweet-content").text.strip()
+            # Parse likes (usually looks like '1.2K' or '500')
+            likes_str = item.select_one(".icon-heart").parent.text.strip().replace(",", "")
+            if 'K' in likes_str: likes = int(float(likes_str.replace('K', '')) * 1000)
+            elif 'M' in likes_str: likes = int(float(likes_str.replace('M', '')) * 1000000)
+            else: likes = int(likes_str) if likes_str.isdigit() else 0
+            
+            if likes < MIN_LIKES: continue
+
+            # Scoring
+            score = round(min(100, (len(TICKER_PATTERN.findall(text.upper())) * 10) + (acc['weight'] * 20) + (likes / 500)), 1)
+            
+            if score >= ALERT_THRESHOLD:
+                link = item.select_one(".tweet-link")['href']
+                msg = (
+                    f"🚨 *High Signal Detected*\n\n"
+                    f"👤 *{acc['name']}* (@{acc['handle']})\n"
+                    f"📊 Score: {score}/100\n"
+                    f"❤️ Likes: {likes:,}\n\n"
+                    f"📝 {text[:300]}...\n\n"
+                    f"🔗 [View on X](https://x.com{link})"
+                )
+                send_tg(msg)
+                posts_found += 1
+        except:
+            continue
+    return posts_found
 
 def run():
-    client = ApifyClient(APIFY_TOKEN)
-    handles = [a["handle"] for a in WATCHLIST]
-    
-    print("Starting Apify Scraper...")
-    run_input = {"twitterHandles": handles, "maxItems": 5}
-    # Using a reliable third-party scraper on Apify
-    run = client.actor("apidojo/twitter-scraper-lite").call(run_input=run_input)
-    
-    for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-        text = item.get("full_text") or ""
-        likes = item.get("favorite_count", 0)
-        reposts = item.get("retweet_count", 0)
-        handle = item.get("user", {}).get("screen_name")
-        
-        if likes < MIN_LIKES: continue
-
-        # Find matching account in watchlist
-        acc = next((a for a in WATCHLIST if a["handle"].lower() == handle.lower()), None)
-        if not acc: continue
-
-        score = calculate_score(likes, reposts, text, acc["weight"])
-        
-        if score >= ALERT_THRESHOLD:
-            sentiment = get_sentiment(text)
-            emoji = "🟢" if sentiment == "bullish" else ("🔴" if sentiment == "bearish" else "⚪")
-            url = f"https://x.com/i/web/status/{item.get('id_str')}"
-            
-            msg = (
-                f"🚨 *High Signal Detected*\n\n"
-                f"👤 *{acc['name']}* (@{handle})\n"
-                f"📊 Score: {score}/100\n"
-                f"{emoji} Sentiment: {sentiment.capitalize()}\n\n"
-                f"📝 {text[:250]}...\n\n"
-                f"🔗 [View Post]({url})"
-            )
-            send_tg(msg)
-            print(f"Alert sent for @{handle}")
+    print(f"Starting scan at {datetime.now()}")
+    for acc in WATCHLIST:
+        html = scrape_nitter(acc['handle'])
+        if html:
+            found = parse_posts(html, acc)
+            print(f"Found {found} alerts for @{acc['handle']}")
+        else:
+            print(f"Could not scrape @{acc['handle']} (All mirrors failed)")
+        time.sleep(random.uniform(2, 5))
 
 if __name__ == "__main__":
     run()
-send_tg("🤖 Connection Test: The bot is working!")
-run()
