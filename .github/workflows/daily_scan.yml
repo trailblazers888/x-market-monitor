@@ -2,8 +2,8 @@ name: Daily Market Scan
 
 on:
   schedule:
-    - cron: '0 13 * * *'  # This runs at 1:00 PM UTC every day
-  workflow_dispatch:      # This adds a "Run Now" button
+    - cron: '0 13 * * *'
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -18,7 +18,7 @@ jobs:
           python-version: '3.9'
 
       - name: Install Requirements
-        run: pip install requests beautifulsoup4
+        run: pip install requests
 
       - name: Run Script
         env:
