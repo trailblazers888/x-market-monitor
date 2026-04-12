@@ -2,16 +2,16 @@ import os
 import re
 import time
 import requests
-from datetime import datetime, timezone
+from datetime import datetime
 
 # 1. SECRETS
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID")
 RAPIDAPI_KEY       = os.getenv("RAPIDAPI_KEY")
 
-# 2. CONFIG (Keep low for testing)
-MIN_LIKES = 1        
-ALERT_THRESHOLD = 5 
+# 2. CONFIG
+MIN_LIKES = 1        # Low for testing
+ALERT_THRESHOLD = 5  # Low for testing
 HOST = "twitter-x.p.rapidapi.com"
 
 WATCHLIST = [
@@ -31,77 +31,78 @@ def get_user_id(handle):
     try:
         res = requests.get(url, headers=headers, params={"username": handle}, timeout=15)
         return res.json().get("data", {}).get("user", {}).get("result", {}).get("rest_id")
-    except:
+    except Exception as e:
+        print(f"Error getting ID for {handle}: {e}")
         return None
 
 def get_tweets(user_id):
-    # Switching to /user/tweets (Cleaner than tweetsandreplies for market signals)
-    url = f"https://{HOST}/user/tweets"
+    url = f"https://{HOST}/user/tweetsandreplies"
     headers = {"X-RapidAPI-Key": RAPIDAPI_KEY, "X-RapidAPI-Host": HOST}
     try:
-        res = requests.get(url, headers=headers, params={"user_id": user_id, "limit": "20"}, timeout=15)
-        data = res.json()
-        # Search for instructions in all possible locations
-        res_data = data.get("data", {}).get("user", {}).get("result", {}).get("timeline_v2", {}).get("timeline", {})
-        return res_data.get("instructions", [])
-    except:
-        return []
+        res = requests.get(url, headers=headers, params={"user_id": user_id, "limit": "10"}, timeout=15)
+        return res.json()
+    except Exception as e:
+        print(f"Error getting tweets: {e}")
+        return {}
 
 def run():
-    print(f"🚀 Scan started at {datetime.now()}")
+    print(f"--- STARTING SCAN: {datetime.now()} ---")
     
+    if not RAPIDAPI_KEY:
+        print("CRITICAL ERROR: RAPIDAPI_KEY secret is not set in GitHub!")
+        return
+
     for acc in WATCHLIST:
-        print(f"Checking @{acc['handle']}...")
+        print(f"Processing @{acc['handle']}...")
         user_id = get_user_id(acc['handle'])
         
         if not user_id:
-            print(f"❌ Could not find ID for @{acc['handle']}")
+            print(f"Could not get user_id for @{acc['handle']}")
             continue
 
-        instructions = get_tweets(user_id)
+        print(f"Found ID {user_id} for @{acc['handle']}. Searching for tweets...")
+        raw_data = get_tweets(user_id)
         
-        # COLLECT ALL ENTRIES FROM ALL INSTRUCTIONS
-        all_entries = []
+        # Navigate the JSON data
+        instructions = raw_data.get("data", {}).get("user", {}).get("result", {}).get("timeline_v2", {}).get("timeline", {}).get("instructions", [])
+        
+        entries = []
         for instr in instructions:
-            if "entries" in instr:
-                all_entries.extend(instr["entries"])
-            elif "entry" in instr:
-                all_entries.append(instr["entry"])
+            if instr.get("type") == "TimelineAddEntries":
+                entries = instr.get("entries", [])
+                break
 
-        print(f"🔍 Found {len(all_entries)} potential items for @{acc['handle']}...")
-        found_count = 0
+        print(f"Analyzing {len(entries)} items for @{acc['handle']}...")
+        
+        for entry in entries:
+            try:
+                # Find the tweet result
+                result = entry.get("content", {}).get("itemContent", {}).get("tweet_results", {}).get("result", {})
+                if "tweet" in result: result = result["tweet"]
+                
+                legacy = result.get("legacy", {})
+                text = legacy.get("full_text", "")
+                likes = int(legacy.get("favorite_count", 0))
+                tweet_id = legacy.get("id_str")
 
-        for entry in all_entries:
-            # Deep dive search for the 'legacy' object which contains the text and likes
-            content = entry.get("content", {})
-            item = content.get("itemContent", {}).get("tweet_results", {}).get("result", {})
-            
-            # If it's a retweet, the data is one level deeper
-            if "tweet" in item: item = item["tweet"]
-            if "core" not in item and "legacy" not in item:
-                # Sometimes it's wrapped in another result object
-                item = item.get("result", {})
+                if not text: continue
 
-            legacy = item.get("legacy", {})
-            text = legacy.get("full_text", "")
-            likes = int(legacy.get("favorite_count", 0))
-            tweet_id = legacy.get("id_str")
-
-            if not text or tweet_id is None:
+                # Basic Score
+                score = (likes / 1000) + (acc['weight'] * 20)
+                
+                if likes >= MIN_LIKES:
+                    msg = (
+                        f"🚨 *High Signal* (@{acc['handle']})\n\n"
+                        f"{text[:300]}...\n\n"
+                        f"❤️ {likes} | [Link](https://x.com/i/web/status/{tweet_id})"
+                    )
+                    send_tg(msg)
+                    print(f"Alert sent for a tweet by @{acc['handle']}")
+            except:
                 continue
-            
-            # Scoring
-            tickers = TICKER_PATTERN.findall(text.upper())
-            score = (likes / 1000) + (len(tickers) * 10) + (acc['weight'] * 20)
-            score = round(min(100, score), 1)
 
-            if likes >= MIN_LIKES and score >= ALERT_THRESHOLD:
-                msg = (
-                    f"🚨 *High Signal Detected*\n\n"
-                    f"👤 *{acc['name']}* (@{acc['handle']})\n"
-                    f"📊 Score: {score}/100 | ❤️ {likes:,}\n\n"
-                    f"📝 {text[:350]}...\n\n"
-                    f"🔗 [View on X](https://x.com/i/web/status/{tweet_id})"
-                )
-                send_tg(msg)
-                found_
+    print("--- SCAN COMPLETE ---")
+
+# THIS PART IS THE MOST IMPORTANT - IT TELLS THE SCRIPT TO RUN!
+if __name__ == "__main__":
+    run()
