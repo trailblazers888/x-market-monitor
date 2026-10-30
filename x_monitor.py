@@ -2,12 +2,18 @@ import os
 import re
 import time
 import requests
+import smtplib
+import html
+from email.mime.text import MIMEText
 from datetime import datetime
 
 # 1. SECRETS
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID")
 RAPIDAPI_KEY       = os.getenv("RAPIDAPI_KEY")
+EMAIL_USER         = os.getenv("EMAIL_USER")          # Gmail address that sends
+EMAIL_APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD")  # Gmail App Password
+EMAIL_TO           = os.getenv("EMAIL_TO") or EMAIL_USER
 
 # 2. CONFIG
 MIN_LIKES = 1
@@ -31,7 +37,32 @@ def send_tg(msg):
     except:
         pass
 
+def send_email(items):
+    if not (EMAIL_USER and EMAIL_APP_PASSWORD):
+        print("Email not configured, skipping")
+        return
+    date = datetime.now().strftime("%d %b %Y")
+    if items:
+        rows = "".join(
+            f"<div style='margin:0 0 18px;padding:12px;border-left:4px solid #1d9bf0;background:#f7f9fa'>"
+            f"<b>{html.escape(i['name'])}</b><br>"
+            f"<div style='white-space:pre-wrap;margin:6px 0'>{html.escape(i['text'])}</div>"
+            f"<small>❤️ {i['likes']:,} &nbsp;|&nbsp; <a href='https://x.com/{i['handle']}/status/{i['id']}'>Open on X</a></small></div>"
+            for i in items)
+    else:
+        rows = "<p>No new posts found today.</p>"
+    body = f"<div style='font-family:Arial,sans-serif;max-width:640px'><h2>X Market Monitor — {date}</h2>{rows}</div>"
+    msg = MIMEText(body, "html", "utf-8")
+    msg["Subject"] = f"X Market Monitor: {len(items)} posts — {date}"
+    msg["From"] = EMAIL_USER
+    msg["To"] = EMAIL_TO
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as smtp:
+        smtp.login(EMAIL_USER, EMAIL_APP_PASSWORD)
+        smtp.sendmail(EMAIL_USER, [a.strip() for a in EMAIL_TO.split(",")], msg.as_string())
+    print(f"📧 Email sent to {EMAIL_TO}")
+
 def run():
+    items = []
     print(f"--- SCAN START: {datetime.now()} ---")
     if not RAPIDAPI_KEY:
         print("Error: Missing RAPIDAPI_KEY")
@@ -51,7 +82,7 @@ def run():
             
             if res.status_code == 429:
                 print("❌ Out of API Credits!")
-                return
+                break
             
             raw_data = res.text
             
@@ -97,7 +128,9 @@ def run():
                         f"❤️ {likes_count:,} | [Link](https://x.com/any/status/{tweet_id})"
                     )
                     
-                    send_tg(msg)
+                    if TELEGRAM_BOT_TOKEN:
+                        send_tg(msg)
+                    items.append({"name": name_header, "handle": acc['handle'], "text": display_content, "likes": likes_count, "id": tweet_id})
                     found += 1
                     if found >= 2: break
                 except:
@@ -108,6 +141,8 @@ def run():
 
         except Exception as e:
             print(f"❌ Error: {e}")
+
+    send_email(items)
 
 if __name__ == "__main__":
     run()
