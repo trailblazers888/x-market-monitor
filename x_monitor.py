@@ -11,8 +11,8 @@ from email.mime.text import MIMEText
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID")
 APIFY_TOKEN        = os.getenv("APIFY_TOKEN")
-ANTHROPIC_API_KEY  = os.getenv("ANTHROPIC_API_KEY")   # optional: turns on the AI market filter
-ANTHROPIC_MODEL    = os.getenv("ANTHROPIC_MODEL") or "claude-haiku-5-5"
+GEMINI_API_KEY     = os.getenv("GEMINI_API_KEY")      # optional: turns on the AI market filter
+GEMINI_MODELS      = ["gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-3.6-flash"]  # tried in order
 EMAIL_USER         = os.getenv("EMAIL_USER")          # Gmail address that sends
 EMAIL_APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD")  # Gmail App Password
 EMAIL_TO           = os.getenv("EMAIL_TO") or EMAIL_USER
@@ -96,7 +96,7 @@ def keep_tweet(t, cutoff):
 
 
 def curate_with_ai(cands):
-    """Ask Claude to keep only posts that matter for financial markets."""
+    """Ask Gemini to keep only posts that matter for financial markets."""
     lines = []
     for n, c in enumerate(cands):
         lines.append(f"[{n}] {c['name']} ({c['likes']} likes): {c['text'][:400]}")
@@ -112,17 +112,29 @@ def curate_with_ai(cands):
         '"watch": "assets or sectors affected"}]}\n\n'
         "POSTS:\n" + "\n".join(lines)
     )
-    res = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01",
-                 "content-type": "application/json"},
-        json={"model": ANTHROPIC_MODEL, "max_tokens": 1500,
-              "messages": [{"role": "user", "content": prompt}]},
-        timeout=90)
-    if res.status_code != 200:
-        raise RuntimeError(f"Claude API HTTP {res.status_code}")
-    text = res.json()["content"][0]["text"]
-    data = json.loads(text[text.index("{"): text.rindex("}") + 1])
+    data, last_err = None, "no model tried"
+    for model in GEMINI_MODELS:
+        try:
+            res = requests.post(
+                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                headers={"x-goog-api-key": GEMINI_API_KEY, "content-type": "application/json"},
+                json={"contents": [{"parts": [{"text": prompt}]}],
+                      "generationConfig": {"responseMimeType": "application/json",
+                                           "temperature": 0.2}},
+                timeout=90)
+            if res.status_code != 200:
+                last_err = f"{model} HTTP {res.status_code}"
+                print(f"Gemini {last_err}")
+                continue
+            text = res.json()["candidates"][0]["content"]["parts"][0]["text"]
+            data = json.loads(text[text.index("{"): text.rindex("}") + 1])
+            print(f"Gemini model used: {model}")
+            break
+        except Exception as e:
+            last_err = f"{model}: {e}"
+            print(f"Gemini error {last_err}")
+    if data is None:
+        raise RuntimeError(f"Gemini API failed ({last_err})")
     picks = []
     for p in (data.get("picks") or [])[:MAX_PICKS]:
         c = dict(cands[int(p["i"])])
@@ -226,7 +238,7 @@ def run():
             print(f"Kept {kept} of {len(tweets)}")
 
     summary, picks, ai_used = "", [], False
-    if cands and ANTHROPIC_API_KEY:
+    if cands and GEMINI_API_KEY:
         try:
             summary, picks = curate_with_ai(cands)
             ai_used = True
