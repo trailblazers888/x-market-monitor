@@ -23,9 +23,6 @@ HOST = "twitter-x.p.rapidapi.com"
 WATCHLIST = [
     {"id": "44196397",         "handle": "elonmusk",       "name": "Elon Musk"},
     {"id": "880412538625810432", "handle": "BillAckman",     "name": "Bill Ackman"},
-    {"id": "839178970088235008", "handle": "HindenburgRes", "name": "Hindenburg Research"},
-    {"id": "225130450",        "handle": "michaeljburry",  "name": "Michael Burry"},
-    {"id": "131435777",        "handle": "RayDalio",       "name": "Ray Dalio"},
     {"id": "1333467482",       "handle": "unusual_whales", "name": "Unusual Whales"},
     {"id": "18839785",         "handle": "zerohedge",      "name": "Zero Hedge"}
 ]
