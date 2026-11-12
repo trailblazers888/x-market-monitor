@@ -51,6 +51,11 @@ def send_tg(msg):
                                      "disable_web_page_preview": True}, timeout=10)
         if r.status_code != 200:
             print(f"Telegram FAILED {r.status_code}: {r.text[:200]}")
+            try:
+                me = requests.get(f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getMe", timeout=10).json()
+                print("Telegram: the bot behind your secret is @" + str(me.get("result", {}).get("username")) + ", sending to chat id " + str(TELEGRAM_CHAT_ID))
+            except Exception as e:
+                print(f"Telegram getMe error: {type(e).__name__}")
         else:
             print("Telegram: alert sent")
     except Exception as e:
