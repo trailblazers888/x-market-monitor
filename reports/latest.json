@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T13:16:00+00:00",
+  "generated_at_utc": "2026-11-12T13:17:50+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -10,48 +10,72 @@
     "Michael Burry"
   ],
   "ai_filtered": true,
-  "summary": "Markets react to geopolitical tensions in the Middle East pushing oil prices higher, alongside severe turbulence for Nvidia following leadership and export controversy.",
+  "summary": "Markets are reacting to potential leadership turmoil and export control scrutiny at Nvidia, alongside geopolitical supply shocks as Trump rejects an Iran deal, erasing oil losses and impacting broader tech and energy sectors.",
   "notes": [],
   "picks": [
-    {
-      "name": "Zero Hedge",
-      "text": "*TRUMP: WE DON’T NEED A DEAL WITH IRAN\n*TRUMP: THOSE DAYS HAVE LONG SINCE PASSED\n*TRUMP TASKS VANCE TO TARGET CORRUPTION\n*OIL ERASES LOSS AFTER TRUMP SAYS US DOESN'T NEED DEAL WITH IRAN https://t.co/hFanxj7jqL",
-      "likes": 99,
-      "url": "https://x.com/zerohedge/status/2120866802758779214",
-      "why": "Trump says US doesn't need an Iran deal, erasing oil losses and impacting crude markets",
-      "watch": "Oil / Commodities"
-    },
     {
       "name": "Unusual Whales",
       "text": "JUST IN: Nvidia’s $NVDA board is preparing to oust CEO Jensen Huang, its founder and chief executive, per the WSJ",
       "likes": 2550,
       "url": "https://x.com/unusual_whales/status/2120667560136040617",
-      "why": "Nvidia board preparing to oust CEO Jensen Huang amid scandal, triggering massive stock sell-off",
-      "watch": "Nvidia (NVDA), Tech sector"
+      "why": "Nvidia board preparing to oust CEO Jensen Huang poses significant governance and continuity risks for the primary driver of the AI trade.",
+      "watch": "NVDA, semiconductor stocks, tech sector"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "*TRUMP: WE DON’T NEED A DEAL WITH IRAN\n*TRUMP: THOSE DAYS HAVE LONG SINCE PASSED\n*TRUMP TASKS VANCE TO TARGET CORRUPTION\n*OIL ERASES LOSS AFTER TRUMP SAYS US DOESN'T NEED DEAL WITH IRAN https://t.co/hFanxj7jqL",
+      "likes": 122,
+      "url": "https://x.com/zerohedge/status/2120866802758779214",
+      "why": "Trump states the US does not need a deal with Iran, erasing oil losses and injecting fresh geopolitical risk premium into energy markets.",
+      "watch": "Crude oil, energy equities, safe havens"
     },
     {
       "name": "Unusual Whales",
       "text": "BREAKING: Commerce Secretary Howard Lutnick repeatedly held up restrictions on Nvidia $NVDA chip exports to China, even after Trump approved them three times, per Axios.\n\nAt an Oval Office meeting, Trump asked Elon Musk for his view; Musk backed tighter controls, along with Rubio, Bessent and Hegseth. Lutnick warned the move “will start a trade war with China.” Trump ordered: “Let’s get it done.”\n\nThe restrictions still haven’t been put in place,",
-      "likes": 3727,
+      "likes": 3728,
       "url": "https://x.com/unusual_whales/status/2120640713075601699",
-      "why": "Commerce Secretary Lutnick delayed Nvidia chip export restrictions to China despite Trump orders",
-      "watch": "Semiconductors, NVDA, US-China trade"
+      "why": "Commerce Secretary Howard Lutnick delayed Nvidia chip export restrictions to China despite pushback from trade hawks, highlighting ongoing trade friction risks.",
+      "watch": "NVDA, US-China trade policy, tech supply chain"
     },
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: Senator Josh Hawley has endorsed a temporary pause on data center construction, becoming the highest-ranking Republican to back a nationwide moratorium.\n\n“Senator Hawley is calling for a federal data center moratorium until Congress passes a bill of rights giving taxpayers guarantees of no rate increases,” a Hawley spokesperson said.",
-      "likes": 975,
-      "url": "https://x.com/unusual_whales/status/2120618021664542936",
-      "why": "Senator Hawley endorses a federal data center construction moratorium, threatening utility and AI infrastructure",
-      "watch": "AI infrastructure, Data centers, Utilities"
+      "text": "Sam Altman told Samsung executives that AI demand has been “double counted,” according to Korea’s Financial News.\n\nIn a closed-door session with about 50 Samsung presidents on Oct 31, Altman reportedly said only OpenAI and Anthropic are driving major demand growth. \n\nHe warned of supply shocks and turbulence ahead but said he expects AI demand to surge in the long run.",
+      "likes": 1054,
+      "url": "https://x.com/unusual_whales/status/2120834239377854806",
+      "why": "Sam Altman warns Samsung that near-term AI demand is 'double counted,' signaling potential turbulence in AI hardware supply chains.",
+      "watch": "Samsung, AI infrastructure, semiconductor sector"
     },
     {
       "name": "Unusual Whales",
       "text": "Microsoft , $MSFT, says it will “pay our own way” to power its data centers, without government subsidies or pushing up electricity costs for other customers, per Bloomberg.\n\n“We don’t want other customers to be paying for our growth,” said Noelle Walsh, president of Microsoft’s cloud operations.\n\nMicrosoft is spending about $117 billion this year on AI and cloud data centers, and says it will keep building.",
-      "likes": 213,
+      "likes": 214,
       "url": "https://x.com/unusual_whales/status/2120843297975406943",
-      "why": "Microsoft commits to funding its own data center power without government subsidies or raising consumer rates",
-      "watch": "Microsoft (MSFT), Cloud, Utilities"
+      "why": "Microsoft commits to funding its own data center power infrastructure without government subsidies, alleviating grid strain concerns for cloud operators.",
+      "watch": "MSFT, power utilities, AI data centers"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Anthropic is expected to go public next week, at $70 to $78 per share.\n\nThere is a 46% chance that the valuation hits $1.5 trillion to $1.75 trillion, per Polymarket⁠.com. https://t.co/RaWUfXJvfv",
+      "likes": 127,
+      "url": "https://x.com/unusual_whales/status/2120681775479615552",
+      "why": "Anthropic's upcoming IPO at a massive potential valuation highlights surging private market capitalizations in generative AI.",
+      "watch": "Tech IPO market, AI sector"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "70% of Americans have cut back on extras like dining out and streaming, due to inflation, per PEW",
+      "likes": 10,
+      "url": "https://x.com/unusual_whales/status/2120868463845507248",
+      "why": "PEW survey shows 70% of Americans cutting back on discretionary spending due to inflation, signaling consumer fatigue.",
+      "watch": "Consumer discretionary, retail, consumer sentiment"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "Premarket movers:\n\nMag 7 stocks are mostly lower: NVDA falls 7% as the company’s board has been working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang following reports of multiple extramarital affairs (Alphabet (GOOGL) -0.2%, Amazon (AMZN) +0.4%, Apple (AAPL) +0.4%, Meta Platforms (META) -0.6%, Microsoft (MSFT) -0.2%, Tesla (TSLA) -0.9%)\n\nArtificial intelligence-related stocks fall amid the leade",
+      "likes": 55,
+      "url": "https://x.com/zerohedge/status/2120865088101896514",
+      "why": "Pre-market action shows Mag 7 lower as Nvidia drops 7% on leadership uncertainty following executive scandal reports.",
+      "watch": "Mag 7, broader equities, NVDA"
     }
   ]
 }
