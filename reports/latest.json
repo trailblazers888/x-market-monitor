@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T13:03:25+00:00",
+  "generated_at_utc": "2026-11-12T13:16:00+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -9,71 +9,49 @@
     "Ray Dalio",
     "Michael Burry"
   ],
-  "ai_filtered": false,
-  "summary": "",
-  "notes": [
-    "AI filter unavailable (Gemini API failed (gemini-3.6-flash HTTP 503)). Showing top posts by likes instead."
-  ],
+  "ai_filtered": true,
+  "summary": "Markets react to geopolitical tensions in the Middle East pushing oil prices higher, alongside severe turbulence for Nvidia following leadership and export controversy.",
+  "notes": [],
   "picks": [
     {
-      "name": "Elon Musk",
-      "text": "In order to work through more of the Cybertruck order backlog, production will be extended through the end of summer 2027",
-      "likes": 49837,
-      "url": "https://x.com/elonmusk/status/2120565056429814073"
-    },
-    {
-      "name": "Elon Musk",
-      "text": "Tesla self-driving now approved in Finland",
-      "likes": 30105,
-      "url": "https://x.com/elonmusk/status/2120565179276832797"
-    },
-    {
-      "name": "Bill Ackman",
-      "text": "This is the definition of insanity, and it shows how far the @UN has fallen.",
-      "likes": 16517,
-      "url": "https://x.com/BillAckman/status/2120670973267718283"
+      "name": "Zero Hedge",
+      "text": "*TRUMP: WE DON’T NEED A DEAL WITH IRAN\n*TRUMP: THOSE DAYS HAVE LONG SINCE PASSED\n*TRUMP TASKS VANCE TO TARGET CORRUPTION\n*OIL ERASES LOSS AFTER TRUMP SAYS US DOESN'T NEED DEAL WITH IRAN https://t.co/hFanxj7jqL",
+      "likes": 99,
+      "url": "https://x.com/zerohedge/status/2120866802758779214",
+      "why": "Trump says US doesn't need an Iran deal, erasing oil losses and impacting crude markets",
+      "watch": "Oil / Commodities"
     },
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: President Trump and Israeli Prime Minister Benjamin Netanyahu got into a “shouting match from hell” over the weekend over their different stances on the future of the Iran war, per NYP\n\nA phone call between the two leaders saw Netanyahu repeatedly push for the war to restart, but Trump stuck to the diplomatic angle to allow the current peace talks with Iran to progress, Ynet and the Yedioth Ahronoth newspaper reported.",
-      "likes": 10956,
-      "url": "https://x.com/unusual_whales/status/2120632529346843002"
-    },
-    {
-      "name": "Zero Hedge",
-      "text": "German Taxpayers Bled Dry: Nearly 60% Of Welfare For Families With Kids Goes To Foreigners https://t.co/lCUrz4iYQP",
-      "likes": 10317,
-      "url": "https://x.com/zerohedge/status/2120773703365484716"
+      "text": "JUST IN: Nvidia’s $NVDA board is preparing to oust CEO Jensen Huang, its founder and chief executive, per the WSJ",
+      "likes": 2550,
+      "url": "https://x.com/unusual_whales/status/2120667560136040617",
+      "why": "Nvidia board preparing to oust CEO Jensen Huang amid scandal, triggering massive stock sell-off",
+      "watch": "Nvidia (NVDA), Tech sector"
     },
     {
       "name": "Unusual Whales",
-      "text": "JUST IN: Jensen Huang of $NVDA reportedly also had a relationship with Nvidia's vice president of health care, per the NYT",
-      "likes": 8889,
-      "url": "https://x.com/unusual_whales/status/2120647121842106865"
+      "text": "BREAKING: Commerce Secretary Howard Lutnick repeatedly held up restrictions on Nvidia $NVDA chip exports to China, even after Trump approved them three times, per Axios.\n\nAt an Oval Office meeting, Trump asked Elon Musk for his view; Musk backed tighter controls, along with Rubio, Bessent and Hegseth. Lutnick warned the move “will start a trade war with China.” Trump ordered: “Let’s get it done.”\n\nThe restrictions still haven’t been put in place,",
+      "likes": 3727,
+      "url": "https://x.com/unusual_whales/status/2120640713075601699",
+      "why": "Commerce Secretary Lutnick delayed Nvidia chip export restrictions to China despite Trump orders",
+      "watch": "Semiconductors, NVDA, US-China trade"
     },
     {
-      "name": "Zero Hedge",
-      "text": "\"Best Massage Ever\": Final GOP Epstein Report Drags Obama's White House Counsel, Clears Trump https://t.co/TzUZRqxLdV",
-      "likes": 1029,
-      "url": "https://x.com/zerohedge/status/2120703236617171308"
+      "name": "Unusual Whales",
+      "text": "BREAKING: Senator Josh Hawley has endorsed a temporary pause on data center construction, becoming the highest-ranking Republican to back a nationwide moratorium.\n\n“Senator Hawley is calling for a federal data center moratorium until Congress passes a bill of rights giving taxpayers guarantees of no rate increases,” a Hawley spokesperson said.",
+      "likes": 975,
+      "url": "https://x.com/unusual_whales/status/2120618021664542936",
+      "why": "Senator Hawley endorses a federal data center construction moratorium, threatening utility and AI infrastructure",
+      "watch": "AI infrastructure, Data centers, Utilities"
     },
     {
-      "name": "Ray Dalio",
-      "text": "They're likely to be more concerned with appearances than actually achieving the goal; this can lead to ruin over time. #principleoftheday https://t.co/IKV7qHobc3",
-      "likes": 407,
-      "url": "https://x.com/RayDalio/status/2120561386225070504"
-    },
-    {
-      "name": "Michael Burry",
-      "text": "According to reports out of TechCrunch and Axios, the Don had as many as 60 direct reports and delegated little. https://t.co/1FkZrqQc34",
-      "likes": 393,
-      "url": "https://x.com/michaeljburry/status/2120747314922840135"
-    },
-    {
-      "name": "Michael Burry",
-      "text": "Heaven's on Fire\nKiss - Heaven's On Fire https://t.co/6qZtojA7vu via @YouTube",
-      "likes": 268,
-      "url": "https://x.com/michaeljburry/status/2120665405475918293"
+      "name": "Unusual Whales",
+      "text": "Microsoft , $MSFT, says it will “pay our own way” to power its data centers, without government subsidies or pushing up electricity costs for other customers, per Bloomberg.\n\n“We don’t want other customers to be paying for our growth,” said Noelle Walsh, president of Microsoft’s cloud operations.\n\nMicrosoft is spending about $117 billion this year on AI and cloud data centers, and says it will keep building.",
+      "likes": 213,
+      "url": "https://x.com/unusual_whales/status/2120843297975406943",
+      "why": "Microsoft commits to funding its own data center power without government subsidies or raising consumer rates",
+      "watch": "Microsoft (MSFT), Cloud, Utilities"
     }
   ]
 }
