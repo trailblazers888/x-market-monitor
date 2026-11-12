@@ -32,6 +32,8 @@ WATCHLIST = [
     {"handle": "BillAckman",     "name": "Bill Ackman"},
     {"handle": "unusual_whales", "name": "Unusual Whales"},
     {"handle": "zerohedge",      "name": "Zero Hedge"},
+    {"handle": "RayDalio",       "name": "Ray Dalio"},
+    {"handle": "michaeljburry",  "name": "Michael Burry"},
 ]
 
 
@@ -201,6 +203,42 @@ def send_email(picks, summary="", notes=None, ai_used=False):
     print(f"Email sent to {EMAIL_TO}")
 
 
+def save_report(picks, summary, notes, ai_used):
+    """Save the scan to reports/ so the portfolio brief can read it (no email)."""
+    os.makedirs("reports", exist_ok=True)
+    now = datetime.now(timezone.utc)
+    report = {
+        "generated_at_utc": now.isoformat(timespec="seconds"),
+        "window_hours": HOURS,
+        "accounts": [a["name"] for a in WATCHLIST],
+        "ai_filtered": ai_used,
+        "summary": summary,
+        "notes": notes,
+        "picks": picks,
+    }
+    day = now.strftime("%Y-%m-%d")
+    for name in ("latest", day):
+        with open(f"reports/{name}.json", "w", encoding="utf-8") as f:
+            json.dump(report, f, ensure_ascii=False, indent=2)
+    lines = [f"# X Market Monitor - {day} (UTC)", ""]
+    if summary:
+        lines += [f"Themes: {summary}", ""]
+    for n in (notes or []):
+        lines.append(f"Note: {n}")
+    if not picks:
+        lines.append(f"No market-relevant posts in the last {HOURS} hours.")
+    for p in picks:
+        lines += ["", f"## {p['name']} ({p['likes']:,} likes)", p["text"]]
+        if p.get("why"):
+            lines.append(f"Why it matters: {p['why']}")
+        if p.get("watch"):
+            lines.append(f"Watch: {p['watch']}")
+        lines.append(p["url"])
+    with open("reports/latest.md", "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Report saved: {len(picks)} posts")
+
+
 def run():
     now = datetime.now(timezone.utc)
     print(f"--- SCAN START: {now} ---")
@@ -254,11 +292,7 @@ def run():
         why = f"\n\nWhy: {p['why']}" if p.get("why") else ""
         send_tg(f"\U0001F6A8 {p['name']}\n\n{p['text']}{why}\n\n❤ {p['likes']:,} | {p['url']}")
 
-    try:
-        send_email(picks, summary, notes, ai_used)
-    except Exception as e:
-        print(f"Email failed: {e}")
-        raise
+    save_report(picks, summary, notes, ai_used)
 
 
 if __name__ == "__main__":
