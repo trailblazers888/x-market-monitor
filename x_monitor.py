@@ -298,10 +298,7 @@ def run():
     else:
         picks = fallback_picks(cands)
 
-    for p in picks:
-        why = f"\n\nWhy: {p['why']}" if p.get("why") else ""
-        send_tg(f"\U0001F6A8 {p['name']}\n\n{p['text']}{why}\n\n❤ {p['likes']:,} | {p['url']}")
-
+    # Per-post Telegram alerts are off: the posts go into the daily portfolio brief instead.
     save_report(picks, summary, notes, ai_used)
 
 
