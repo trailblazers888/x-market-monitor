@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T12:39:14+00:00",
+  "generated_at_utc": "2026-11-12T13:03:25+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -9,57 +9,71 @@
     "Ray Dalio",
     "Michael Burry"
   ],
-  "ai_filtered": true,
-  "summary": "Markets face severe disruption centered on Nvidia amid executive turmoil, regulatory crackdowns on China chip exports, and rising political pressure on AI data center expansion and energy costs.",
-  "notes": [],
+  "ai_filtered": false,
+  "summary": "",
+  "notes": [
+    "AI filter unavailable (Gemini API failed (gemini-3.6-flash HTTP 503)). Showing top posts by likes instead."
+  ],
   "picks": [
     {
-      "name": "Unusual Whales",
-      "text": "JUST IN: Nvidia’s $NVDA board is preparing to oust CEO Jensen Huang, its founder and chief executive, per the WSJ",
-      "likes": 2541,
-      "url": "https://x.com/unusual_whales/status/2120667560136040617",
-      "why": "Board preparing to oust CEO Jensen Huang creates severe leadership and governance crisis for a bellwether stock.",
-      "watch": "NVDA, Semiconductors"
+      "name": "Elon Musk",
+      "text": "In order to work through more of the Cybertruck order backlog, production will be extended through the end of summer 2027",
+      "likes": 49837,
+      "url": "https://x.com/elonmusk/status/2120565056429814073"
+    },
+    {
+      "name": "Elon Musk",
+      "text": "Tesla self-driving now approved in Finland",
+      "likes": 30105,
+      "url": "https://x.com/elonmusk/status/2120565179276832797"
+    },
+    {
+      "name": "Bill Ackman",
+      "text": "This is the definition of insanity, and it shows how far the @UN has fallen.",
+      "likes": 16517,
+      "url": "https://x.com/BillAckman/status/2120670973267718283"
     },
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: Commerce Secretary Howard Lutnick repeatedly held up restrictions on Nvidia $NVDA chip exports to China, even after Trump approved them three times, per Axios.\n\nAt an Oval Office meeting, Trump asked Elon Musk for his view; Musk backed tighter controls, along with Rubio, Bessent and Hegseth. Lutnick warned the move “will start a trade war with China.” Trump ordered: “Let’s get it done.”\n\nThe restrictions still haven’t been put in place,",
-      "likes": 3672,
-      "url": "https://x.com/unusual_whales/status/2120640713075601699",
-      "why": "White House pushes through tighter chip export controls to China despite commerce secretary pushback, impacting semiconductor supply chains.",
-      "watch": "NVDA, Technology, US-China Trade"
+      "text": "BREAKING: President Trump and Israeli Prime Minister Benjamin Netanyahu got into a “shouting match from hell” over the weekend over their different stances on the future of the Iran war, per NYP\n\nA phone call between the two leaders saw Netanyahu repeatedly push for the war to restart, but Trump stuck to the diplomatic angle to allow the current peace talks with Iran to progress, Ynet and the Yedioth Ahronoth newspaper reported.",
+      "likes": 10956,
+      "url": "https://x.com/unusual_whales/status/2120632529346843002"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "German Taxpayers Bled Dry: Nearly 60% Of Welfare For Families With Kids Goes To Foreigners https://t.co/lCUrz4iYQP",
+      "likes": 10317,
+      "url": "https://x.com/zerohedge/status/2120773703365484716"
     },
     {
       "name": "Unusual Whales",
-      "text": "Microsoft , $MSFT, says it will “pay our own way” to power its data centers, without government subsidies or pushing up electricity costs for other customers, per Bloomberg.\n\n“We don’t want other customers to be paying for our growth,” said Noelle Walsh, president of Microsoft’s cloud operations.\n\nMicrosoft is spending about $117 billion this year on AI and cloud data centers, and says it will keep building.",
-      "likes": 161,
-      "url": "https://x.com/unusual_whales/status/2120843297975406943",
-      "why": "Microsoft commits to funding its own data center power infrastructure to avoid grid strain, highlighting massive capex and utility costs.",
-      "watch": "MSFT, Utilities, AI Infrastructure"
+      "text": "JUST IN: Jensen Huang of $NVDA reportedly also had a relationship with Nvidia's vice president of health care, per the NYT",
+      "likes": 8889,
+      "url": "https://x.com/unusual_whales/status/2120647121842106865"
     },
     {
-      "name": "Unusual Whales",
-      "text": "BREAKING: Senator Josh Hawley has endorsed a temporary pause on data center construction, becoming the highest-ranking Republican to back a nationwide moratorium.\n\n“Senator Hawley is calling for a federal data center moratorium until Congress passes a bill of rights giving taxpayers guarantees of no rate increases,” a Hawley spokesperson said.",
-      "likes": 965,
-      "url": "https://x.com/unusual_whales/status/2120618021664542936",
-      "why": "Legislative push for a federal data center moratorium threatens near-term infrastructure buildouts and power demand growth.",
-      "watch": "Utilities, AI Infrastructure, Real Estate"
+      "name": "Zero Hedge",
+      "text": "\"Best Massage Ever\": Final GOP Epstein Report Drags Obama's White House Counsel, Clears Trump https://t.co/TzUZRqxLdV",
+      "likes": 1029,
+      "url": "https://x.com/zerohedge/status/2120703236617171308"
     },
     {
-      "name": "Unusual Whales",
-      "text": "Sam Altman told Samsung executives that AI demand has been “double counted,” according to Korea’s Financial News.\n\nIn a closed-door session with about 50 Samsung presidents on Oct 31, Altman reportedly said only OpenAI and Anthropic are driving major demand growth. \n\nHe warned of supply shocks and turbulence ahead but said he expects AI demand to surge in the long run.",
-      "likes": 749,
-      "url": "https://x.com/unusual_whales/status/2120834239377854806",
-      "why": "OpenAI leadership warns of 'double counted' AI demand and potential supply shocks ahead, creating growth doubts for hardware suppliers.",
-      "watch": "Semiconductors, AI Sector"
+      "name": "Ray Dalio",
+      "text": "They're likely to be more concerned with appearances than actually achieving the goal; this can lead to ruin over time. #principleoftheday https://t.co/IKV7qHobc3",
+      "likes": 407,
+      "url": "https://x.com/RayDalio/status/2120561386225070504"
     },
     {
-      "name": "Unusual Whales",
-      "text": "Anthropic is expected to go public next week, at $70 to $78 per share.\n\nThere is a 46% chance that the valuation hits $1.5 trillion to $1.75 trillion, per Polymarket⁠.com. https://t.co/RaWUfXJvfv",
-      "likes": 125,
-      "url": "https://x.com/unusual_whales/status/2120681775479615552",
-      "why": "Anthropic IPO expected next week with high targeted valuation, serving as a major liquidity test for the generative AI sector.",
-      "watch": "IPO Market, AI Sector"
+      "name": "Michael Burry",
+      "text": "According to reports out of TechCrunch and Axios, the Don had as many as 60 direct reports and delegated little. https://t.co/1FkZrqQc34",
+      "likes": 393,
+      "url": "https://x.com/michaeljburry/status/2120747314922840135"
+    },
+    {
+      "name": "Michael Burry",
+      "text": "Heaven's on Fire\nKiss - Heaven's On Fire https://t.co/6qZtojA7vu via @YouTube",
+      "likes": 268,
+      "url": "https://x.com/michaeljburry/status/2120665405475918293"
     }
   ]
 }
