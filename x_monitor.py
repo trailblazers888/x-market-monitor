@@ -43,13 +43,18 @@ class ApifyProblem(Exception):
 
 def send_tg(msg):
     if not (TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID):
+        print("Telegram: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID secret is empty - alert not sent")
         return
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     try:
-        requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": msg,
-                                 "disable_web_page_preview": True}, timeout=10)
-    except Exception:
-        pass
+        r = requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": msg,
+                                     "disable_web_page_preview": True}, timeout=10)
+        if r.status_code != 200:
+            print(f"Telegram FAILED {r.status_code}: {r.text[:200]}")
+        else:
+            print("Telegram: alert sent")
+    except Exception as e:
+        print(f"Telegram error: {type(e).__name__}")
 
 
 def fetch_tweets(handle):
