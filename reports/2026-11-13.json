@@ -1,0 +1,79 @@
+{
+  "generated_at_utc": "2026-11-13T16:43:29+00:00",
+  "window_hours": 30,
+  "accounts": [
+    "Elon Musk",
+    "Bill Ackman",
+    "Unusual Whales",
+    "Zero Hedge",
+    "Ray Dalio",
+    "Michael Burry"
+  ],
+  "ai_filtered": false,
+  "summary": "",
+  "notes": [
+    "AI filter unavailable (Gemini API failed (gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90))). Showing top posts by likes instead."
+  ],
+  "picks": [
+    {
+      "name": "Elon Musk",
+      "text": "Starship 42 preparing for launch",
+      "likes": 20905,
+      "url": "https://x.com/elonmusk/status/2121250205806772283"
+    },
+    {
+      "name": "Elon Musk",
+      "text": "SpaceX community benefits",
+      "likes": 19686,
+      "url": "https://x.com/elonmusk/status/2120912138772369758"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "BREAKING:  The White House is discussing whether Commerce Secretary Howard Lutnick should be fired, per Reuters",
+      "likes": 9062,
+      "url": "https://x.com/unusual_whales/status/2120994041173020882"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "BREAKING:  Senator Chris Van Hollen of Maryland to challenge Chuck Schumer for Democratic leader, saying voters ‘called for change’.",
+      "likes": 8456,
+      "url": "https://x.com/unusual_whales/status/2121062862512914737"
+    },
+    {
+      "name": "Bill Ackman",
+      "text": "Huge respect is due to IOCB Prague to hire David Sabatini while he was under a public cloud after they did their own due diligence and determined that the accusations against him were false.",
+      "likes": 1488,
+      "url": "https://x.com/BillAckman/status/2121225186271809824"
+    },
+    {
+      "name": "Michael Burry",
+      "text": "The $NVDA Board would not have chosen Colette Kress during this crisis if it believed she were complicit. I imagine those that work with her know her to be beyond reproach. At the same time, the Board's inability to elevate, from inside, someone with sufficient operating experience is in itself concerning.",
+      "likes": 1372,
+      "url": "https://x.com/michaeljburry/status/2120899192662942012"
+    },
+    {
+      "name": "Michael Burry",
+      "text": "This is no surprise to analysts who years ago questioned SE Asia/Singapore’s need for so many advanced $NVDA chips. \n\nThe real reveal would be evidence that NVDA booked more revenue and profit from Asia than it had let on.",
+      "likes": 1297,
+      "url": "https://x.com/michaeljburry/status/2121078200272863512"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "ANT_IPO_bailout.exe engage",
+      "likes": 539,
+      "url": "https://x.com/zerohedge/status/2121251266672148637"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "*OPENAI: INTRODUCING CHATGPT WALLET",
+      "likes": 499,
+      "url": "https://x.com/zerohedge/status/2121259719662649526"
+    },
+    {
+      "name": "Ray Dalio",
+      "text": "Ideally, someone other than you should be objectively measuring and reporting on your progress. If you're not hitting your targets, that's another problem that needs to be diagnosed and solved. \n\nThere are many successful, creative people who aren't good at execution. They succeed because they forge symbiotic relationships with highly reliable task-doers. #principleoftheday",
+      "likes": 498,
+      "url": "https://x.com/RayDalio/status/2120940389074911420"
+    }
+  ]
+}

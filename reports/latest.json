@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T13:47:48+00:00",
+  "generated_at_utc": "2026-11-13T16:43:29+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -9,65 +9,71 @@
     "Ray Dalio",
     "Michael Burry"
   ],
-  "ai_filtered": true,
-  "summary": "Nvidia shares slide amid leadership turmoil and board discussions regarding CEO Jensen Huang, while crude oil spikes following President Trump's remarks that the U.S. does not need a deal with Iran.",
-  "notes": [],
+  "ai_filtered": false,
+  "summary": "",
+  "notes": [
+    "AI filter unavailable (Gemini API failed (gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90))). Showing top posts by likes instead."
+  ],
   "picks": [
     {
+      "name": "Elon Musk",
+      "text": "Starship 42 preparing for launch",
+      "likes": 20905,
+      "url": "https://x.com/elonmusk/status/2121250205806772283"
+    },
+    {
+      "name": "Elon Musk",
+      "text": "SpaceX community benefits",
+      "likes": 19686,
+      "url": "https://x.com/elonmusk/status/2120912138772369758"
+    },
+    {
       "name": "Unusual Whales",
-      "text": "JUST IN: Nvidia’s $NVDA board is preparing to oust CEO Jensen Huang, its founder and chief executive, per the WSJ",
-      "likes": 2559,
-      "url": "https://x.com/unusual_whales/status/2120667560136040617",
-      "why": "Nvidia board preparing to oust CEO Jensen Huang directly impacts valuation and AI sector momentum.",
-      "watch": "NVDA, Nasdaq, AI stocks"
+      "text": "BREAKING:  The White House is discussing whether Commerce Secretary Howard Lutnick should be fired, per Reuters",
+      "likes": 9062,
+      "url": "https://x.com/unusual_whales/status/2120994041173020882"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "BREAKING:  Senator Chris Van Hollen of Maryland to challenge Chuck Schumer for Democratic leader, saying voters ‘called for change’.",
+      "likes": 8456,
+      "url": "https://x.com/unusual_whales/status/2121062862512914737"
+    },
+    {
+      "name": "Bill Ackman",
+      "text": "Huge respect is due to IOCB Prague to hire David Sabatini while he was under a public cloud after they did their own due diligence and determined that the accusations against him were false.",
+      "likes": 1488,
+      "url": "https://x.com/BillAckman/status/2121225186271809824"
+    },
+    {
+      "name": "Michael Burry",
+      "text": "The $NVDA Board would not have chosen Colette Kress during this crisis if it believed she were complicit. I imagine those that work with her know her to be beyond reproach. At the same time, the Board's inability to elevate, from inside, someone with sufficient operating experience is in itself concerning.",
+      "likes": 1372,
+      "url": "https://x.com/michaeljburry/status/2120899192662942012"
+    },
+    {
+      "name": "Michael Burry",
+      "text": "This is no surprise to analysts who years ago questioned SE Asia/Singapore’s need for so many advanced $NVDA chips. \n\nThe real reveal would be evidence that NVDA booked more revenue and profit from Asia than it had let on.",
+      "likes": 1297,
+      "url": "https://x.com/michaeljburry/status/2121078200272863512"
     },
     {
       "name": "Zero Hedge",
-      "text": "*TRUMP: WE DON’T NEED A DEAL WITH IRAN\n*TRUMP: THOSE DAYS HAVE LONG SINCE PASSED\n*TRUMP TASKS VANCE TO TARGET CORRUPTION\n*OIL ERASES LOSS AFTER TRUMP SAYS US DOESN'T NEED DEAL WITH IRAN https://t.co/hFanxj7jqL",
-      "likes": 519,
-      "url": "https://x.com/zerohedge/status/2120866802758779214",
-      "why": "Trump stating the US doesn't need an Iran deal sparks an immediate reversal and spike in crude oil prices.",
-      "watch": "Crude oil, energy sector, geopolitics"
+      "text": "ANT_IPO_bailout.exe engage",
+      "likes": 539,
+      "url": "https://x.com/zerohedge/status/2121251266672148637"
     },
     {
       "name": "Zero Hedge",
-      "text": "Nasdaq Futures Slide As Nvidia Board Hunts For Huang's Replacement, Rivals Feast https://t.co/lXsHrbRKvU",
-      "likes": 35,
-      "url": "https://x.com/zerohedge/status/2120871342715043880",
-      "why": "Nasdaq futures slide as Nvidia searches for a replacement and competitors eye market share.",
-      "watch": "Nasdaq, NVDA, semiconductor sector"
+      "text": "*OPENAI: INTRODUCING CHATGPT WALLET",
+      "likes": 499,
+      "url": "https://x.com/zerohedge/status/2121259719662649526"
     },
     {
-      "name": "Unusual Whales",
-      "text": "Anthropic is expected to go public next week, at $70 to $78 per share.\n\nThere is a 46% chance that the valuation hits $1.5 trillion to $1.75 trillion, per Polymarket⁠.com. https://t.co/RaWUfXJvfv",
-      "likes": 127,
-      "url": "https://x.com/unusual_whales/status/2120681775479615552",
-      "why": "Anthropic expected to go public next week with a massive potential valuation, driving fresh IPO interest in AI.",
-      "watch": "Anthropic, AI sector, tech IPOs"
-    },
-    {
-      "name": "Unusual Whales",
-      "text": "BREAKING: Commerce Secretary Howard Lutnick repeatedly held up restrictions on Nvidia $NVDA chip exports to China, even after Trump approved them three times, per Axios.\n\nAt an Oval Office meeting, Trump asked Elon Musk for his view; Musk backed tighter controls, along with Rubio, Bessent and Hegseth. Lutnick warned the move “will start a trade war with China.” Trump ordered: “Let’s get it done.”\n\nThe restrictions still haven’t been put in place,",
-      "likes": 3786,
-      "url": "https://x.com/unusual_whales/status/2120640713075601699",
-      "why": "Commerce Secretary Lutnick delayed chip restrictions to China, highlighting ongoing trade friction and regulatory risk for semiconductors.",
-      "watch": "Semiconductors, NVDA, US-China trade"
-    },
-    {
-      "name": "Unusual Whales",
-      "text": "Microsoft , $MSFT, says it will “pay our own way” to power its data centers, without government subsidies or pushing up electricity costs for other customers, per Bloomberg.\n\n“We don’t want other customers to be paying for our growth,” said Noelle Walsh, president of Microsoft’s cloud operations.\n\nMicrosoft is spending about $117 billion this year on AI and cloud data centers, and says it will keep building.",
-      "likes": 254,
-      "url": "https://x.com/unusual_whales/status/2120843297975406943",
-      "why": "Microsoft commits to funding its own data center power infrastructure without subsidies or raising consumer costs, reducing regulatory and utility headwinds.",
-      "watch": "MSFT, utilities, AI data centers"
-    },
-    {
-      "name": "Zero Hedge",
-      "text": "Initial Claims 200K, Exp. 194K\nContinuing Claims 1697K, Exp. 1710K",
-      "likes": 38,
-      "url": "https://x.com/zerohedge/status/2120871795968573658",
-      "why": "Initial and continuing jobless claims provide key insights into labor market health and upcoming Fed rate path.",
-      "watch": "Treasury yields, US Dollar, Fed policy"
+      "name": "Ray Dalio",
+      "text": "Ideally, someone other than you should be objectively measuring and reporting on your progress. If you're not hitting your targets, that's another problem that needs to be diagnosed and solved. \n\nThere are many successful, creative people who aren't good at execution. They succeed because they forge symbiotic relationships with highly reliable task-doers. #principleoftheday",
+      "likes": 498,
+      "url": "https://x.com/RayDalio/status/2120940389074911420"
     }
   ]
 }
