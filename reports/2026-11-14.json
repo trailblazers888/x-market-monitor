@@ -1,0 +1,57 @@
+{
+  "generated_at_utc": "2026-11-14T15:18:30+00:00",
+  "window_hours": 30,
+  "accounts": [
+    "Elon Musk",
+    "Bill Ackman",
+    "Unusual Whales",
+    "Zero Hedge",
+    "Ray Dalio",
+    "Michael Burry"
+  ],
+  "ai_filtered": true,
+  "summary": "Markets absorb major leadership shakeups and supply chain concerns at Nvidia alongside institutional portfolio rebalancing.",
+  "notes": [],
+  "picks": [
+    {
+      "name": "Unusual Whales",
+      "text": "Flowers were laid outside Nvidia's headquarters in Santa Clara as CEO Jensen Huang resigned under a cloud of scandal, per Reuters",
+      "likes": 561,
+      "url": "https://x.com/unusual_whales/status/2121341581139877917",
+      "why": "Jensen Huang's sudden resignation creates profound leadership and strategic uncertainty for the bellwether of the AI trade.",
+      "watch": "NVDA, semiconductors, broader tech sector"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "A bunch of 13F activity is being filed right now. You can get it LIVE on unusualwhales!\n\nFor example, George Soros's Fund just released their new 13F.\n\nSoros reduced 25% in $AAPL,  -80% in $ADBE!!!!, -35% in $MSFT, -20% in $NVDA and more.\n\nSee more here: https://t.co/qnlV4fLvOh https://t.co/IY8Y25vd84",
+      "likes": 314,
+      "url": "https://x.com/unusual_whales/status/2121352328389521574",
+      "why": "Major institutional 13F filings show Soros slashing multi-billion dollar stakes in tech giants like Apple, Microsoft, and Nvidia.",
+      "watch": "AAPL, ADBE, MSFT, NVDA, mega-cap tech"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "FAA Lifts Nationwide Ground Stop After Comms System Crash; Flight Disruptions Could Stretch Into Tomorrow   https://t.co/KuITKg7K9n",
+      "likes": 151,
+      "url": "https://x.com/zerohedge/status/2121418724271931684",
+      "why": "Nationwide FAA ground stop due to a software update and data overload creates severe travel and operational disruptions.",
+      "watch": "Airlines, travel sector, transportation infrastructure"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Israel is pressing Trump to restart the war with Iran, and Mossad chief Roman Gofman is in Washington to make the case, per Axios.\n\nGofman met CIA Director John Ratcliffe on Friday and is expected to meet envoy Steve Witkoff in Miami. Axios, citing three sources, says he was sent as part of Netanyahu’s push to persuade Trump to resume strikes.",
+      "likes": 1683,
+      "url": "https://x.com/unusual_whales/status/2121311382218187128",
+      "why": "Geopolitical escalation risks as Israeli officials press the US to resume military strikes and restart war with Iran.",
+      "watch": "Oil, defense stocks, gold, Middle East geopolitics"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Market tide today is flashing red.\n\n$SPY dumped from $760 to $748 at the open and hasn’t been able to reclaim $752.\n\nCalls have been sold all session, down around $300M in net premium. Puts are being bought, up around $120M. https://t.co/coTuv51Qt2",
+      "likes": 211,
+      "url": "https://x.com/unusual_whales/status/2121305090686656514",
+      "why": "Intraday market action shows heavy put buying and bearish momentum spilling over into major equity indexes.",
+      "watch": "SPY, QQQ, broader equity markets"
+    }
+  ]
+}

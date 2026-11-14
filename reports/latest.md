@@ -1,47 +1,46 @@
-# X Market Monitor - 2026-11-13 (UTC)
+# X Market Monitor - 2026-11-14 (UTC)
 
-Note: AI filter unavailable (Gemini API failed (gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90))). Showing top posts by likes instead.
+Themes: Markets absorb major leadership shakeups and supply chain concerns at Nvidia alongside institutional portfolio rebalancing.
 
-## Elon Musk (20,905 likes)
-Starship 42 preparing for launch
-https://x.com/elonmusk/status/2121250205806772283
 
-## Elon Musk (19,686 likes)
-SpaceX community benefits
-https://x.com/elonmusk/status/2120912138772369758
+## Unusual Whales (561 likes)
+Flowers were laid outside Nvidia's headquarters in Santa Clara as CEO Jensen Huang resigned under a cloud of scandal, per Reuters
+Why it matters: Jensen Huang's sudden resignation creates profound leadership and strategic uncertainty for the bellwether of the AI trade.
+Watch: NVDA, semiconductors, broader tech sector
+https://x.com/unusual_whales/status/2121341581139877917
 
-## Unusual Whales (9,062 likes)
-BREAKING:  The White House is discussing whether Commerce Secretary Howard Lutnick should be fired, per Reuters
-https://x.com/unusual_whales/status/2120994041173020882
+## Unusual Whales (314 likes)
+A bunch of 13F activity is being filed right now. You can get it LIVE on unusualwhales!
 
-## Unusual Whales (8,456 likes)
-BREAKING:  Senator Chris Van Hollen of Maryland to challenge Chuck Schumer for Democratic leader, saying voters ‘called for change’.
-https://x.com/unusual_whales/status/2121062862512914737
+For example, George Soros's Fund just released their new 13F.
 
-## Bill Ackman (1,488 likes)
-Huge respect is due to IOCB Prague to hire David Sabatini while he was under a public cloud after they did their own due diligence and determined that the accusations against him were false.
-https://x.com/BillAckman/status/2121225186271809824
+Soros reduced 25% in $AAPL,  -80% in $ADBE!!!!, -35% in $MSFT, -20% in $NVDA and more.
 
-## Michael Burry (1,372 likes)
-The $NVDA Board would not have chosen Colette Kress during this crisis if it believed she were complicit. I imagine those that work with her know her to be beyond reproach. At the same time, the Board's inability to elevate, from inside, someone with sufficient operating experience is in itself concerning.
-https://x.com/michaeljburry/status/2120899192662942012
+See more here: https://t.co/qnlV4fLvOh https://t.co/IY8Y25vd84
+Why it matters: Major institutional 13F filings show Soros slashing multi-billion dollar stakes in tech giants like Apple, Microsoft, and Nvidia.
+Watch: AAPL, ADBE, MSFT, NVDA, mega-cap tech
+https://x.com/unusual_whales/status/2121352328389521574
 
-## Michael Burry (1,297 likes)
-This is no surprise to analysts who years ago questioned SE Asia/Singapore’s need for so many advanced $NVDA chips. 
+## Zero Hedge (151 likes)
+FAA Lifts Nationwide Ground Stop After Comms System Crash; Flight Disruptions Could Stretch Into Tomorrow   https://t.co/KuITKg7K9n
+Why it matters: Nationwide FAA ground stop due to a software update and data overload creates severe travel and operational disruptions.
+Watch: Airlines, travel sector, transportation infrastructure
+https://x.com/zerohedge/status/2121418724271931684
 
-The real reveal would be evidence that NVDA booked more revenue and profit from Asia than it had let on.
-https://x.com/michaeljburry/status/2121078200272863512
+## Unusual Whales (1,683 likes)
+Israel is pressing Trump to restart the war with Iran, and Mossad chief Roman Gofman is in Washington to make the case, per Axios.
 
-## Zero Hedge (539 likes)
-ANT_IPO_bailout.exe engage
-https://x.com/zerohedge/status/2121251266672148637
+Gofman met CIA Director John Ratcliffe on Friday and is expected to meet envoy Steve Witkoff in Miami. Axios, citing three sources, says he was sent as part of Netanyahu’s push to persuade Trump to resume strikes.
+Why it matters: Geopolitical escalation risks as Israeli officials press the US to resume military strikes and restart war with Iran.
+Watch: Oil, defense stocks, gold, Middle East geopolitics
+https://x.com/unusual_whales/status/2121311382218187128
 
-## Zero Hedge (499 likes)
-*OPENAI: INTRODUCING CHATGPT WALLET
-https://x.com/zerohedge/status/2121259719662649526
+## Unusual Whales (211 likes)
+Market tide today is flashing red.
 
-## Ray Dalio (498 likes)
-Ideally, someone other than you should be objectively measuring and reporting on your progress. If you're not hitting your targets, that's another problem that needs to be diagnosed and solved. 
+$SPY dumped from $760 to $748 at the open and hasn’t been able to reclaim $752.
 
-There are many successful, creative people who aren't good at execution. They succeed because they forge symbiotic relationships with highly reliable task-doers. #principleoftheday
-https://x.com/RayDalio/status/2120940389074911420
+Calls have been sold all session, down around $300M in net premium. Puts are being bought, up around $120M. https://t.co/coTuv51Qt2
+Why it matters: Intraday market action shows heavy put buying and bearish momentum spilling over into major equity indexes.
+Watch: SPY, QQQ, broader equity markets
+https://x.com/unusual_whales/status/2121305090686656514
