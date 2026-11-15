@@ -1,46 +1,62 @@
-# X Market Monitor - 2026-11-14 (UTC)
+# X Market Monitor - 2026-11-15 (UTC)
 
-Themes: Markets absorb major leadership shakeups and supply chain concerns at Nvidia alongside institutional portfolio rebalancing.
+Themes: Markets focus on leadership and supply chain risks in major tech firms like Nvidia and Alphabet, alongside broader geopolitical tensions and energy/data center dynamics.
 
 
-## Unusual Whales (561 likes)
-Flowers were laid outside Nvidia's headquarters in Santa Clara as CEO Jensen Huang resigned under a cloud of scandal, per Reuters
-Why it matters: Jensen Huang's sudden resignation creates profound leadership and strategic uncertainty for the bellwether of the AI trade.
-Watch: NVDA, semiconductors, broader tech sector
-https://x.com/unusual_whales/status/2121341581139877917
+## Unusual Whales (2,677 likes)
+BREAKING: Jensen Huang is quietly helping pick his own successor, per The Washington Post.
 
-## Unusual Whales (314 likes)
-A bunch of 13F activity is being filed right now. You can get it LIVE on unusualwhales!
+Huang has kept a low profile since resigning, but people familiar with the matter say he’s involved in Nvidia’s CEO search and has personally called at least one potential candidate. CFO Colette Kress is serving as interim CEO.
 
-For example, George Soros's Fund just released their new 13F.
+The board has already reached out to Arm CEO Rene Haas, a former Nvidia executive, per the FT. Other names reported as possible c
+Why it matters: Jensen Huang is helping pick his successor and the board looks at external candidates, creating significant governance uncertainty for Nvidia.
+Watch: NVDA
+https://x.com/unusual_whales/status/2121959402727260604
 
-Soros reduced 25% in $AAPL,  -80% in $ADBE!!!!, -35% in $MSFT, -20% in $NVDA and more.
+## Unusual Whales (4,181 likes)
+Alphabet, $GOOGL, is now burning cash.
 
-See more here: https://t.co/qnlV4fLvOh https://t.co/IY8Y25vd84
-Why it matters: Major institutional 13F filings show Soros slashing multi-billion dollar stakes in tech giants like Apple, Microsoft, and Nvidia.
-Watch: AAPL, ADBE, MSFT, NVDA, mega-cap tech
-https://x.com/unusual_whales/status/2121352328389521574
+Its quarterly free cash flow has turned negative for the first time in the 20 years shown on this WSJ chart, falling to about -$6 billion and then about -$9 billion in the last two quarters. As recently as early 2026, it was generating roughly $25 billion a quarter.
+Why it matters: Alphabet's quarterly free cash flow turning heavily negative signals a massive shift in capital intensity for big tech.
+Watch: GOOGL
+https://x.com/unusual_whales/status/2121740208131686571
 
-## Zero Hedge (151 likes)
-FAA Lifts Nationwide Ground Stop After Comms System Crash; Flight Disruptions Could Stretch Into Tomorrow   https://t.co/KuITKg7K9n
-Why it matters: Nationwide FAA ground stop due to a software update and data overload creates severe travel and operational disruptions.
-Watch: Airlines, travel sector, transportation infrastructure
-https://x.com/zerohedge/status/2121418724271931684
+## Zero Hedge (311 likes)
+*NVIDIA NEEDS 'DRAMATIC SHAKEUP' IN LEADERSHIP, BESSENT SAYS
+Why it matters: Bessent calls for a dramatic leadership shakeup at Nvidia, increasing regulatory and political scrutiny on the semiconductor giant.
+Watch: NVDA, Semiconductors
+https://x.com/zerohedge/status/2121984455275667759
 
-## Unusual Whales (1,683 likes)
-Israel is pressing Trump to restart the war with Iran, and Mossad chief Roman Gofman is in Washington to make the case, per Axios.
+## Unusual Whales (2,845 likes)
+Trump, Putin and Xi plan historic joint meeting in China next week, the White House has said
+Why it matters: Plans for a historic joint meeting between Trump, Putin, and Xi in China could significantly impact global trade and tariff negotiations.
+Watch: Global Equities, US-China relations, Commodities
+https://x.com/unusual_whales/status/2121609937579037165
 
-Gofman met CIA Director John Ratcliffe on Friday and is expected to meet envoy Steve Witkoff in Miami. Axios, citing three sources, says he was sent as part of Netanyahu’s push to persuade Trump to resume strikes.
-Why it matters: Geopolitical escalation risks as Israeli officials press the US to resume military strikes and restart war with Iran.
-Watch: Oil, defense stocks, gold, Middle East geopolitics
-https://x.com/unusual_whales/status/2121311382218187128
+## Unusual Whales (1,790 likes)
+Nvidia sits at the center of the AI industry’s web of circular deals, per Bloomberg.
 
-## Unusual Whales (211 likes)
-Market tide today is flashing red.
+The pattern: Nvidia invests in AI companies like OpenAI, CoreWeave and Nscale, which then buy Nvidia’s chips. Cloud giants like Microsoft, Google and Amazon invest in AI labs that then spend that money renting their computing power.
 
-$SPY dumped from $760 to $748 at the open and hasn’t been able to reclaim $752.
+Critics, including Ray Dalio, say these loops can inflate demand and make the boom look stronger than it is.
+Why it matters: Concerns over Nvidia's circular funding and AI deals highlighted by critics pose systemic questions about AI capital expenditure sustainability.
+Watch: NVDA, MSFT, GOOGL, AMZN, AI sector
+https://x.com/unusual_whales/status/2121649611270148230
 
-Calls have been sold all session, down around $300M in net premium. Puts are being bought, up around $120M. https://t.co/coTuv51Qt2
-Why it matters: Intraday market action shows heavy put buying and bearish momentum spilling over into major equity indexes.
-Watch: SPY, QQQ, broader equity markets
-https://x.com/unusual_whales/status/2121305090686656514
+## Zero Hedge (168 likes)
+"Déjà Vu": JPMorgan Finds 3.8GW Of Malaysia's Data Center Pipeline Tied To Chinese Operators As Washington Moves To Shut The Backdoor https://t.co/fmN1T6hFQg
+Why it matters: JPMorgan findings on Malaysia data centers tied to Chinese operators point to tightening enforcement on chip smuggling loopholes.
+Watch: Semiconductors, Data Center infrastructure
+https://x.com/zerohedge/status/2121959009984839944
+
+## Zero Hedge (194 likes)
+Too Rich To Save, Too Backstopped To Short: Hartnett Stays Risk-Off As King Dollar Becomes A "Wrecking Ball" https://t.co/rRzp1HChFb
+Why it matters: Hartnett remains risk-off as the King Dollar acts as a wrecking ball, impacting global liquidity and risk assets.
+Watch: DXY, FX, Global Equities
+https://x.com/zerohedge/status/2121824624845414592
+
+## Zero Hedge (678 likes)
+Elon Musk's 'Mechazilla' Catches Starship Rocket In Historic First, Brings Full Reusability Closer  https://t.co/wJAxROZNlV
+Why it matters: SpaceX achieves historic full reusability with rocket catch, advancing commercial space and aerospace sector innovation.
+Watch: Aerospace, Defense, SpaceX ecosystem
+https://x.com/zerohedge/status/2121739564809097253

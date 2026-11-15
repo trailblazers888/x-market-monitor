@@ -1,0 +1,81 @@
+{
+  "generated_at_utc": "2026-11-15T15:50:19+00:00",
+  "window_hours": 30,
+  "accounts": [
+    "Elon Musk",
+    "Bill Ackman",
+    "Unusual Whales",
+    "Zero Hedge",
+    "Ray Dalio",
+    "Michael Burry"
+  ],
+  "ai_filtered": true,
+  "summary": "Markets focus on leadership and supply chain risks in major tech firms like Nvidia and Alphabet, alongside broader geopolitical tensions and energy/data center dynamics.",
+  "notes": [],
+  "picks": [
+    {
+      "name": "Unusual Whales",
+      "text": "BREAKING: Jensen Huang is quietly helping pick his own successor, per The Washington Post.\n\nHuang has kept a low profile since resigning, but people familiar with the matter say he’s involved in Nvidia’s CEO search and has personally called at least one potential candidate. CFO Colette Kress is serving as interim CEO.\n\nThe board has already reached out to Arm CEO Rene Haas, a former Nvidia executive, per the FT. Other names reported as possible c",
+      "likes": 2677,
+      "url": "https://x.com/unusual_whales/status/2121959402727260604",
+      "why": "Jensen Huang is helping pick his successor and the board looks at external candidates, creating significant governance uncertainty for Nvidia.",
+      "watch": "NVDA"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Alphabet, $GOOGL, is now burning cash.\n\nIts quarterly free cash flow has turned negative for the first time in the 20 years shown on this WSJ chart, falling to about -$6 billion and then about -$9 billion in the last two quarters. As recently as early 2026, it was generating roughly $25 billion a quarter.",
+      "likes": 4181,
+      "url": "https://x.com/unusual_whales/status/2121740208131686571",
+      "why": "Alphabet's quarterly free cash flow turning heavily negative signals a massive shift in capital intensity for big tech.",
+      "watch": "GOOGL"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "*NVIDIA NEEDS 'DRAMATIC SHAKEUP' IN LEADERSHIP, BESSENT SAYS",
+      "likes": 311,
+      "url": "https://x.com/zerohedge/status/2121984455275667759",
+      "why": "Bessent calls for a dramatic leadership shakeup at Nvidia, increasing regulatory and political scrutiny on the semiconductor giant.",
+      "watch": "NVDA, Semiconductors"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Trump, Putin and Xi plan historic joint meeting in China next week, the White House has said",
+      "likes": 2845,
+      "url": "https://x.com/unusual_whales/status/2121609937579037165",
+      "why": "Plans for a historic joint meeting between Trump, Putin, and Xi in China could significantly impact global trade and tariff negotiations.",
+      "watch": "Global Equities, US-China relations, Commodities"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Nvidia sits at the center of the AI industry’s web of circular deals, per Bloomberg.\n\nThe pattern: Nvidia invests in AI companies like OpenAI, CoreWeave and Nscale, which then buy Nvidia’s chips. Cloud giants like Microsoft, Google and Amazon invest in AI labs that then spend that money renting their computing power.\n\nCritics, including Ray Dalio, say these loops can inflate demand and make the boom look stronger than it is.",
+      "likes": 1790,
+      "url": "https://x.com/unusual_whales/status/2121649611270148230",
+      "why": "Concerns over Nvidia's circular funding and AI deals highlighted by critics pose systemic questions about AI capital expenditure sustainability.",
+      "watch": "NVDA, MSFT, GOOGL, AMZN, AI sector"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "\"Déjà Vu\": JPMorgan Finds 3.8GW Of Malaysia's Data Center Pipeline Tied To Chinese Operators As Washington Moves To Shut The Backdoor https://t.co/fmN1T6hFQg",
+      "likes": 168,
+      "url": "https://x.com/zerohedge/status/2121959009984839944",
+      "why": "JPMorgan findings on Malaysia data centers tied to Chinese operators point to tightening enforcement on chip smuggling loopholes.",
+      "watch": "Semiconductors, Data Center infrastructure"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "Too Rich To Save, Too Backstopped To Short: Hartnett Stays Risk-Off As King Dollar Becomes A \"Wrecking Ball\" https://t.co/rRzp1HChFb",
+      "likes": 194,
+      "url": "https://x.com/zerohedge/status/2121824624845414592",
+      "why": "Hartnett remains risk-off as the King Dollar acts as a wrecking ball, impacting global liquidity and risk assets.",
+      "watch": "DXY, FX, Global Equities"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "Elon Musk's 'Mechazilla' Catches Starship Rocket In Historic First, Brings Full Reusability Closer  https://t.co/wJAxROZNlV",
+      "likes": 678,
+      "url": "https://x.com/zerohedge/status/2121739564809097253",
+      "why": "SpaceX achieves historic full reusability with rocket catch, advancing commercial space and aerospace sector innovation.",
+      "watch": "Aerospace, Defense, SpaceX ecosystem"
+    }
+  ]
+}
