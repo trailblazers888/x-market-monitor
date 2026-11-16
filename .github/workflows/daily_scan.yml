@@ -1,7 +1,7 @@
 name: Daily Market Scan
 on:
   schedule:
-    - cron: '30 8 * * *'   # 08:30 UTC = 4:30pm Kuala Lumpur, every day
+    - cron: '30 0 * * *'   # 08:30 UTC = 4:30pm Kuala Lumpur, every day
   workflow_dispatch:
 permissions:
   contents: write
