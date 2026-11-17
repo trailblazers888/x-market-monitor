@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-15T15:50:19+00:00",
+  "generated_at_utc": "2026-11-17T08:15:14+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -10,72 +10,72 @@
     "Michael Burry"
   ],
   "ai_filtered": true,
-  "summary": "Markets focus on leadership and supply chain risks in major tech firms like Nvidia and Alphabet, alongside broader geopolitical tensions and energy/data center dynamics.",
+  "summary": "AI sector sentiment faces heavy pressure as Nvidia deals with leadership turmoil and governance concerns, while broader tech positioning shifts amidst smart-money liquidations.",
   "notes": [],
   "picks": [
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: Jensen Huang is quietly helping pick his own successor, per The Washington Post.\n\nHuang has kept a low profile since resigning, but people familiar with the matter say he’s involved in Nvidia’s CEO search and has personally called at least one potential candidate. CFO Colette Kress is serving as interim CEO.\n\nThe board has already reached out to Arm CEO Rene Haas, a former Nvidia executive, per the FT. Other names reported as possible c",
-      "likes": 2677,
-      "url": "https://x.com/unusual_whales/status/2121959402727260604",
-      "why": "Jensen Huang is helping pick his successor and the board looks at external candidates, creating significant governance uncertainty for Nvidia.",
-      "watch": "NVDA"
+      "text": "BREAKING: Nvidia’s board, $NVDA, is reportedly not considering having Jensen Huang back as CEO, per CNBC.",
+      "likes": 1326,
+      "url": "https://x.com/unusual_whales/status/2122389706763567368",
+      "why": "Nvidia board confirms Jensen Huang is not returning as CEO, intensifying corporate governance and leadership risk for the primary AI bellwether.",
+      "watch": "$NVDA, AI hardware sector, semiconductor stocks"
     },
     {
       "name": "Unusual Whales",
-      "text": "Alphabet, $GOOGL, is now burning cash.\n\nIts quarterly free cash flow has turned negative for the first time in the 20 years shown on this WSJ chart, falling to about -$6 billion and then about -$9 billion in the last two quarters. As recently as early 2026, it was generating roughly $25 billion a quarter.",
-      "likes": 4181,
-      "url": "https://x.com/unusual_whales/status/2121740208131686571",
-      "why": "Alphabet's quarterly free cash flow turning heavily negative signals a massive shift in capital intensity for big tech.",
-      "watch": "GOOGL"
-    },
-    {
-      "name": "Zero Hedge",
-      "text": "*NVIDIA NEEDS 'DRAMATIC SHAKEUP' IN LEADERSHIP, BESSENT SAYS",
-      "likes": 311,
-      "url": "https://x.com/zerohedge/status/2121984455275667759",
-      "why": "Bessent calls for a dramatic leadership shakeup at Nvidia, increasing regulatory and political scrutiny on the semiconductor giant.",
-      "watch": "NVDA, Semiconductors"
+      "text": "BREAKING: Google says “the era of autonomous attacks has arrived.”\n\nHackers are now using AI to scan software updates, figure out which security flaw each patch fixes and build an attack before companies can install the fix, all without a human involved, according to a new report from the Google Threat Intelligence Group.\n\n“Defending against machine-speed threats at human speed isn’t feasible,” Google said.",
+      "likes": 16277,
+      "url": "https://x.com/unusual_whales/status/2122506553047814275",
+      "why": "Google warns that autonomous AI attacks have arrived, raising cybersecurity threats and highlighting the limits of human-speed defense.",
+      "watch": "Cybersecurity sector, enterprise software, $GOOGL"
     },
     {
       "name": "Unusual Whales",
-      "text": "Trump, Putin and Xi plan historic joint meeting in China next week, the White House has said",
-      "likes": 2845,
-      "url": "https://x.com/unusual_whales/status/2121609937579037165",
-      "why": "Plans for a historic joint meeting between Trump, Putin, and Xi in China could significantly impact global trade and tariff negotiations.",
-      "watch": "Global Equities, US-China relations, Commodities"
+      "text": "Leopold Aschnbrenner's fund, Situational Awareness, sold nearly its entire stock portfolio and went from $20.24B at the end of June to about $1.58B at the end of September after closing its positions.\n\nThis represents a 92% drop.\n\nOuch. https://t.co/yO8tlWUiBh",
+      "likes": 2750,
+      "url": "https://x.com/unusual_whales/status/2122483840589680942",
+      "why": "Leopold Aschenbrenner's fund slashed its stock portfolio by 92% in Q3, signaling aggressive de-risking by prominent tech-focused smart money.",
+      "watch": "Tech sector, growth stocks, hedge fund positioning"
     },
     {
       "name": "Unusual Whales",
-      "text": "Nvidia sits at the center of the AI industry’s web of circular deals, per Bloomberg.\n\nThe pattern: Nvidia invests in AI companies like OpenAI, CoreWeave and Nscale, which then buy Nvidia’s chips. Cloud giants like Microsoft, Google and Amazon invest in AI labs that then spend that money renting their computing power.\n\nCritics, including Ray Dalio, say these loops can inflate demand and make the boom look stronger than it is.",
-      "likes": 1790,
-      "url": "https://x.com/unusual_whales/status/2121649611270148230",
-      "why": "Concerns over Nvidia's circular funding and AI deals highlighted by critics pose systemic questions about AI capital expenditure sustainability.",
-      "watch": "NVDA, MSFT, GOOGL, AMZN, AI sector"
+      "text": "Gas prices are falling in all 50 states.\n\nThe national average for regular gas is $3.84 a gallon, down 19 cents in a week and nearly 50 cents in a month, per AAA. \n\nEvery state’s average dropped over the past week.",
+      "likes": 1638,
+      "url": "https://x.com/unusual_whales/status/2122418678218342411",
+      "why": "US gas prices are falling nationwide for consecutive weeks, offering a strong tailwind for consumer discretionary spending and inflation relief.",
+      "watch": "Oil commodities, consumer discretionary, retail sector"
     },
     {
-      "name": "Zero Hedge",
-      "text": "\"Déjà Vu\": JPMorgan Finds 3.8GW Of Malaysia's Data Center Pipeline Tied To Chinese Operators As Washington Moves To Shut The Backdoor https://t.co/fmN1T6hFQg",
-      "likes": 168,
-      "url": "https://x.com/zerohedge/status/2121959009984839944",
-      "why": "JPMorgan findings on Malaysia data centers tied to Chinese operators point to tightening enforcement on chip smuggling loopholes.",
-      "watch": "Semiconductors, Data Center infrastructure"
+      "name": "Unusual Whales",
+      "text": "BREAKING: Chase Bank and several other major U.S. banks, including Bank of America, Wells Fargo, and U.S. Bank, are reportedlt experiencing a nationwide online and mobile banking outage, per Downdetector",
+      "likes": 14795,
+      "url": "https://x.com/unusual_whales/status/2122399803997143458",
+      "why": "Major US banks including Chase, Bank of America, and Wells Fargo reported a nationwide online and mobile banking outage.",
+      "watch": "$JPM, $BAC, $WFC, US banking sector"
     },
     {
-      "name": "Zero Hedge",
-      "text": "Too Rich To Save, Too Backstopped To Short: Hartnett Stays Risk-Off As King Dollar Becomes A \"Wrecking Ball\" https://t.co/rRzp1HChFb",
-      "likes": 194,
-      "url": "https://x.com/zerohedge/status/2121824624845414592",
-      "why": "Hartnett remains risk-off as the King Dollar acts as a wrecking ball, impacting global liquidity and risk assets.",
-      "watch": "DXY, FX, Global Equities"
+      "name": "Unusual Whales",
+      "text": "JUST IN: Stanley Druckenmiller (aka DUQUESNE FAMILY OFFICE LLC) just updated his portfolio:\n\nHe sold out of $AMD, added $AMZN Amazon, sold out of $ARM, reduced calls in $EWZ and more.\n\nSee the full list here: https://t.co/4fEnWEEU0s https://t.co/K2Y2xu9KBY",
+      "likes": 483,
+      "url": "https://x.com/unusual_whales/status/2122430036909371802",
+      "why": "Stanley Druckenmiller's Duquesne Family Office exited AMD and ARM while increasing Amazon exposure, reflecting a rotation within tech.",
+      "watch": "$AMD, $ARM, $AMZN, semiconductor and tech sectors"
     },
     {
-      "name": "Zero Hedge",
-      "text": "Elon Musk's 'Mechazilla' Catches Starship Rocket In Historic First, Brings Full Reusability Closer  https://t.co/wJAxROZNlV",
-      "likes": 678,
-      "url": "https://x.com/zerohedge/status/2121739564809097253",
-      "why": "SpaceX achieves historic full reusability with rocket catch, advancing commercial space and aerospace sector innovation.",
-      "watch": "Aerospace, Defense, SpaceX ecosystem"
+      "name": "Unusual Whales",
+      "text": "Goldman Sachs’ trading desk says confidence in AI is fading.\n\n“Judging by conversations with clients last week, sentiment around the theme is about as negative as we’ve seen in quite some time, and we’re seeing that pessimism reflected more clearly in positioning and valuations.”\n\nGoldman’s chart shows AI chip stocks are now priced for negative earnings growth in two years, far below Wall Street’s consensus forecasts of about 30%.",
+      "likes": 1690,
+      "url": "https://x.com/unusual_whales/status/2122393512666865674",
+      "why": "Goldman Sachs notes that AI sentiment is near multi-year lows with chip stocks priced for negative earnings growth.",
+      "watch": "AI chip stocks, semiconductor sector, market sentiment"
+    },
+    {
+      "name": "Michael Burry",
+      "text": "in late 2025 (Q3 of FY2026), NVIDIA moved from counting revenue by billing or invoicing location to counting revenue by headquarters (HQ) location, a much less geographically informative methodology",
+      "likes": 602,
+      "url": "https://x.com/michaeljburry/status/2122322051440447848",
+      "why": "Michael Burry highlights a shift in Nvidia's revenue accounting methodology toward headquarters-based reporting.",
+      "watch": "$NVDA, financial transparency, semiconductor sector"
     }
   ]
 }
