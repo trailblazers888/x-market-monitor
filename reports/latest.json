@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-17T08:15:14+00:00",
+  "generated_at_utc": "2026-11-18T07:47:58+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -10,72 +10,72 @@
     "Michael Burry"
   ],
   "ai_filtered": true,
-  "summary": "AI sector sentiment faces heavy pressure as Nvidia deals with leadership turmoil and governance concerns, while broader tech positioning shifts amidst smart-money liquidations.",
+  "summary": "Market focus centers on severe volatility in Nvidia following leadership turbulence and earnings, alongside growing macro caution around AI valuations, cooling homebuilder sentiment, and geopolitical supply updates.",
   "notes": [],
   "picks": [
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: Nvidia’s board, $NVDA, is reportedly not considering having Jensen Huang back as CEO, per CNBC.",
-      "likes": 1326,
-      "url": "https://x.com/unusual_whales/status/2122389706763567368",
-      "why": "Nvidia board confirms Jensen Huang is not returning as CEO, intensifying corporate governance and leadership risk for the primary AI bellwether.",
-      "watch": "$NVDA, AI hardware sector, semiconductor stocks"
+      "text": "BREAKING: Nvidia $NVDA earnings:\n\nEPS: $2.68 vs $2.47\nRevenue: $115B vs $108.71B",
+      "likes": 1500,
+      "url": "https://x.com/unusual_whales/status/2122802583261896856",
+      "why": "Nvidia reported Q3 earnings beating estimates on EPS and revenue, driving high aftermarket interest.",
+      "watch": "NVDA, semiconductor sector"
     },
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: Google says “the era of autonomous attacks has arrived.”\n\nHackers are now using AI to scan software updates, figure out which security flaw each patch fixes and build an attack before companies can install the fix, all without a human involved, according to a new report from the Google Threat Intelligence Group.\n\n“Defending against machine-speed threats at human speed isn’t feasible,” Google said.",
-      "likes": 16277,
-      "url": "https://x.com/unusual_whales/status/2122506553047814275",
-      "why": "Google warns that autonomous AI attacks have arrived, raising cybersecurity threats and highlighting the limits of human-speed defense.",
-      "watch": "Cybersecurity sector, enterprise software, $GOOGL"
+      "text": "BREAKING: NVIDIA $NVDA's board does not intend to reinstate Jensen Huang as CEO, per their CHAIRMAN HARVEY JONES on the earnings call right now\n\nBig drop. https://t.co/XdDSJVTzQ5",
+      "likes": 5493,
+      "url": "https://x.com/unusual_whales/status/2122813368415531173",
+      "why": "Nvidia board reportedly does not intend to reinstate Jensen Huang as CEO, causing massive governance uncertainty.",
+      "watch": "NVDA, broader tech sector"
     },
     {
       "name": "Unusual Whales",
-      "text": "Leopold Aschnbrenner's fund, Situational Awareness, sold nearly its entire stock portfolio and went from $20.24B at the end of June to about $1.58B at the end of September after closing its positions.\n\nThis represents a 92% drop.\n\nOuch. https://t.co/yO8tlWUiBh",
-      "likes": 2750,
-      "url": "https://x.com/unusual_whales/status/2122483840589680942",
-      "why": "Leopold Aschenbrenner's fund slashed its stock portfolio by 92% in Q3, signaling aggressive de-risking by prominent tech-focused smart money.",
-      "watch": "Tech sector, growth stocks, hedge fund positioning"
+      "text": "It was reported before $NVDA Nvidia's earnings that the US SEC has opened an investigation into Nvidia and whether its disclosures misled investors, per the WSJ https://t.co/madZBFlqhL",
+      "likes": 358,
+      "url": "https://x.com/unusual_whales/status/2122807275190690000",
+      "why": "US SEC opened an investigation into Nvidia regarding whether its disclosures misled investors.",
+      "watch": "NVDA, regulatory compliance"
     },
     {
       "name": "Unusual Whales",
-      "text": "Gas prices are falling in all 50 states.\n\nThe national average for regular gas is $3.84 a gallon, down 19 cents in a week and nearly 50 cents in a month, per AAA. \n\nEvery state’s average dropped over the past week.",
-      "likes": 1638,
-      "url": "https://x.com/unusual_whales/status/2122418678218342411",
-      "why": "US gas prices are falling nationwide for consecutive weeks, offering a strong tailwind for consumer discretionary spending and inflation relief.",
-      "watch": "Oil commodities, consumer discretionary, retail sector"
+      "text": "52% of fund managers now expect an AI hyperscaler to announce a cut in capital spending within six months, up from 30% last month and about 15% in September, per Bank of America.\n\n Just two months ago, 80% expected no cut. Now only 40% do.",
+      "likes": 417,
+      "url": "https://x.com/unusual_whales/status/2122740801033949518",
+      "why": "Bank of America survey shows 52% of fund managers expect AI hyperscalers to cut capital spending soon.",
+      "watch": "Big Tech, AI infrastructure, cloud providers"
     },
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: Chase Bank and several other major U.S. banks, including Bank of America, Wells Fargo, and U.S. Bank, are reportedlt experiencing a nationwide online and mobile banking outage, per Downdetector",
-      "likes": 14795,
-      "url": "https://x.com/unusual_whales/status/2122399803997143458",
-      "why": "Major US banks including Chase, Bank of America, and Wells Fargo reported a nationwide online and mobile banking outage.",
-      "watch": "$JPM, $BAC, $WFC, US banking sector"
+      "text": "Homebuilder confidence fell to its lowest level in more than 14 years, and nearly half of builders are cutting prices.\n\nThe National Association of Home Builders/Wells Fargo sentiment index dropped 4 points to 25 in November, the lowest since April 2012. Any reading below 50 means more builders see conditions as poor than good.",
+      "likes": 343,
+      "url": "https://x.com/unusual_whales/status/2122811517171023966",
+      "why": "Homebuilder confidence dropped to a 14-year low with half of builders cutting prices due to poor conditions.",
+      "watch": "Housing, homebuilders, real estate ETFs"
     },
     {
       "name": "Unusual Whales",
-      "text": "JUST IN: Stanley Druckenmiller (aka DUQUESNE FAMILY OFFICE LLC) just updated his portfolio:\n\nHe sold out of $AMD, added $AMZN Amazon, sold out of $ARM, reduced calls in $EWZ and more.\n\nSee the full list here: https://t.co/4fEnWEEU0s https://t.co/K2Y2xu9KBY",
-      "likes": 483,
-      "url": "https://x.com/unusual_whales/status/2122430036909371802",
-      "why": "Stanley Druckenmiller's Duquesne Family Office exited AMD and ARM while increasing Amazon exposure, reflecting a rotation within tech.",
-      "watch": "$AMD, $ARM, $AMZN, semiconductor and tech sectors"
+      "text": "Anthropic plans to raise its IPO price after strong demand, and now expects to price above $80 a share, per WSJ\n\nThat’s above the $70–78 range the company set last week.\n\n It would value Anthropic at about $1.5 trillion to $1.6 trillion, up from about $1.33 trillion at the top of the original range. \n\nAt $80 a share, the 825 million shares on offer would raise at least $66 billion before any additional shares.",
+      "likes": 337,
+      "url": "https://x.com/unusual_whales/status/2122767225383739820",
+      "why": "Anthropic plans to raise its IPO price above $80 per share amid surging demand, valuing it near $1.5T.",
+      "watch": "AI sector, IPO market, ANTT, ANTZ"
     },
     {
       "name": "Unusual Whales",
-      "text": "Goldman Sachs’ trading desk says confidence in AI is fading.\n\n“Judging by conversations with clients last week, sentiment around the theme is about as negative as we’ve seen in quite some time, and we’re seeing that pessimism reflected more clearly in positioning and valuations.”\n\nGoldman’s chart shows AI chip stocks are now priced for negative earnings growth in two years, far below Wall Street’s consensus forecasts of about 30%.",
-      "likes": 1690,
-      "url": "https://x.com/unusual_whales/status/2122393512666865674",
-      "why": "Goldman Sachs notes that AI sentiment is near multi-year lows with chip stocks priced for negative earnings growth.",
-      "watch": "AI chip stocks, semiconductor sector, market sentiment"
+      "text": "BREAKING: An Iranian official says the US attacked Qeshm Island in the Strait of Hormuz, per Iran’s Mehr News Agency. The official said residential and commercial areas and infrastructure weren’t damaged.\n\nThe US hasn’t confirmed the strike.",
+      "likes": 521,
+      "url": "https://x.com/unusual_whales/status/2122729224846954933",
+      "why": "Reports indicate a US strike on Qeshm Island in the Strait of Hormuz, raising Middle East supply disruption risks.",
+      "watch": "Crude oil, commodities, shipping"
     },
     {
-      "name": "Michael Burry",
-      "text": "in late 2025 (Q3 of FY2026), NVIDIA moved from counting revenue by billing or invoicing location to counting revenue by headquarters (HQ) location, a much less geographically informative methodology",
-      "likes": 602,
-      "url": "https://x.com/michaeljburry/status/2122322051440447848",
-      "why": "Michael Burry highlights a shift in Nvidia's revenue accounting methodology toward headquarters-based reporting.",
-      "watch": "$NVDA, financial transparency, semiconductor sector"
+      "name": "Zero Hedge",
+      "text": "*PBOC SETS YUAN FIXING AT STRONGEST LEVEL SINCE 2022",
+      "likes": 71,
+      "url": "https://x.com/zerohedge/status/2122872534030782594",
+      "why": "PBOC set the Yuan fixing at its strongest level since 2022, signaling a potential shift in Chinese currency policy.",
+      "watch": "USD/CNY, emerging markets, FX"
     }
   ]
 }
