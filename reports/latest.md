@@ -1,69 +1,66 @@
-# X Market Monitor - 2026-11-18 (UTC)
+# X Market Monitor - 2026-11-19 (UTC)
 
-Themes: Market focus centers on severe volatility in Nvidia following leadership turbulence and earnings, alongside growing macro caution around AI valuations, cooling homebuilder sentiment, and geopolitical supply updates.
+Themes: Markets absorb major AI developments including Anthropic's upsized $83 IPO and new ecosystem ETFs, alongside institutional positioning shifts in tech giants like Nvidia and Microsoft.
 
 
-## Unusual Whales (1,500 likes)
-BREAKING: Nvidia $NVDA earnings:
+## Unusual Whales (465 likes)
+NEWS: Anthropic has priced their IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.
+Why it matters: Anthropic prices its major IPO at $83 per share, marking a massive milestone for the private AI sector.
+Watch: Anthropic, Nasdaq, AI sector stocks
+https://x.com/unusual_whales/status/2123280337820348539
 
-EPS: $2.68 vs $2.47
-Revenue: $115B vs $108.71B
-Why it matters: Nvidia reported Q3 earnings beating estimates on EPS and revenue, driving high aftermarket interest.
-Watch: NVDA, semiconductor sector
-https://x.com/unusual_whales/status/2122802583261896856
+## Bill Ackman (4,450 likes)
+Our recently filed 13F reflects the sale of approximately two million shares of $MSFT. 
 
-## Unusual Whales (5,493 likes)
-BREAKING: NVIDIA $NVDA's board does not intend to reinstate Jensen Huang as CEO, per their CHAIRMAN HARVEY JONES on the earnings call right now
+What the 13F does not reflect, however, was our purchase in July of two million deep-in-the-money OTC options on MSFT with a strike price of approximately $310 per share and a term of two-and-one-half years. 
 
-Big drop. https://t.co/XdDSJVTzQ5
-Why it matters: Nvidia board reportedly does not intend to reinstate Jensen Huang as CEO, causing massive governance uncertainty.
-Watch: NVDA, broader tech sector
-https://x.com/unusual_whales/status/2122813368415531173
+Occasionally, we replace outright ownership of common stocks with long-term, deep-in-the-money options for portfolio management or other reasons. 
 
-## Unusual Whales (358 likes)
-It was reported before $NVDA Nvidia's earnings that the US SEC has opened an investigation into Nvidia and whether its disclosures misled investors, per the WSJ https://t.co/madZBFlqhL
-Why it matters: US SEC opened an investigation into Nvidia regarding whether its disclosures misled investors.
-Watch: NVDA, regulatory compliance
-https://x.com/unusual_whales/status/2122807275190690000
+We 
+Why it matters: Bill Ackman's Pershing Square discloses cutting physical MSFT shares while increasing deep-in-the-money long-term options exposure.
+Watch: Microsoft ($MSFT), options market
+https://x.com/BillAckman/status/2123153655687791029
 
-## Unusual Whales (417 likes)
-52% of fund managers now expect an AI hyperscaler to announce a cut in capital spending within six months, up from 30% last month and about 15% in September, per Bank of America.
+## Unusual Whales (1,851 likes)
+Renaissance Technologies sold almost all of its Nvidia stake before the stock’s recent plunge.
 
- Just two months ago, 80% expected no cut. Now only 40% do.
-Why it matters: Bank of America survey shows 52% of fund managers expect AI hyperscalers to cut capital spending soon.
-Watch: Big Tech, AI infrastructure, cloud providers
-https://x.com/unusual_whales/status/2122740801033949518
+The quant fund founded by the late Jim Simons cut its Nvidia holdings by more than 99% in the third quarter, from about 7.09 million shares to just 23,170, per its latest 13F filing. That position was worth roughly $1.4 billion at the end of June. By Sept. 30 it was worth about $5.3 million.
 
-## Unusual Whales (343 likes)
-Homebuilder confidence fell to its lowest level in more than 14 years, and nearly half of builders are cutting prices.
+Renaissance also nearly exited Meta, cutting its stake from 
+Why it matters: Renaissance Technologies cut its Nvidia stake by over 99% ahead of the stock's recent volatility.
+Watch: Nvidia ($NVDA), quant funds, semiconductors
+https://x.com/unusual_whales/status/2123098156434964928
 
-The National Association of Home Builders/Wells Fargo sentiment index dropped 4 points to 25 in November, the lowest since April 2012. Any reading below 50 means more builders see conditions as poor than good.
-Why it matters: Homebuilder confidence dropped to a 14-year low with half of builders cutting prices due to poor conditions.
-Watch: Housing, homebuilders, real estate ETFs
-https://x.com/unusual_whales/status/2122811517171023966
+## Michael Burry (845 likes)
+Wall Street giants pledged to mobilize $500 billion to help Nvidia customers finance chip purchases. But no capital has been deployed to date. 
+"Jensen Huang sensed the winds shifting against Nvidia  this spring...In August, he got pledges from several firms—Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR—to mobilize an astounding sum: $500 billion...To date, no capital has actually been deployed..."
+https://t.co/eXUj2HNE7a via @
+Why it matters: Michael Burry highlights that Wall Street's pledged $500 billion to finance Nvidia customer chip purchases has seen zero capital deployment to date.
+Watch: Nvidia ($NVDA), private credit, Apollo, Blackstone, BlackRock
+https://x.com/michaeljburry/status/2123254736388243631
 
-## Unusual Whales (337 likes)
-Anthropic plans to raise its IPO price after strong demand, and now expects to price above $80 a share, per WSJ
+## Unusual Whales (286 likes)
+THERE IS NOW AN ANTHROPIC AI ECOSYSTEM ETF
 
-That’s above the $70–78 range the company set last week.
+Harbor Capital launched the Harbor Anthropic AI Lab Ecosystem ETF ($ANTW) which aims to invest in the companies Harbor believes are most directly linked to Anthropic’s AI ecosystem https://t.co/MUxWALoFdC
+Why it matters: Harbor Capital launches an Anthropic AI Lab Ecosystem ETF, signaling expanding thematic fund products around private AI leaders.
+Watch: ETF markets, AI sector
+https://x.com/unusual_whales/status/2123094488067285140
 
- It would value Anthropic at about $1.5 trillion to $1.6 trillion, up from about $1.33 trillion at the top of the original range. 
+## Zero Hedge (2,574 likes)
+*MUSK: TESLA WILL MAKE AUTONOMOUS MODEL Y WITH NO STEERING WHEEL
+Why it matters: Musk announces Tesla will produce an autonomous Model Y with no steering wheel, pressing forward on autonomous vehicle timelines.
+Watch: Tesla ($TSLA), autonomous driving sector
+https://x.com/zerohedge/status/2123196309326967238
 
-At $80 a share, the 825 million shares on offer would raise at least $66 billion before any additional shares.
-Why it matters: Anthropic plans to raise its IPO price above $80 per share amid surging demand, valuing it near $1.5T.
-Watch: AI sector, IPO market, ANTT, ANTZ
-https://x.com/unusual_whales/status/2122767225383739820
+## Unusual Whales (407 likes)
+Billionaire Stan Druckenmiller has said he’s bearish on copper
+Why it matters: Billionaire investor Stan Druckenmiller expresses a bearish outlook on copper.
+Watch: Copper, industrial commodities, miners
+https://x.com/unusual_whales/status/2123088089354571817
 
-## Unusual Whales (521 likes)
-BREAKING: An Iranian official says the US attacked Qeshm Island in the Strait of Hormuz, per Iran’s Mehr News Agency. The official said residential and commercial areas and infrastructure weren’t damaged.
-
-The US hasn’t confirmed the strike.
-Why it matters: Reports indicate a US strike on Qeshm Island in the Strait of Hormuz, raising Middle East supply disruption risks.
-Watch: Crude oil, commodities, shipping
-https://x.com/unusual_whales/status/2122729224846954933
-
-## Zero Hedge (71 likes)
-*PBOC SETS YUAN FIXING AT STRONGEST LEVEL SINCE 2022
-Why it matters: PBOC set the Yuan fixing at its strongest level since 2022, signaling a potential shift in Chinese currency policy.
-Watch: USD/CNY, emerging markets, FX
-https://x.com/zerohedge/status/2122872534030782594
+## Zero Hedge (502 likes)
+Trump Says US Rare Earths Production Will Match China's Within 10 Months https://t.co/qiqtRZ9t0U
+Why it matters: Trump states U.S. rare earths production will match China's within 10 months, potentially impacting supply chain and strategic metals.
+Watch: Rare earths, critical minerals, mining sector
+https://x.com/zerohedge/status/2123255053683249155
