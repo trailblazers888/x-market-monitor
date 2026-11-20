@@ -1,66 +1,70 @@
-# X Market Monitor - 2026-11-19 (UTC)
+# X Market Monitor - 2026-11-20 (UTC)
 
-Themes: Markets absorb major AI developments including Anthropic's upsized $83 IPO and new ecosystem ETFs, alongside institutional positioning shifts in tech giants like Nvidia and Microsoft.
+Themes: Markets are digesting massive tech and AI volatility, highlighted by Anthropic's multi-trillion dollar public debut, a sharp regulatory selloff in AMD over China export concerns, and rising systemic risks in semiconductor financing.
 
 
-## Unusual Whales (465 likes)
-NEWS: Anthropic has priced their IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.
-Why it matters: Anthropic prices its major IPO at $83 per share, marking a massive milestone for the private AI sector.
-Watch: Anthropic, Nasdaq, AI sector stocks
-https://x.com/unusual_whales/status/2123280337820348539
+## Unusual Whales (524 likes)
+BREAKING: Anthropic shares opened at $111.50 in their Nasdaq debut, up about 34% from the IPO price of $83.
 
-## Bill Ackman (4,450 likes)
-Our recently filed 13F reflects the sale of approximately two million shares of $MSFT. 
+The opening price values Anthropic at roughly $2 trillion.
+Why it matters: Anthropic's massive IPO valuation sets a new benchmark for AI sector sentiment and public tech pricing.
+Watch: ANT, Nasdaq, Tech Sector
+https://x.com/unusual_whales/status/2123459868334104811
 
-What the 13F does not reflect, however, was our purchase in July of two million deep-in-the-money OTC options on MSFT with a strike price of approximately $310 per share and a term of two-and-one-half years. 
+## Unusual Whales (2,551 likes)
+BREAKING: AMD stock, $AMD, crashes 15% in 30 minutes after Hunterbrook Media flags potential China export-control violations.
 
-Occasionally, we replace outright ownership of common stocks with long-term, deep-in-the-money options for portfolio management or other reasons. 
+The report says blacklisted Chinese server maker IEIT kept shipping updates with newer AMD firmware after its 2025 blacklisting.
 
-We 
-Why it matters: Bill Ackman's Pershing Square discloses cutting physical MSFT shares while increasing deep-in-the-money long-term options exposure.
-Watch: Microsoft ($MSFT), options market
-https://x.com/BillAckman/status/2123153655687791029
+Hunterbrook Capital also disclosed a short position in AMD.
+Why it matters: AMD stock crashes 15% following allegations of China export-control violations, creating severe volatility in semiconductors.
+Watch: AMD, Semiconductors
+https://x.com/unusual_whales/status/2123445766727561401
 
-## Unusual Whales (1,851 likes)
-Renaissance Technologies sold almost all of its Nvidia stake before the stock’s recent plunge.
+## Bill Ackman (1,612 likes)
+Pershing Square Inc. $PS is scheduled to be added to the Russell 3000 Index on December 11th, which is estimated to require the purchase of ~5 million shares of stock by passive funds that track the index. This does not include demand from other funds that are closet index trackers. 
 
-The quant fund founded by the late Jim Simons cut its Nvidia holdings by more than 99% in the third quarter, from about 7.09 million shares to just 23,170, per its latest 13F filing. That position was worth roughly $1.4 billion at the end of June. By Sept. 30 it was worth about $5.3 million.
+I don’t who has been selling over the last few days, but I thought they might want to know. 
 
-Renaissance also nearly exited Meta, cutting its stake from 
-Why it matters: Renaissance Technologies cut its Nvidia stake by over 99% ahead of the stock's recent volatility.
-Watch: Nvidia ($NVDA), quant funds, semiconductors
-https://x.com/unusual_whales/status/2123098156434964928
+https://t.co/8j0NDoPTqe
+Why it matters: Pershing Square's Russell 3000 inclusion forces approximately 5 million shares of passive buying demand.
+Watch: PS, Russell 3000
+https://x.com/BillAckman/status/2123460497391468962
 
-## Michael Burry (845 likes)
+## Zero Hedge (1,019 likes)
+*SENATE PASSES LANDMARK BILL TO OVERHAUL US ENERGY PERMITTING
+Why it matters: Senate passage of a landmark energy permitting overhaul bill could heavily impact domestic energy and infrastructure.
+Watch: Energy Sector, Utilities
+https://x.com/zerohedge/status/2123614385356595547
+
+## Michael Burry (1,615 likes)
 Wall Street giants pledged to mobilize $500 billion to help Nvidia customers finance chip purchases. But no capital has been deployed to date. 
 "Jensen Huang sensed the winds shifting against Nvidia  this spring...In August, he got pledges from several firms—Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR—to mobilize an astounding sum: $500 billion...To date, no capital has actually been deployed..."
 https://t.co/eXUj2HNE7a via @
-Why it matters: Michael Burry highlights that Wall Street's pledged $500 billion to finance Nvidia customer chip purchases has seen zero capital deployment to date.
-Watch: Nvidia ($NVDA), private credit, Apollo, Blackstone, BlackRock
+Why it matters: Revelations that Wall Street's $500 billion financing pledge for Nvidia customers has seen zero deployed capital highlights credit risks in AI infrastructure.
+Watch: NVDA, Credit Markets, Private Equity
 https://x.com/michaeljburry/status/2123254736388243631
 
-## Unusual Whales (286 likes)
-THERE IS NOW AN ANTHROPIC AI ECOSYSTEM ETF
+## Zero Hedge (563 likes)
+Klospi
 
-Harbor Capital launched the Harbor Anthropic AI Lab Ecosystem ETF ($ANTW) which aims to invest in the companies Harbor believes are most directly linked to Anthropic’s AI ecosystem https://t.co/MUxWALoFdC
-Why it matters: Harbor Capital launches an Anthropic AI Lab Ecosystem ETF, signaling expanding thematic fund products around private AI leaders.
-Watch: ETF markets, AI sector
-https://x.com/unusual_whales/status/2123094488067285140
+*KOREA EXCHANGE ACTIVATES SIDECAR TO HALT KOSPI PROGRAM SELLING
+Why it matters: Korea Exchange activates a sidecar to halt Kospi program selling amid regional market pressures.
+Watch: KOSPI, Asian Equities
+https://x.com/zerohedge/status/2123611379667996707
 
-## Zero Hedge (2,574 likes)
-*MUSK: TESLA WILL MAKE AUTONOMOUS MODEL Y WITH NO STEERING WHEEL
-Why it matters: Musk announces Tesla will produce an autonomous Model Y with no steering wheel, pressing forward on autonomous vehicle timelines.
-Watch: Tesla ($TSLA), autonomous driving sector
-https://x.com/zerohedge/status/2123196309326967238
+## Zero Hedge (293 likes)
+*MSCI EMERGING-MARKETS STOCK INDEX FALLS 20% FROM JUNE PEAK
+Why it matters: MSCI Emerging-Markets stock index falls 20% from its June peak, entering a bear market.
+Watch: EM Equities, MSCI
+https://x.com/zerohedge/status/2123584017144615057
 
-## Unusual Whales (407 likes)
-Billionaire Stan Druckenmiller has said he’s bearish on copper
-Why it matters: Billionaire investor Stan Druckenmiller expresses a bearish outlook on copper.
-Watch: Copper, industrial commodities, miners
-https://x.com/unusual_whales/status/2123088089354571817
+## Unusual Whales (1,428 likes)
+Hackers have leaked customer data tied to Visa and Mastercard, per The Wall Street Journal.
 
-## Zero Hedge (502 likes)
-Trump Says US Rare Earths Production Will Match China's Within 10 Months https://t.co/qiqtRZ9t0U
-Why it matters: Trump states U.S. rare earths production will match China's within 10 months, potentially impacting supply chain and strategic metals.
-Watch: Rare earths, critical minerals, mining sector
-https://x.com/zerohedge/status/2123255053683249155
+A new ransomware group called n0n has claimed attacks on Visa, Mastercard and JPMorgan Chase, and has started publishing data it says it stole.
+
+Visa says the breach hit a third-party service provider in the Asia-Pacific region, not its own systems. “Visa’s systems were not involved and were not impacted,” the company said, adding there’s no sign that car
+Why it matters: Ransomware group leaks customer data tied to Visa, Mastercard, and JPMorgan Chase, raising cybersecurity risks for major financials.
+Watch: V, MA, JPM, Financials
+https://x.com/unusual_whales/status/2123505841991270765

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-19T07:43:49+00:00",
+  "generated_at_utc": "2026-11-20T07:35:58+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -10,72 +10,72 @@
     "Michael Burry"
   ],
   "ai_filtered": true,
-  "summary": "Markets absorb major AI developments including Anthropic's upsized $83 IPO and new ecosystem ETFs, alongside institutional positioning shifts in tech giants like Nvidia and Microsoft.",
+  "summary": "Markets are digesting massive tech and AI volatility, highlighted by Anthropic's multi-trillion dollar public debut, a sharp regulatory selloff in AMD over China export concerns, and rising systemic risks in semiconductor financing.",
   "notes": [],
   "picks": [
     {
       "name": "Unusual Whales",
-      "text": "NEWS: Anthropic has priced their IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.",
-      "likes": 465,
-      "url": "https://x.com/unusual_whales/status/2123280337820348539",
-      "why": "Anthropic prices its major IPO at $83 per share, marking a massive milestone for the private AI sector.",
-      "watch": "Anthropic, Nasdaq, AI sector stocks"
-    },
-    {
-      "name": "Bill Ackman",
-      "text": "Our recently filed 13F reflects the sale of approximately two million shares of $MSFT. \n\nWhat the 13F does not reflect, however, was our purchase in July of two million deep-in-the-money OTC options on MSFT with a strike price of approximately $310 per share and a term of two-and-one-half years. \n\nOccasionally, we replace outright ownership of common stocks with long-term, deep-in-the-money options for portfolio management or other reasons. \n\nWe ",
-      "likes": 4450,
-      "url": "https://x.com/BillAckman/status/2123153655687791029",
-      "why": "Bill Ackman's Pershing Square discloses cutting physical MSFT shares while increasing deep-in-the-money long-term options exposure.",
-      "watch": "Microsoft ($MSFT), options market"
+      "text": "BREAKING: Anthropic shares opened at $111.50 in their Nasdaq debut, up about 34% from the IPO price of $83.\n\nThe opening price values Anthropic at roughly $2 trillion.",
+      "likes": 524,
+      "url": "https://x.com/unusual_whales/status/2123459868334104811",
+      "why": "Anthropic's massive IPO valuation sets a new benchmark for AI sector sentiment and public tech pricing.",
+      "watch": "ANT, Nasdaq, Tech Sector"
     },
     {
       "name": "Unusual Whales",
-      "text": "Renaissance Technologies sold almost all of its Nvidia stake before the stock’s recent plunge.\n\nThe quant fund founded by the late Jim Simons cut its Nvidia holdings by more than 99% in the third quarter, from about 7.09 million shares to just 23,170, per its latest 13F filing. That position was worth roughly $1.4 billion at the end of June. By Sept. 30 it was worth about $5.3 million.\n\nRenaissance also nearly exited Meta, cutting its stake from ",
-      "likes": 1851,
-      "url": "https://x.com/unusual_whales/status/2123098156434964928",
-      "why": "Renaissance Technologies cut its Nvidia stake by over 99% ahead of the stock's recent volatility.",
-      "watch": "Nvidia ($NVDA), quant funds, semiconductors"
+      "text": "BREAKING: AMD stock, $AMD, crashes 15% in 30 minutes after Hunterbrook Media flags potential China export-control violations.\n\nThe report says blacklisted Chinese server maker IEIT kept shipping updates with newer AMD firmware after its 2025 blacklisting.\n\nHunterbrook Capital also disclosed a short position in AMD.",
+      "likes": 2551,
+      "url": "https://x.com/unusual_whales/status/2123445766727561401",
+      "why": "AMD stock crashes 15% following allegations of China export-control violations, creating severe volatility in semiconductors.",
+      "watch": "AMD, Semiconductors"
+    },
+    {
+      "name": "Bill Ackman",
+      "text": "Pershing Square Inc. $PS is scheduled to be added to the Russell 3000 Index on December 11th, which is estimated to require the purchase of ~5 million shares of stock by passive funds that track the index. This does not include demand from other funds that are closet index trackers. \n\nI don’t who has been selling over the last few days, but I thought they might want to know. \n\nhttps://t.co/8j0NDoPTqe",
+      "likes": 1612,
+      "url": "https://x.com/BillAckman/status/2123460497391468962",
+      "why": "Pershing Square's Russell 3000 inclusion forces approximately 5 million shares of passive buying demand.",
+      "watch": "PS, Russell 3000"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "*SENATE PASSES LANDMARK BILL TO OVERHAUL US ENERGY PERMITTING",
+      "likes": 1019,
+      "url": "https://x.com/zerohedge/status/2123614385356595547",
+      "why": "Senate passage of a landmark energy permitting overhaul bill could heavily impact domestic energy and infrastructure.",
+      "watch": "Energy Sector, Utilities"
     },
     {
       "name": "Michael Burry",
       "text": "Wall Street giants pledged to mobilize $500 billion to help Nvidia customers finance chip purchases. But no capital has been deployed to date. \n\"Jensen Huang sensed the winds shifting against Nvidia  this spring...In August, he got pledges from several firms—Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR—to mobilize an astounding sum: $500 billion...To date, no capital has actually been deployed...\"\nhttps://t.co/eXUj2HNE7a via @",
-      "likes": 845,
+      "likes": 1615,
       "url": "https://x.com/michaeljburry/status/2123254736388243631",
-      "why": "Michael Burry highlights that Wall Street's pledged $500 billion to finance Nvidia customer chip purchases has seen zero capital deployment to date.",
-      "watch": "Nvidia ($NVDA), private credit, Apollo, Blackstone, BlackRock"
-    },
-    {
-      "name": "Unusual Whales",
-      "text": "THERE IS NOW AN ANTHROPIC AI ECOSYSTEM ETF\n\nHarbor Capital launched the Harbor Anthropic AI Lab Ecosystem ETF ($ANTW) which aims to invest in the companies Harbor believes are most directly linked to Anthropic’s AI ecosystem https://t.co/MUxWALoFdC",
-      "likes": 286,
-      "url": "https://x.com/unusual_whales/status/2123094488067285140",
-      "why": "Harbor Capital launches an Anthropic AI Lab Ecosystem ETF, signaling expanding thematic fund products around private AI leaders.",
-      "watch": "ETF markets, AI sector"
+      "why": "Revelations that Wall Street's $500 billion financing pledge for Nvidia customers has seen zero deployed capital highlights credit risks in AI infrastructure.",
+      "watch": "NVDA, Credit Markets, Private Equity"
     },
     {
       "name": "Zero Hedge",
-      "text": "*MUSK: TESLA WILL MAKE AUTONOMOUS MODEL Y WITH NO STEERING WHEEL",
-      "likes": 2574,
-      "url": "https://x.com/zerohedge/status/2123196309326967238",
-      "why": "Musk announces Tesla will produce an autonomous Model Y with no steering wheel, pressing forward on autonomous vehicle timelines.",
-      "watch": "Tesla ($TSLA), autonomous driving sector"
-    },
-    {
-      "name": "Unusual Whales",
-      "text": "Billionaire Stan Druckenmiller has said he’s bearish on copper",
-      "likes": 407,
-      "url": "https://x.com/unusual_whales/status/2123088089354571817",
-      "why": "Billionaire investor Stan Druckenmiller expresses a bearish outlook on copper.",
-      "watch": "Copper, industrial commodities, miners"
+      "text": "Klospi\n\n*KOREA EXCHANGE ACTIVATES SIDECAR TO HALT KOSPI PROGRAM SELLING",
+      "likes": 563,
+      "url": "https://x.com/zerohedge/status/2123611379667996707",
+      "why": "Korea Exchange activates a sidecar to halt Kospi program selling amid regional market pressures.",
+      "watch": "KOSPI, Asian Equities"
     },
     {
       "name": "Zero Hedge",
-      "text": "Trump Says US Rare Earths Production Will Match China's Within 10 Months https://t.co/qiqtRZ9t0U",
-      "likes": 502,
-      "url": "https://x.com/zerohedge/status/2123255053683249155",
-      "why": "Trump states U.S. rare earths production will match China's within 10 months, potentially impacting supply chain and strategic metals.",
-      "watch": "Rare earths, critical minerals, mining sector"
+      "text": "*MSCI EMERGING-MARKETS STOCK INDEX FALLS 20% FROM JUNE PEAK",
+      "likes": 293,
+      "url": "https://x.com/zerohedge/status/2123584017144615057",
+      "why": "MSCI Emerging-Markets stock index falls 20% from its June peak, entering a bear market.",
+      "watch": "EM Equities, MSCI"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Hackers have leaked customer data tied to Visa and Mastercard, per The Wall Street Journal.\n\nA new ransomware group called n0n has claimed attacks on Visa, Mastercard and JPMorgan Chase, and has started publishing data it says it stole.\n\nVisa says the breach hit a third-party service provider in the Asia-Pacific region, not its own systems. “Visa’s systems were not involved and were not impacted,” the company said, adding there’s no sign that car",
+      "likes": 1428,
+      "url": "https://x.com/unusual_whales/status/2123505841991270765",
+      "why": "Ransomware group leaks customer data tied to Visa, Mastercard, and JPMorgan Chase, raising cybersecurity risks for major financials.",
+      "watch": "V, MA, JPM, Financials"
     }
   ]
 }
