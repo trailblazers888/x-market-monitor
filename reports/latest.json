@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T07:35:58+00:00",
+  "generated_at_utc": "2026-11-21T07:34:20+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -10,72 +10,64 @@
     "Michael Burry"
   ],
   "ai_filtered": true,
-  "summary": "Markets are digesting massive tech and AI volatility, highlighted by Anthropic's multi-trillion dollar public debut, a sharp regulatory selloff in AMD over China export concerns, and rising systemic risks in semiconductor financing.",
+  "summary": "Markets face severe downward pressure as major indices suffer multi-day losing streaks and a sharp AI sector selloff, while macroeconomic concerns focus on high interest rates, inflation from tariffs, and regulatory scrutiny on major tech and chips.",
   "notes": [],
   "picks": [
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: Anthropic shares opened at $111.50 in their Nasdaq debut, up about 34% from the IPO price of $83.\n\nThe opening price values Anthropic at roughly $2 trillion.",
-      "likes": 524,
-      "url": "https://x.com/unusual_whales/status/2123459868334104811",
-      "why": "Anthropic's massive IPO valuation sets a new benchmark for AI sector sentiment and public tech pricing.",
-      "watch": "ANT, Nasdaq, Tech Sector"
+      "text": "The market is collapsing with $QQQ and $SPY all down more than 3%, $NVDA down more than 10%.\n\nMarket in extreme fear. https://t.co/776lYAzT7T",
+      "likes": 607,
+      "url": "https://x.com/unusual_whales/status/2123881266739302853",
+      "why": "Highlights the ongoing market collapse and extreme fear with massive tech and semiconductor liquidations.",
+      "watch": "$SPY, $QQQ, $NVDA"
     },
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: AMD stock, $AMD, crashes 15% in 30 minutes after Hunterbrook Media flags potential China export-control violations.\n\nThe report says blacklisted Chinese server maker IEIT kept shipping updates with newer AMD firmware after its 2025 blacklisting.\n\nHunterbrook Capital also disclosed a short position in AMD.",
-      "likes": 2551,
-      "url": "https://x.com/unusual_whales/status/2123445766727561401",
-      "why": "AMD stock crashes 15% following allegations of China export-control violations, creating severe volatility in semiconductors.",
-      "watch": "AMD, Semiconductors"
+      "text": "Citi warns that US interest rates are “unsustainably high” and expects the Fed to cut in 2027.\n\nMarkets are signaling that current rates can’t last, the bank says, as falling stock valuations and risks to AI investment threaten economic growth. \n\nCiti argues the Fed is unlikely to aggressively raise rates into a stock market selloff, despite persistent inflation concerns.",
+      "likes": 1616,
+      "url": "https://x.com/unusual_whales/status/2123868229890154755",
+      "why": "Citi warning that rates are unsustainably high points to potential rate cuts and economic headwinds.",
+      "watch": "Interest rates, US Equities, Fed policy"
     },
     {
-      "name": "Bill Ackman",
-      "text": "Pershing Square Inc. $PS is scheduled to be added to the Russell 3000 Index on December 11th, which is estimated to require the purchase of ~5 million shares of stock by passive funds that track the index. This does not include demand from other funds that are closet index trackers. \n\nI don’t who has been selling over the last few days, but I thought they might want to know. \n\nhttps://t.co/8j0NDoPTqe",
-      "likes": 1612,
-      "url": "https://x.com/BillAckman/status/2123460497391468962",
-      "why": "Pershing Square's Russell 3000 inclusion forces approximately 5 million shares of passive buying demand.",
-      "watch": "PS, Russell 3000"
+      "name": "Unusual Whales",
+      "text": "BREAKING: The SEC is investigating Nvidia's, $NVDA, accounting practices, per Reuters",
+      "likes": 3054,
+      "url": "https://x.com/unusual_whales/status/2123859872894566638",
+      "why": "SEC investigation into Nvidia's accounting practices adds major regulatory pressure to the dominant AI bellwether.",
+      "watch": "$NVDA"
     },
     {
-      "name": "Zero Hedge",
-      "text": "*SENATE PASSES LANDMARK BILL TO OVERHAUL US ENERGY PERMITTING",
-      "likes": 1019,
-      "url": "https://x.com/zerohedge/status/2123614385356595547",
-      "why": "Senate passage of a landmark energy permitting overhaul bill could heavily impact domestic energy and infrastructure.",
-      "watch": "Energy Sector, Utilities"
+      "name": "Unusual Whales",
+      "text": "It is being reported that CrowdStrike $CRWD is in talks to acquire Zscaler $ZS per Bloomberg",
+      "likes": 405,
+      "url": "https://x.com/unusual_whales/status/2123939905999138932",
+      "why": "CrowdStrike in talks to acquire Zscaler signals consolidation and strategic shifts in cybersecurity.",
+      "watch": "$CRWD, $ZS"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Most Americans want the new Democratic-controlled Congress to roll back Trump’s tariffs and focus on the cost of living, per Reuters\n\n62% would support repealing the import tariffs Trump has put in place, which, along with the Iran war, have helped push up inflation and fuel prices.\n\nAnd 9 in 10 say the cost of living should be a priority in Congress’ first 100 days, far ahead of AI regulation, immigration and climate change.",
+      "likes": 1224,
+      "url": "https://x.com/unusual_whales/status/2123838030897156484",
+      "why": "Public and political pushback against tariffs highlights persistent inflation and cost of living pressures affecting monetary policy.",
+      "watch": "Inflation, consumer stocks, broader market"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "AMD gamma just flipped negative again.\n\n$AMD is down another 7.7% today to $452, the day after the Hunterbrook short report.\n\nGEX was positive almost every day from May through October. Since the late-October top, it keeps dipping below zero.\n\nDealers are short gamma into a falling stock.",
+      "likes": 135,
+      "url": "https://x.com/unusual_whales/status/2123804560837751021",
+      "why": "Negative gamma in AMD highlights increased dealer hedging pressure and heightened downside momentum following short reports.",
+      "watch": "$AMD"
     },
     {
       "name": "Michael Burry",
-      "text": "Wall Street giants pledged to mobilize $500 billion to help Nvidia customers finance chip purchases. But no capital has been deployed to date. \n\"Jensen Huang sensed the winds shifting against Nvidia  this spring...In August, he got pledges from several firms—Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR—to mobilize an astounding sum: $500 billion...To date, no capital has actually been deployed...\"\nhttps://t.co/eXUj2HNE7a via @",
-      "likes": 1615,
-      "url": "https://x.com/michaeljburry/status/2123254736388243631",
-      "why": "Revelations that Wall Street's $500 billion financing pledge for Nvidia customers has seen zero deployed capital highlights credit risks in AI infrastructure.",
-      "watch": "NVDA, Credit Markets, Private Equity"
-    },
-    {
-      "name": "Zero Hedge",
-      "text": "Klospi\n\n*KOREA EXCHANGE ACTIVATES SIDECAR TO HALT KOSPI PROGRAM SELLING",
-      "likes": 563,
-      "url": "https://x.com/zerohedge/status/2123611379667996707",
-      "why": "Korea Exchange activates a sidecar to halt Kospi program selling amid regional market pressures.",
-      "watch": "KOSPI, Asian Equities"
-    },
-    {
-      "name": "Zero Hedge",
-      "text": "*MSCI EMERGING-MARKETS STOCK INDEX FALLS 20% FROM JUNE PEAK",
-      "likes": 293,
-      "url": "https://x.com/zerohedge/status/2123584017144615057",
-      "why": "MSCI Emerging-Markets stock index falls 20% from its June peak, entering a bear market.",
-      "watch": "EM Equities, MSCI"
-    },
-    {
-      "name": "Unusual Whales",
-      "text": "Hackers have leaked customer data tied to Visa and Mastercard, per The Wall Street Journal.\n\nA new ransomware group called n0n has claimed attacks on Visa, Mastercard and JPMorgan Chase, and has started publishing data it says it stole.\n\nVisa says the breach hit a third-party service provider in the Asia-Pacific region, not its own systems. “Visa’s systems were not involved and were not impacted,” the company said, adding there’s no sign that car",
-      "likes": 1428,
-      "url": "https://x.com/unusual_whales/status/2123505841991270765",
-      "why": "Ransomware group leaks customer data tied to Visa, Mastercard, and JPMorgan Chase, raising cybersecurity risks for major financials.",
-      "watch": "V, MA, JPM, Financials"
+      "text": "One similarity today to 1929 and 2000 is the lack of a proximate cause in earnings.",
+      "likes": 4197,
+      "url": "https://x.com/michaeljburry/status/2123749742165492137",
+      "why": "Michael Burry notes parallels to 1929 and 2000 regarding a lack of proximate cause in earnings during a major market shift.",
+      "watch": "Broad equities, macroeconomic sentiment"
     }
   ]
 }

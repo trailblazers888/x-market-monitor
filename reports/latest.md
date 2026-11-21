@@ -1,70 +1,62 @@
-# X Market Monitor - 2026-11-20 (UTC)
+# X Market Monitor - 2026-11-21 (UTC)
 
-Themes: Markets are digesting massive tech and AI volatility, highlighted by Anthropic's multi-trillion dollar public debut, a sharp regulatory selloff in AMD over China export concerns, and rising systemic risks in semiconductor financing.
+Themes: Markets face severe downward pressure as major indices suffer multi-day losing streaks and a sharp AI sector selloff, while macroeconomic concerns focus on high interest rates, inflation from tariffs, and regulatory scrutiny on major tech and chips.
 
 
-## Unusual Whales (524 likes)
-BREAKING: Anthropic shares opened at $111.50 in their Nasdaq debut, up about 34% from the IPO price of $83.
+## Unusual Whales (607 likes)
+The market is collapsing with $QQQ and $SPY all down more than 3%, $NVDA down more than 10%.
 
-The opening price values Anthropic at roughly $2 trillion.
-Why it matters: Anthropic's massive IPO valuation sets a new benchmark for AI sector sentiment and public tech pricing.
-Watch: ANT, Nasdaq, Tech Sector
-https://x.com/unusual_whales/status/2123459868334104811
+Market in extreme fear. https://t.co/776lYAzT7T
+Why it matters: Highlights the ongoing market collapse and extreme fear with massive tech and semiconductor liquidations.
+Watch: $SPY, $QQQ, $NVDA
+https://x.com/unusual_whales/status/2123881266739302853
 
-## Unusual Whales (2,551 likes)
-BREAKING: AMD stock, $AMD, crashes 15% in 30 minutes after Hunterbrook Media flags potential China export-control violations.
+## Unusual Whales (1,616 likes)
+Citi warns that US interest rates are “unsustainably high” and expects the Fed to cut in 2027.
 
-The report says blacklisted Chinese server maker IEIT kept shipping updates with newer AMD firmware after its 2025 blacklisting.
+Markets are signaling that current rates can’t last, the bank says, as falling stock valuations and risks to AI investment threaten economic growth. 
 
-Hunterbrook Capital also disclosed a short position in AMD.
-Why it matters: AMD stock crashes 15% following allegations of China export-control violations, creating severe volatility in semiconductors.
-Watch: AMD, Semiconductors
-https://x.com/unusual_whales/status/2123445766727561401
+Citi argues the Fed is unlikely to aggressively raise rates into a stock market selloff, despite persistent inflation concerns.
+Why it matters: Citi warning that rates are unsustainably high points to potential rate cuts and economic headwinds.
+Watch: Interest rates, US Equities, Fed policy
+https://x.com/unusual_whales/status/2123868229890154755
 
-## Bill Ackman (1,612 likes)
-Pershing Square Inc. $PS is scheduled to be added to the Russell 3000 Index on December 11th, which is estimated to require the purchase of ~5 million shares of stock by passive funds that track the index. This does not include demand from other funds that are closet index trackers. 
+## Unusual Whales (3,054 likes)
+BREAKING: The SEC is investigating Nvidia's, $NVDA, accounting practices, per Reuters
+Why it matters: SEC investigation into Nvidia's accounting practices adds major regulatory pressure to the dominant AI bellwether.
+Watch: $NVDA
+https://x.com/unusual_whales/status/2123859872894566638
 
-I don’t who has been selling over the last few days, but I thought they might want to know. 
+## Unusual Whales (405 likes)
+It is being reported that CrowdStrike $CRWD is in talks to acquire Zscaler $ZS per Bloomberg
+Why it matters: CrowdStrike in talks to acquire Zscaler signals consolidation and strategic shifts in cybersecurity.
+Watch: $CRWD, $ZS
+https://x.com/unusual_whales/status/2123939905999138932
 
-https://t.co/8j0NDoPTqe
-Why it matters: Pershing Square's Russell 3000 inclusion forces approximately 5 million shares of passive buying demand.
-Watch: PS, Russell 3000
-https://x.com/BillAckman/status/2123460497391468962
+## Unusual Whales (1,224 likes)
+Most Americans want the new Democratic-controlled Congress to roll back Trump’s tariffs and focus on the cost of living, per Reuters
 
-## Zero Hedge (1,019 likes)
-*SENATE PASSES LANDMARK BILL TO OVERHAUL US ENERGY PERMITTING
-Why it matters: Senate passage of a landmark energy permitting overhaul bill could heavily impact domestic energy and infrastructure.
-Watch: Energy Sector, Utilities
-https://x.com/zerohedge/status/2123614385356595547
+62% would support repealing the import tariffs Trump has put in place, which, along with the Iran war, have helped push up inflation and fuel prices.
 
-## Michael Burry (1,615 likes)
-Wall Street giants pledged to mobilize $500 billion to help Nvidia customers finance chip purchases. But no capital has been deployed to date. 
-"Jensen Huang sensed the winds shifting against Nvidia  this spring...In August, he got pledges from several firms—Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR—to mobilize an astounding sum: $500 billion...To date, no capital has actually been deployed..."
-https://t.co/eXUj2HNE7a via @
-Why it matters: Revelations that Wall Street's $500 billion financing pledge for Nvidia customers has seen zero deployed capital highlights credit risks in AI infrastructure.
-Watch: NVDA, Credit Markets, Private Equity
-https://x.com/michaeljburry/status/2123254736388243631
+And 9 in 10 say the cost of living should be a priority in Congress’ first 100 days, far ahead of AI regulation, immigration and climate change.
+Why it matters: Public and political pushback against tariffs highlights persistent inflation and cost of living pressures affecting monetary policy.
+Watch: Inflation, consumer stocks, broader market
+https://x.com/unusual_whales/status/2123838030897156484
 
-## Zero Hedge (563 likes)
-Klospi
+## Unusual Whales (135 likes)
+AMD gamma just flipped negative again.
 
-*KOREA EXCHANGE ACTIVATES SIDECAR TO HALT KOSPI PROGRAM SELLING
-Why it matters: Korea Exchange activates a sidecar to halt Kospi program selling amid regional market pressures.
-Watch: KOSPI, Asian Equities
-https://x.com/zerohedge/status/2123611379667996707
+$AMD is down another 7.7% today to $452, the day after the Hunterbrook short report.
 
-## Zero Hedge (293 likes)
-*MSCI EMERGING-MARKETS STOCK INDEX FALLS 20% FROM JUNE PEAK
-Why it matters: MSCI Emerging-Markets stock index falls 20% from its June peak, entering a bear market.
-Watch: EM Equities, MSCI
-https://x.com/zerohedge/status/2123584017144615057
+GEX was positive almost every day from May through October. Since the late-October top, it keeps dipping below zero.
 
-## Unusual Whales (1,428 likes)
-Hackers have leaked customer data tied to Visa and Mastercard, per The Wall Street Journal.
+Dealers are short gamma into a falling stock.
+Why it matters: Negative gamma in AMD highlights increased dealer hedging pressure and heightened downside momentum following short reports.
+Watch: $AMD
+https://x.com/unusual_whales/status/2123804560837751021
 
-A new ransomware group called n0n has claimed attacks on Visa, Mastercard and JPMorgan Chase, and has started publishing data it says it stole.
-
-Visa says the breach hit a third-party service provider in the Asia-Pacific region, not its own systems. “Visa’s systems were not involved and were not impacted,” the company said, adding there’s no sign that car
-Why it matters: Ransomware group leaks customer data tied to Visa, Mastercard, and JPMorgan Chase, raising cybersecurity risks for major financials.
-Watch: V, MA, JPM, Financials
-https://x.com/unusual_whales/status/2123505841991270765
+## Michael Burry (4,197 likes)
+One similarity today to 1929 and 2000 is the lack of a proximate cause in earnings.
+Why it matters: Michael Burry notes parallels to 1929 and 2000 regarding a lack of proximate cause in earnings during a major market shift.
+Watch: Broad equities, macroeconomic sentiment
+https://x.com/michaeljburry/status/2123749742165492137
