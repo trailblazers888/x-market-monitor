@@ -1,62 +1,62 @@
-# X Market Monitor - 2026-11-21 (UTC)
+# X Market Monitor - 2026-11-22 (UTC)
 
-Themes: Markets face severe downward pressure as major indices suffer multi-day losing streaks and a sharp AI sector selloff, while macroeconomic concerns focus on high interest rates, inflation from tariffs, and regulatory scrutiny on major tech and chips.
+Themes: Markets are facing elevated stress with volatility metrics spiking and hedge funds unwinding tech positions rapidly. Broader macroeconomic pressures continue to weigh heavily on the housing market due to 7%+ mortgage rates, while geopolitical risks in the Middle East threaten energy markets.
 
 
-## Unusual Whales (607 likes)
-The market is collapsing with $QQQ and $SPY all down more than 3%, $NVDA down more than 10%.
+## Zero Hedge (204 likes)
+"As Challenging As We Have Seen": Goldman's Panic Index Hits Record 9.8 After Fifth-Biggest VIX Spike On Record... Here's What Happened After The O... https://t.co/ifnliHXSYN
+Why it matters: Goldman's Panic Index hits a record high following one of the largest VIX spikes on record.
+Watch: S&P 500, VIX, US Equities
+https://x.com/zerohedge/status/2124284335725408588
 
-Market in extreme fear. https://t.co/776lYAzT7T
-Why it matters: Highlights the ongoing market collapse and extreme fear with massive tech and semiconductor liquidations.
-Watch: $SPY, $QQQ, $NVDA
-https://x.com/unusual_whales/status/2123881266739302853
+## Zero Hedge (149 likes)
+"Abandon All Hope, Ye Who Trade Tech": JPMorgan Finds Hedge Funds Just Had Their Worst Week Since Liberation Day... And The Real Money Hasn't Sold Yet https://t.co/dkRTE1jCEj
+Why it matters: JPMorgan reports hedge funds suffered their worst week in tech stocks since Liberation Day.
+Watch: Tech Stocks (QQQ, XLK), Nasdaq, Hedge Fund Flows
+https://x.com/zerohedge/status/2124254135037927819
 
-## Unusual Whales (1,616 likes)
-Citi warns that US interest rates are “unsustainably high” and expects the Fed to cut in 2027.
+## Zero Hedge (527 likes)
+Iran Hits Bahrain Again: Guards Claim Strikes On Two US Bases As Trump's 'Unless Provoked' Line Is Tested https://t.co/oWM59YUu6x
+Why it matters: Escalating Middle East military conflicts pose immediate risks to regional crude supplies and risk assets.
+Watch: Crude Oil (WTI, Brent), Energy Sector, Safe-haven Currencies
+https://x.com/zerohedge/status/2124269234767151434
 
-Markets are signaling that current rates can’t last, the bank says, as falling stock valuations and risks to AI investment threaten economic growth. 
+## Zero Hedge (705 likes)
+Gold's Margin-Call Puke: Goldman Trader Spots A "4-5 Sigma" Panic Signal That Usually Reverses Within A Week https://t.co/e18WczhjSU
+Why it matters: Goldman trader flags an extreme 4-5 sigma margin-call liquidation event in gold.
+Watch: Gold (XAU/USD), Precious Metals, Mining ETFs
+https://x.com/zerohedge/status/2124223935419936993
 
-Citi argues the Fed is unlikely to aggressively raise rates into a stock market selloff, despite persistent inflation concerns.
-Why it matters: Citi warning that rates are unsustainably high points to potential rate cuts and economic headwinds.
-Watch: Interest rates, US Equities, Fed policy
-https://x.com/unusual_whales/status/2123868229890154755
+## Unusual Whales (824 likes)
+US condo sales just hit a record low.
 
-## Unusual Whales (3,054 likes)
-BREAKING: The SEC is investigating Nvidia's, $NVDA, accounting practices, per Reuters
-Why it matters: SEC investigation into Nvidia's accounting practices adds major regulatory pressure to the dominant AI bellwether.
-Watch: $NVDA
-https://x.com/unusual_whales/status/2123859872894566638
+Condo and co-op sales fell in October to their lowest level in National Association of Realtors records going back to 1999. They’re now weaker than at any point during the 2008 housing crash.
 
-## Unusual Whales (405 likes)
-It is being reported that CrowdStrike $CRWD is in talks to acquire Zscaler $ZS per Bloomberg
-Why it matters: CrowdStrike in talks to acquire Zscaler signals consolidation and strategic shifts in cybersecurity.
-Watch: $CRWD, $ZS
-https://x.com/unusual_whales/status/2123939905999138932
+The overall market is struggling too. Total existing home sales fell 5.5% to an annualized 3.75 million, the lowest since 2010, as mortgage rates above 7% kept buyers away.
+Why it matters: US home and condo sales fall to multi-year and record lows under 7%+ mortgage rates.
+Watch: US Homebuilders (XHB), Real Estate REITs (VNQ), Mortgage Rates
+https://x.com/unusual_whales/status/2124276923484221940
 
-## Unusual Whales (1,224 likes)
-Most Americans want the new Democratic-controlled Congress to roll back Trump’s tariffs and focus on the cost of living, per Reuters
+## Zero Hedge (304 likes)
+"Quickest Way To Stop The Fed": Hartnett Says Stocks Must Give Up All Of 2026's Gains... And The S&P Is 80 Points Away https://t.co/CfiSKxogH0
+Why it matters: BofA strategist Michael Hartnett signals stocks need to drop further to trigger a Fed policy pivot.
+Watch: S&P 500 (SPY), US Treasury Yields, Fed Policy Expectations
+https://x.com/zerohedge/status/2124314536446411208
 
-62% would support repealing the import tariffs Trump has put in place, which, along with the Iran war, have helped push up inflation and fuel prices.
+## Elon Musk (17,013 likes)
+SFT is more like getting a haircut with a chainsaw than it is “fine-tuning”! Should just be built into primary training. 
 
-And 9 in 10 say the cost of living should be a priority in Congress’ first 100 days, far ahead of AI regulation, immigration and climate change.
-Why it matters: Public and political pushback against tariffs highlights persistent inflation and cost of living pressures affecting monetary policy.
-Watch: Inflation, consumer stocks, broader market
-https://x.com/unusual_whales/status/2123838030897156484
+And having a “system prompt” is silly! Default behavior should be sensible.
 
-## Unusual Whales (135 likes)
-AMD gamma just flipped negative again.
+The above are already true for Tesla AI (not yet deserving of “super”). It is the most efficient AI on Earth.
 
-$AMD is down another 7.7% today to $452, the day after the Hunterbrook short report.
+FSD V15 goes to wide release next month. It will be something special.
+Why it matters: Elon Musk announces Tesla FSD V15 wide release slated for next month.
+Watch: Tesla (TSLA), EV & Autonomous Driving Sector
+https://x.com/elonmusk/status/2124042864891982292
 
-GEX was positive almost every day from May through October. Since the late-October top, it keeps dipping below zero.
-
-Dealers are short gamma into a falling stock.
-Why it matters: Negative gamma in AMD highlights increased dealer hedging pressure and heightened downside momentum following short reports.
-Watch: $AMD
-https://x.com/unusual_whales/status/2123804560837751021
-
-## Michael Burry (4,197 likes)
-One similarity today to 1929 and 2000 is the lack of a proximate cause in earnings.
-Why it matters: Michael Burry notes parallels to 1929 and 2000 regarding a lack of proximate cause in earnings during a major market shift.
-Watch: Broad equities, macroeconomic sentiment
-https://x.com/michaeljburry/status/2123749742165492137
+## Michael Burry (924 likes)
+Circumstantial but important to know. $FNMA $FMCC
+Why it matters: Michael Burry highlights government-sponsored enterprises Fannie Mae and Freddie Mac.
+Watch: Fannie Mae (FNMA), Freddie Mac (FMCC)
+https://x.com/michaeljburry/status/2124211619714769228
