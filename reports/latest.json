@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-22T07:17:33+00:00",
+  "generated_at_utc": "2026-11-23T07:58:16+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -10,72 +10,64 @@
     "Michael Burry"
   ],
   "ai_filtered": true,
-  "summary": "Markets are facing elevated stress with volatility metrics spiking and hedge funds unwinding tech positions rapidly. Broader macroeconomic pressures continue to weigh heavily on the housing market due to 7%+ mortgage rates, while geopolitical risks in the Middle East threaten energy markets.",
+  "summary": "Financial markets face mounting pressure as high borrowing costs, tightening credit conditions, and severe cracks in tech/AI funding weigh on sentiment globally. Meanwhile, surging credit spreads, plunging base metals like copper, and Asian market volatility signal rising macro stress.",
   "notes": [],
   "picks": [
     {
-      "name": "Zero Hedge",
-      "text": "\"As Challenging As We Have Seen\": Goldman's Panic Index Hits Record 9.8 After Fifth-Biggest VIX Spike On Record... Here's What Happened After The O... https://t.co/ifnliHXSYN",
-      "likes": 204,
-      "url": "https://x.com/zerohedge/status/2124284335725408588",
-      "why": "Goldman's Panic Index hits a record high following one of the largest VIX spikes on record.",
-      "watch": "S&P 500, VIX, US Equities"
+      "name": "Bill Ackman",
+      "text": "I think the Fed is about to make another mistake on December 9th. Financial conditions have tightened massively. For example, @SpaceX, an investment grade company, just raised secured debt financing at an 8.259% interest rate versus below 6% for its unsecured bond offering at the time of its IPO. \n\nThe cost of equity capital has also increased materially with the recent substantial decline in the stock market. \n\nThe Fed’s 2% inflation ambition is",
+      "likes": 22389,
+      "url": "https://x.com/BillAckman/status/2124629409105944729",
+      "why": "Bill Ackman warns that the Fed is making a policy mistake as financial conditions tighten sharply and corporate borrowing costs surge.",
+      "watch": "Treasury yields, broader credit markets, Fed policy outlook"
     },
     {
       "name": "Zero Hedge",
-      "text": "\"Abandon All Hope, Ye Who Trade Tech\": JPMorgan Finds Hedge Funds Just Had Their Worst Week Since Liberation Day... And The Real Money Hasn't Sold Yet https://t.co/dkRTE1jCEj",
-      "likes": 149,
-      "url": "https://x.com/zerohedge/status/2124254135037927819",
-      "why": "JPMorgan reports hedge funds suffered their worst week in tech stocks since Liberation Day.",
-      "watch": "Tech Stocks (QQQ, XLK), Nasdaq, Hedge Fund Flows"
+      "text": "Credit Finally Cracks As Junk Bonds Suffer Biggest Blowout Of 2026 https://t.co/ZJ0viXZmDf",
+      "likes": 380,
+      "url": "https://x.com/zerohedge/status/2124710136719479096",
+      "why": "Credit markets are showing clear signs of stress as junk bonds suffer their biggest blowout of the year.",
+      "watch": "High-yield credit spreads, HYG, corporate debt"
     },
     {
       "name": "Zero Hedge",
-      "text": "Iran Hits Bahrain Again: Guards Claim Strikes On Two US Bases As Trump's 'Unless Provoked' Line Is Tested https://t.co/oWM59YUu6x",
-      "likes": 527,
-      "url": "https://x.com/zerohedge/status/2124269234767151434",
-      "why": "Escalating Middle East military conflicts pose immediate risks to regional crude supplies and risk assets.",
-      "watch": "Crude Oil (WTI, Brent), Energy Sector, Safe-haven Currencies"
-    },
-    {
-      "name": "Zero Hedge",
-      "text": "Gold's Margin-Call Puke: Goldman Trader Spots A \"4-5 Sigma\" Panic Signal That Usually Reverses Within A Week https://t.co/e18WczhjSU",
-      "likes": 705,
-      "url": "https://x.com/zerohedge/status/2124223935419936993",
-      "why": "Goldman trader flags an extreme 4-5 sigma margin-call liquidation event in gold.",
-      "watch": "Gold (XAU/USD), Precious Metals, Mining ETFs"
+      "text": "*COPPER SLUMPS BELOW $12,000 A TON IN LONDON AS SELLOFF DEEPENS",
+      "likes": 473,
+      "url": "https://x.com/zerohedge/status/2124699038792708283",
+      "why": "Copper slumps heavily below $12,000 a ton, pointing to cooling industrial demand and macro weakness.",
+      "watch": "Copper, industrial metals, mining stocks"
     },
     {
       "name": "Unusual Whales",
-      "text": "US condo sales just hit a record low.\n\nCondo and co-op sales fell in October to their lowest level in National Association of Realtors records going back to 1999. They’re now weaker than at any point during the 2008 housing crash.\n\nThe overall market is struggling too. Total existing home sales fell 5.5% to an annualized 3.75 million, the lowest since 2010, as mortgage rates above 7% kept buyers away.",
-      "likes": 824,
-      "url": "https://x.com/unusual_whales/status/2124276923484221940",
-      "why": "US home and condo sales fall to multi-year and record lows under 7%+ mortgage rates.",
-      "watch": "US Homebuilders (XHB), Real Estate REITs (VNQ), Mortgage Rates"
+      "text": "High-grade tech companies are paying the most to borrow since the 2008 financial crisis, as the AI funding rush shows signs of cracking, per Bloomberg.\n\nYields on investment-grade tech bonds have climbed above 6%, the highest since 2009.",
+      "likes": 871,
+      "url": "https://x.com/unusual_whales/status/2124563813550735742",
+      "why": "Investment-grade tech bond yields climb above 6%, hitting levels not seen since 2008 as AI capital funding strains corporate balance sheets.",
+      "watch": "Tech sector debt, investment-grade bonds, mega-cap tech"
     },
     {
       "name": "Zero Hedge",
-      "text": "\"Quickest Way To Stop The Fed\": Hartnett Says Stocks Must Give Up All Of 2026's Gains... And The S&P Is 80 Points Away https://t.co/CfiSKxogH0",
-      "likes": 304,
-      "url": "https://x.com/zerohedge/status/2124314536446411208",
-      "why": "BofA strategist Michael Hartnett signals stocks need to drop further to trigger a Fed policy pivot.",
-      "watch": "S&P 500 (SPY), US Treasury Yields, Fed Policy Expectations"
+      "text": "Goldman cut its Samsung and SK Hynix targets on lower 2028 pricing. DRAM for 2028 now -19% YoY (was -5%), NAND -21% (was -14%).\n\nSamsung: target cut to W350K from W500K\n\nSK Hynix: target cut to W2mn from W3.5mn",
+      "likes": 273,
+      "url": "https://x.com/zerohedge/status/2124721347729236024",
+      "why": "Goldman Sachs sharply cuts price targets for Samsung and SK Hynix on steeply lower 2028 DRAM and NAND pricing.",
+      "watch": "Samsung, SK Hynix, semiconductor sector, memory chips"
     },
     {
-      "name": "Elon Musk",
-      "text": "SFT is more like getting a haircut with a chainsaw than it is “fine-tuning”! Should just be built into primary training. \n\nAnd having a “system prompt” is silly! Default behavior should be sensible.\n\nThe above are already true for Tesla AI (not yet deserving of “super”). It is the most efficient AI on Earth.\n\nFSD V15 goes to wide release next month. It will be something special.",
-      "likes": 17013,
-      "url": "https://x.com/elonmusk/status/2124042864891982292",
-      "why": "Elon Musk announces Tesla FSD V15 wide release slated for next month.",
-      "watch": "Tesla (TSLA), EV & Autonomous Driving Sector"
+      "name": "Zero Hedge",
+      "text": "Asian Market Panic Continues As Korea Readies To Unleash Plunge Protectors For First Time Since Lehman https://t.co/06QRrvUMk9",
+      "likes": 2439,
+      "url": "https://x.com/zerohedge/status/2124666852412370994",
+      "why": "Asian market panic deepens as South Korea prepares emergency market stabilization measures amid intense volatility.",
+      "watch": "Asian equities, South Korean market, global risk sentiment"
     },
     {
-      "name": "Michael Burry",
-      "text": "Circumstantial but important to know. $FNMA $FMCC",
-      "likes": 924,
-      "url": "https://x.com/michaeljburry/status/2124211619714769228",
-      "why": "Michael Burry highlights government-sponsored enterprises Fannie Mae and Freddie Mac.",
-      "watch": "Fannie Mae (FNMA), Freddie Mac (FMCC)"
+      "name": "Zero Hedge",
+      "text": "At least two of Nvidia's server partners have suspended shipments to clients in Southeast Asia amid the latest U.S. export controls: Nikkei Asia",
+      "likes": 373,
+      "url": "https://x.com/zerohedge/status/2124711553903579618",
+      "why": "Nvidia server partners suspending shipments to Southeast Asia due to new US export controls threatens regional supply chains.",
+      "watch": "NVDA, semiconductor supply chain, hardware tech"
     }
   ]
 }
