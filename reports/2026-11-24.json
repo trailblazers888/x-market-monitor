@@ -1,0 +1,65 @@
+{
+  "generated_at_utc": "2026-11-24T10:13:06+00:00",
+  "window_hours": 30,
+  "accounts": [
+    "Elon Musk",
+    "Bill Ackman",
+    "Unusual Whales",
+    "Zero Hedge",
+    "Ray Dalio",
+    "Michael Burry"
+  ],
+  "ai_filtered": true,
+  "summary": "Markets are heavily driven by the dramatic reinstatement of Jensen Huang as CEO of Nvidia, sparking a massive relief rally across the semiconductor sector, while falling copper prices and ongoing regulatory/antitrust scrutiny highlight underlying macroeconomic and political risks.",
+  "notes": [],
+  "picks": [
+    {
+      "name": "Unusual Whales",
+      "text": "Nvidia $NVDA broke the record for the largest one day gain ever in the stock market, nearly doubling the previous record today. https://t.co/sxEMHBour9",
+      "likes": 1499,
+      "url": "https://x.com/unusual_whales/status/2124992096029536636",
+      "why": "Nvidia breaks record for single-day stock gain following Jensen Huang's reinstatement",
+      "watch": "NVDA, Semiconductors, Tech Sector"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Semiconductor heatmap went from a sea of red to a sea of green.\n\nJensen Huang is back, and the whole sector is ripping.\n\n$NVDA +32.8%\n$MU +19.0%\n$MRVL +18.9%\n$MPWR +16.1%\n$INTC +13.0%\n$TXN +10.5%\n$QCOM +10.2%\n$ADI +10.0%\n$AMD +8.5%\n\nEvery chip stock in the S&P 500 is green. https://t.co/hcyiVE45yy",
+      "likes": 304,
+      "url": "https://x.com/unusual_whales/status/2124924942776938506",
+      "why": "Entire semiconductor sector rips higher with double-digit gains across major chip stocks",
+      "watch": "MU, MRVL, INTC, AMD, QCOM, SMH ETF"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Nvidia short sellers are set to take about $12.2 billion in paper losses today as shares jump to $168.50 on Jensen Huang’s reinstatement as CEO.\n\nThat would be their biggest one-day loss since at least 2019.\n\nThe reversal is sharp. Short sellers had made about $24 billion in paper gains as Nvidia fell 35% from its Oct. 6 all-time high through Nov. 16, per S3 Partners. The selloff gave Nvidia its worst week since the April 2025 tariff shock.\n\nhttp",
+      "likes": 460,
+      "url": "https://x.com/unusual_whales/status/2124921168109183286",
+      "why": "Nvidia short sellers face massive paper losses near $12.2 billion amid sharp reversal",
+      "watch": "NVDA, Options market, Short interest"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "BREAKING: Senate Democratic Leader Chuck Schumer says Democrats will investigate Jensen Huang’s reinstatement as Nvidia CEO.\n\n“Democrats will wield their full power to investigate any wrongdoing by the Trump Administration” and “anyone selling out our national security for financial gain,” Schumer said.\n\nHe said the probe would cover the Trump administration, Huang and other Nvidia executives. He accused Trump of putting “his own financial intere",
+      "likes": 1306,
+      "url": "https://x.com/unusual_whales/status/2124917644717691166",
+      "why": "Senate Democrats plan investigation into Trump administration and Nvidia over Huang reinstatement",
+      "watch": "NVDA, Regulatory policy, Tech sector"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Copper prices are falling fast, and some economists say it’s a warning sign for the US economy, per Business Insider.\n\nCopper traded around $5.48 a pound on Friday. That’s down 17% from its September peak of nearly $6.90, after one of 2025’s hottest rallies on AI and data center demand. David Rosenberg says it was copper’s worst week in about a decade.",
+      "likes": 915,
+      "url": "https://x.com/unusual_whales/status/2124940293988647335",
+      "why": "Copper prices plummeting fast, signaling potential warning signs for US economic growth",
+      "watch": "Copper, Industrial commodities, Global growth"
+    },
+    {
+      "name": "Michael Burry",
+      "text": "So $NVDA is weaker, more craven than even I thought. \n@TheJusticeDept stay on that antitrust case.\n @SECGov  keep digging into that accounting. \nGodspeed. https://t.co/2yNbMeCnGO",
+      "likes": 3015,
+      "url": "https://x.com/michaeljburry/status/2124876426486681864",
+      "why": "Michael Burry calls for DOJ antitrust and SEC accounting scrutiny to continue on Nvidia",
+      "watch": "NVDA, DOJ, SEC, Regulatory risk"
+    }
+  ]
+}

@@ -1,56 +1,69 @@
-# X Market Monitor - 2026-11-23 (UTC)
+# X Market Monitor - 2026-11-24 (UTC)
 
-Themes: Financial markets face mounting pressure as high borrowing costs, tightening credit conditions, and severe cracks in tech/AI funding weigh on sentiment globally. Meanwhile, surging credit spreads, plunging base metals like copper, and Asian market volatility signal rising macro stress.
+Themes: Markets are heavily driven by the dramatic reinstatement of Jensen Huang as CEO of Nvidia, sparking a massive relief rally across the semiconductor sector, while falling copper prices and ongoing regulatory/antitrust scrutiny highlight underlying macroeconomic and political risks.
 
 
-## Bill Ackman (22,389 likes)
-I think the Fed is about to make another mistake on December 9th. Financial conditions have tightened massively. For example, @SpaceX, an investment grade company, just raised secured debt financing at an 8.259% interest rate versus below 6% for its unsecured bond offering at the time of its IPO. 
+## Unusual Whales (1,499 likes)
+Nvidia $NVDA broke the record for the largest one day gain ever in the stock market, nearly doubling the previous record today. https://t.co/sxEMHBour9
+Why it matters: Nvidia breaks record for single-day stock gain following Jensen Huang's reinstatement
+Watch: NVDA, Semiconductors, Tech Sector
+https://x.com/unusual_whales/status/2124992096029536636
 
-The cost of equity capital has also increased materially with the recent substantial decline in the stock market. 
+## Unusual Whales (304 likes)
+Semiconductor heatmap went from a sea of red to a sea of green.
 
-The Fed’s 2% inflation ambition is
-Why it matters: Bill Ackman warns that the Fed is making a policy mistake as financial conditions tighten sharply and corporate borrowing costs surge.
-Watch: Treasury yields, broader credit markets, Fed policy outlook
-https://x.com/BillAckman/status/2124629409105944729
+Jensen Huang is back, and the whole sector is ripping.
 
-## Zero Hedge (380 likes)
-Credit Finally Cracks As Junk Bonds Suffer Biggest Blowout Of 2026 https://t.co/ZJ0viXZmDf
-Why it matters: Credit markets are showing clear signs of stress as junk bonds suffer their biggest blowout of the year.
-Watch: High-yield credit spreads, HYG, corporate debt
-https://x.com/zerohedge/status/2124710136719479096
+$NVDA +32.8%
+$MU +19.0%
+$MRVL +18.9%
+$MPWR +16.1%
+$INTC +13.0%
+$TXN +10.5%
+$QCOM +10.2%
+$ADI +10.0%
+$AMD +8.5%
 
-## Zero Hedge (473 likes)
-*COPPER SLUMPS BELOW $12,000 A TON IN LONDON AS SELLOFF DEEPENS
-Why it matters: Copper slumps heavily below $12,000 a ton, pointing to cooling industrial demand and macro weakness.
-Watch: Copper, industrial metals, mining stocks
-https://x.com/zerohedge/status/2124699038792708283
+Every chip stock in the S&P 500 is green. https://t.co/hcyiVE45yy
+Why it matters: Entire semiconductor sector rips higher with double-digit gains across major chip stocks
+Watch: MU, MRVL, INTC, AMD, QCOM, SMH ETF
+https://x.com/unusual_whales/status/2124924942776938506
 
-## Unusual Whales (871 likes)
-High-grade tech companies are paying the most to borrow since the 2008 financial crisis, as the AI funding rush shows signs of cracking, per Bloomberg.
+## Unusual Whales (460 likes)
+Nvidia short sellers are set to take about $12.2 billion in paper losses today as shares jump to $168.50 on Jensen Huang’s reinstatement as CEO.
 
-Yields on investment-grade tech bonds have climbed above 6%, the highest since 2009.
-Why it matters: Investment-grade tech bond yields climb above 6%, hitting levels not seen since 2008 as AI capital funding strains corporate balance sheets.
-Watch: Tech sector debt, investment-grade bonds, mega-cap tech
-https://x.com/unusual_whales/status/2124563813550735742
+That would be their biggest one-day loss since at least 2019.
 
-## Zero Hedge (273 likes)
-Goldman cut its Samsung and SK Hynix targets on lower 2028 pricing. DRAM for 2028 now -19% YoY (was -5%), NAND -21% (was -14%).
+The reversal is sharp. Short sellers had made about $24 billion in paper gains as Nvidia fell 35% from its Oct. 6 all-time high through Nov. 16, per S3 Partners. The selloff gave Nvidia its worst week since the April 2025 tariff shock.
 
-Samsung: target cut to W350K from W500K
+http
+Why it matters: Nvidia short sellers face massive paper losses near $12.2 billion amid sharp reversal
+Watch: NVDA, Options market, Short interest
+https://x.com/unusual_whales/status/2124921168109183286
 
-SK Hynix: target cut to W2mn from W3.5mn
-Why it matters: Goldman Sachs sharply cuts price targets for Samsung and SK Hynix on steeply lower 2028 DRAM and NAND pricing.
-Watch: Samsung, SK Hynix, semiconductor sector, memory chips
-https://x.com/zerohedge/status/2124721347729236024
+## Unusual Whales (1,306 likes)
+BREAKING: Senate Democratic Leader Chuck Schumer says Democrats will investigate Jensen Huang’s reinstatement as Nvidia CEO.
 
-## Zero Hedge (2,439 likes)
-Asian Market Panic Continues As Korea Readies To Unleash Plunge Protectors For First Time Since Lehman https://t.co/06QRrvUMk9
-Why it matters: Asian market panic deepens as South Korea prepares emergency market stabilization measures amid intense volatility.
-Watch: Asian equities, South Korean market, global risk sentiment
-https://x.com/zerohedge/status/2124666852412370994
+“Democrats will wield their full power to investigate any wrongdoing by the Trump Administration” and “anyone selling out our national security for financial gain,” Schumer said.
 
-## Zero Hedge (373 likes)
-At least two of Nvidia's server partners have suspended shipments to clients in Southeast Asia amid the latest U.S. export controls: Nikkei Asia
-Why it matters: Nvidia server partners suspending shipments to Southeast Asia due to new US export controls threatens regional supply chains.
-Watch: NVDA, semiconductor supply chain, hardware tech
-https://x.com/zerohedge/status/2124711553903579618
+He said the probe would cover the Trump administration, Huang and other Nvidia executives. He accused Trump of putting “his own financial intere
+Why it matters: Senate Democrats plan investigation into Trump administration and Nvidia over Huang reinstatement
+Watch: NVDA, Regulatory policy, Tech sector
+https://x.com/unusual_whales/status/2124917644717691166
+
+## Unusual Whales (915 likes)
+Copper prices are falling fast, and some economists say it’s a warning sign for the US economy, per Business Insider.
+
+Copper traded around $5.48 a pound on Friday. That’s down 17% from its September peak of nearly $6.90, after one of 2025’s hottest rallies on AI and data center demand. David Rosenberg says it was copper’s worst week in about a decade.
+Why it matters: Copper prices plummeting fast, signaling potential warning signs for US economic growth
+Watch: Copper, Industrial commodities, Global growth
+https://x.com/unusual_whales/status/2124940293988647335
+
+## Michael Burry (3,015 likes)
+So $NVDA is weaker, more craven than even I thought. 
+@TheJusticeDept stay on that antitrust case.
+ @SECGov  keep digging into that accounting. 
+Godspeed. https://t.co/2yNbMeCnGO
+Why it matters: Michael Burry calls for DOJ antitrust and SEC accounting scrutiny to continue on Nvidia
+Watch: NVDA, DOJ, SEC, Regulatory risk
+https://x.com/michaeljburry/status/2124876426486681864
