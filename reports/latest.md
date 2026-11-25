@@ -1,69 +1,80 @@
-# X Market Monitor - 2026-11-24 (UTC)
+# X Market Monitor - 2026-11-25 (UTC)
 
-Themes: Markets are heavily driven by the dramatic reinstatement of Jensen Huang as CEO of Nvidia, sparking a massive relief rally across the semiconductor sector, while falling copper prices and ongoing regulatory/antitrust scrutiny highlight underlying macroeconomic and political risks.
+Themes: Markets face tech and semiconductor pressure following Nvidia governance headlines and heavy semiconductor sell-offs, alongside institutional crypto inflows and ongoing corporate earnings updates.
 
 
-## Unusual Whales (1,499 likes)
-Nvidia $NVDA broke the record for the largest one day gain ever in the stock market, nearly doubling the previous record today. https://t.co/sxEMHBour9
-Why it matters: Nvidia breaks record for single-day stock gain following Jensen Huang's reinstatement
-Watch: NVDA, Semiconductors, Tech Sector
-https://x.com/unusual_whales/status/2124992096029536636
+## Unusual Whales (308 likes)
+Dell $DELL reported earnings earlier:
 
-## Unusual Whales (304 likes)
-Semiconductor heatmap went from a sea of red to a sea of green.
+EPS: $9.45 vs $6.61 
+Revenue: $54.94B vs $49B https://t.co/0ajqDEAWUW
+Why it matters: Strong earnings beat by Dell signals hardware demand details.
+Watch: DELL, Tech sector
+https://x.com/unusual_whales/status/2125342396070436960
 
-Jensen Huang is back, and the whole sector is ripping.
+## Unusual Whales (737 likes)
+Jensen Huang disclosed more affairs to Nvidia’s board beyond the two that had been widely reported, but was “contrite” about his behavior, per WSJ
 
-$NVDA +32.8%
-$MU +19.0%
-$MRVL +18.9%
-$MPWR +16.1%
-$INTC +13.0%
-$TXN +10.5%
-$QCOM +10.2%
-$ADI +10.0%
-$AMD +8.5%
+The disclosure came during an hours-long board meeting on Sunday, before the board voted to reinstate him as CEO. Board members stressed the importance of honesty and being forthright.
+Why it matters: Jensen Huang's board disclosures and reinstatement impact Nvidia leadership stability.
+Watch: NVDA, Semiconductors
+https://x.com/unusual_whales/status/2125341437659156731
 
-Every chip stock in the S&P 500 is green. https://t.co/hcyiVE45yy
-Why it matters: Entire semiconductor sector rips higher with double-digit gains across major chip stocks
-Watch: MU, MRVL, INTC, AMD, QCOM, SMH ETF
-https://x.com/unusual_whales/status/2124924942776938506
+## Unusual Whales (562 likes)
+JUST IN: Microsoft, $MSFT, has declared a "Code Red" drive to overhaul how it prevents and responds to major service failures after a 24-hour outage exposed shortcomings in its engineering systems and crisis response, per Reuters
+Why it matters: Microsoft code red service failure overhaul impacts cloud infrastructure perception.
+Watch: MSFT, Cloud sector
+https://x.com/unusual_whales/status/2125336668786049462
 
-## Unusual Whales (460 likes)
-Nvidia short sellers are set to take about $12.2 billion in paper losses today as shares jump to $168.50 on Jensen Huang’s reinstatement as CEO.
+## Unusual Whales (5,284 likes)
+Jensen Huang, CEO of Nvidia $NVDA, said that he was brought back because the board learned there "was no national security threat" and that:
 
-That would be their biggest one-day loss since at least 2019.
+- he violated Nvidia's code of conduct
+- is in therapy daily now
+- thanked the interim CEO Kress
 
-The reversal is sharp. Short sellers had made about $24 billion in paper gains as Nvidia fell 35% from its Oct. 6 all-time high through Nov. 16, per S3 Partners. The selloff gave Nvidia its worst week since the April 2025 tariff shock.
+This was during the all hands today.
+Why it matters: Jensen Huang confirms code of conduct violations and therapy during return as CEO.
+Watch: NVDA, Tech
+https://x.com/unusual_whales/status/2125314733100450056
 
-http
-Why it matters: Nvidia short sellers face massive paper losses near $12.2 billion amid sharp reversal
-Watch: NVDA, Options market, Short interest
-https://x.com/unusual_whales/status/2124921168109183286
+## Unusual Whales (10,891 likes)
+All seven Anthropic co-founders reportedly sold 3,378,378 shares each at the $83 IPO price, about $280 million apiece and nearly $2 billion combined, according to SEC filings.
 
-## Unusual Whales (1,306 likes)
-BREAKING: Senate Democratic Leader Chuck Schumer says Democrats will investigate Jensen Huang’s reinstatement as Nvidia CEO.
+The stock is now below IPO price.
+Why it matters: Anthropic co-founder share sales post-IPO highlight insider liquidity and pricing pressure.
+Watch: Anthropic, AI sector
+https://x.com/unusual_whales/status/2125312747990888536
 
-“Democrats will wield their full power to investigate any wrongdoing by the Trump Administration” and “anyone selling out our national security for financial gain,” Schumer said.
+## Unusual Whales (132 likes)
+These are the worst performing stocks in the S&P 500 $SPY right now:
 
-He said the probe would cover the Trump administration, Huang and other Nvidia executives. He accused Trump of putting “his own financial intere
-Why it matters: Senate Democrats plan investigation into Trump administration and Nvidia over Huang reinstatement
-Watch: NVDA, Regulatory policy, Tech sector
-https://x.com/unusual_whales/status/2124917644717691166
+$DELL  -11%
+$MU -10%
+$LITE -9.6%
+$AMD -9.4% 
+$MRVL  -7.85%
+$INTC  -6.99%
+$NVDA -6.56%
 
-## Unusual Whales (915 likes)
-Copper prices are falling fast, and some economists say it’s a warning sign for the US economy, per Business Insider.
+Are you buying the dip? https://t.co/GFR3sMlNDo
+Why it matters: Broad semiconductor selloff highlights weakness across major chip stocks.
+Watch: SMH, NVDA, AMD, MU
+https://x.com/unusual_whales/status/2125299265752940729
 
-Copper traded around $5.48 a pound on Friday. That’s down 17% from its September peak of nearly $6.90, after one of 2025’s hottest rallies on AI and data center demand. David Rosenberg says it was copper’s worst week in about a decade.
-Why it matters: Copper prices plummeting fast, signaling potential warning signs for US economic growth
-Watch: Copper, Industrial commodities, Global growth
-https://x.com/unusual_whales/status/2124940293988647335
+## Zero Hedge (876 likes)
+Abraxas Capital reportedly scoops up $1 billion in Bitcoin over two days
 
-## Michael Burry (3,015 likes)
-So $NVDA is weaker, more craven than even I thought. 
-@TheJusticeDept stay on that antitrust case.
- @SECGov  keep digging into that accounting. 
-Godspeed. https://t.co/2yNbMeCnGO
-Why it matters: Michael Burry calls for DOJ antitrust and SEC accounting scrutiny to continue on Nvidia
-Watch: NVDA, DOJ, SEC, Regulatory risk
-https://x.com/michaeljburry/status/2124876426486681864
+https://t.co/2grL2vX1mT
+Why it matters: Large institutional Bitcoin accumulation by Abraxas Capital signals strong crypto demand.
+Watch: BTC, Crypto
+https://x.com/zerohedge/status/2125374528624775649
+
+## Michael Burry (301 likes)
+Short Thoughts & Trading Post November 24, 2026
+Nvidia: Donald Returns the Don, What Just Happened, and Hong Kong’s Big Tech Carnage
+
+https://t.co/WiNphXqXZZ https://t.co/LIxHrKsLyC
+Why it matters: Michael Burry commentary on Nvidia and Hong Kong tech carnages highlights systemic sentiment.
+Watch: NVDA, Broader Tech
+https://x.com/michaeljburry/status/2125241023286898960

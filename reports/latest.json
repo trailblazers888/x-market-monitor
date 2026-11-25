@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-24T10:13:06+00:00",
+  "generated_at_utc": "2026-11-25T08:57:50+00:00",
   "window_hours": 30,
   "accounts": [
     "Elon Musk",
@@ -10,56 +10,72 @@
     "Michael Burry"
   ],
   "ai_filtered": true,
-  "summary": "Markets are heavily driven by the dramatic reinstatement of Jensen Huang as CEO of Nvidia, sparking a massive relief rally across the semiconductor sector, while falling copper prices and ongoing regulatory/antitrust scrutiny highlight underlying macroeconomic and political risks.",
+  "summary": "Markets face tech and semiconductor pressure following Nvidia governance headlines and heavy semiconductor sell-offs, alongside institutional crypto inflows and ongoing corporate earnings updates.",
   "notes": [],
   "picks": [
     {
       "name": "Unusual Whales",
-      "text": "Nvidia $NVDA broke the record for the largest one day gain ever in the stock market, nearly doubling the previous record today. https://t.co/sxEMHBour9",
-      "likes": 1499,
-      "url": "https://x.com/unusual_whales/status/2124992096029536636",
-      "why": "Nvidia breaks record for single-day stock gain following Jensen Huang's reinstatement",
-      "watch": "NVDA, Semiconductors, Tech Sector"
+      "text": "Dell $DELL reported earnings earlier:\n\nEPS: $9.45 vs $6.61 \nRevenue: $54.94B vs $49B https://t.co/0ajqDEAWUW",
+      "likes": 308,
+      "url": "https://x.com/unusual_whales/status/2125342396070436960",
+      "why": "Strong earnings beat by Dell signals hardware demand details.",
+      "watch": "DELL, Tech sector"
     },
     {
       "name": "Unusual Whales",
-      "text": "Semiconductor heatmap went from a sea of red to a sea of green.\n\nJensen Huang is back, and the whole sector is ripping.\n\n$NVDA +32.8%\n$MU +19.0%\n$MRVL +18.9%\n$MPWR +16.1%\n$INTC +13.0%\n$TXN +10.5%\n$QCOM +10.2%\n$ADI +10.0%\n$AMD +8.5%\n\nEvery chip stock in the S&P 500 is green. https://t.co/hcyiVE45yy",
-      "likes": 304,
-      "url": "https://x.com/unusual_whales/status/2124924942776938506",
-      "why": "Entire semiconductor sector rips higher with double-digit gains across major chip stocks",
-      "watch": "MU, MRVL, INTC, AMD, QCOM, SMH ETF"
+      "text": "Jensen Huang disclosed more affairs to Nvidia’s board beyond the two that had been widely reported, but was “contrite” about his behavior, per WSJ\n\nThe disclosure came during an hours-long board meeting on Sunday, before the board voted to reinstate him as CEO. Board members stressed the importance of honesty and being forthright.",
+      "likes": 737,
+      "url": "https://x.com/unusual_whales/status/2125341437659156731",
+      "why": "Jensen Huang's board disclosures and reinstatement impact Nvidia leadership stability.",
+      "watch": "NVDA, Semiconductors"
     },
     {
       "name": "Unusual Whales",
-      "text": "Nvidia short sellers are set to take about $12.2 billion in paper losses today as shares jump to $168.50 on Jensen Huang’s reinstatement as CEO.\n\nThat would be their biggest one-day loss since at least 2019.\n\nThe reversal is sharp. Short sellers had made about $24 billion in paper gains as Nvidia fell 35% from its Oct. 6 all-time high through Nov. 16, per S3 Partners. The selloff gave Nvidia its worst week since the April 2025 tariff shock.\n\nhttp",
-      "likes": 460,
-      "url": "https://x.com/unusual_whales/status/2124921168109183286",
-      "why": "Nvidia short sellers face massive paper losses near $12.2 billion amid sharp reversal",
-      "watch": "NVDA, Options market, Short interest"
+      "text": "JUST IN: Microsoft, $MSFT, has declared a \"Code Red\" drive to overhaul how it prevents and responds to major service failures after a 24-hour outage exposed shortcomings in its engineering systems and crisis response, per Reuters",
+      "likes": 562,
+      "url": "https://x.com/unusual_whales/status/2125336668786049462",
+      "why": "Microsoft code red service failure overhaul impacts cloud infrastructure perception.",
+      "watch": "MSFT, Cloud sector"
     },
     {
       "name": "Unusual Whales",
-      "text": "BREAKING: Senate Democratic Leader Chuck Schumer says Democrats will investigate Jensen Huang’s reinstatement as Nvidia CEO.\n\n“Democrats will wield their full power to investigate any wrongdoing by the Trump Administration” and “anyone selling out our national security for financial gain,” Schumer said.\n\nHe said the probe would cover the Trump administration, Huang and other Nvidia executives. He accused Trump of putting “his own financial intere",
-      "likes": 1306,
-      "url": "https://x.com/unusual_whales/status/2124917644717691166",
-      "why": "Senate Democrats plan investigation into Trump administration and Nvidia over Huang reinstatement",
-      "watch": "NVDA, Regulatory policy, Tech sector"
+      "text": "Jensen Huang, CEO of Nvidia $NVDA, said that he was brought back because the board learned there \"was no national security threat\" and that:\n\n- he violated Nvidia's code of conduct\n- is in therapy daily now\n- thanked the interim CEO Kress\n\nThis was during the all hands today.",
+      "likes": 5284,
+      "url": "https://x.com/unusual_whales/status/2125314733100450056",
+      "why": "Jensen Huang confirms code of conduct violations and therapy during return as CEO.",
+      "watch": "NVDA, Tech"
     },
     {
       "name": "Unusual Whales",
-      "text": "Copper prices are falling fast, and some economists say it’s a warning sign for the US economy, per Business Insider.\n\nCopper traded around $5.48 a pound on Friday. That’s down 17% from its September peak of nearly $6.90, after one of 2025’s hottest rallies on AI and data center demand. David Rosenberg says it was copper’s worst week in about a decade.",
-      "likes": 915,
-      "url": "https://x.com/unusual_whales/status/2124940293988647335",
-      "why": "Copper prices plummeting fast, signaling potential warning signs for US economic growth",
-      "watch": "Copper, Industrial commodities, Global growth"
+      "text": "All seven Anthropic co-founders reportedly sold 3,378,378 shares each at the $83 IPO price, about $280 million apiece and nearly $2 billion combined, according to SEC filings.\n\nThe stock is now below IPO price.",
+      "likes": 10891,
+      "url": "https://x.com/unusual_whales/status/2125312747990888536",
+      "why": "Anthropic co-founder share sales post-IPO highlight insider liquidity and pricing pressure.",
+      "watch": "Anthropic, AI sector"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "These are the worst performing stocks in the S&P 500 $SPY right now:\n\n$DELL  -11%\n$MU -10%\n$LITE -9.6%\n$AMD -9.4% \n$MRVL  -7.85%\n$INTC  -6.99%\n$NVDA -6.56%\n\nAre you buying the dip? https://t.co/GFR3sMlNDo",
+      "likes": 132,
+      "url": "https://x.com/unusual_whales/status/2125299265752940729",
+      "why": "Broad semiconductor selloff highlights weakness across major chip stocks.",
+      "watch": "SMH, NVDA, AMD, MU"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "Abraxas Capital reportedly scoops up $1 billion in Bitcoin over two days\n\nhttps://t.co/2grL2vX1mT",
+      "likes": 876,
+      "url": "https://x.com/zerohedge/status/2125374528624775649",
+      "why": "Large institutional Bitcoin accumulation by Abraxas Capital signals strong crypto demand.",
+      "watch": "BTC, Crypto"
     },
     {
       "name": "Michael Burry",
-      "text": "So $NVDA is weaker, more craven than even I thought. \n@TheJusticeDept stay on that antitrust case.\n @SECGov  keep digging into that accounting. \nGodspeed. https://t.co/2yNbMeCnGO",
-      "likes": 3015,
-      "url": "https://x.com/michaeljburry/status/2124876426486681864",
-      "why": "Michael Burry calls for DOJ antitrust and SEC accounting scrutiny to continue on Nvidia",
-      "watch": "NVDA, DOJ, SEC, Regulatory risk"
+      "text": "Short Thoughts & Trading Post November 24, 2026\nNvidia: Donald Returns the Don, What Just Happened, and Hong Kong’s Big Tech Carnage\n\nhttps://t.co/WiNphXqXZZ https://t.co/LIxHrKsLyC",
+      "likes": 301,
+      "url": "https://x.com/michaeljburry/status/2125241023286898960",
+      "why": "Michael Burry commentary on Nvidia and Hong Kong tech carnages highlights systemic sentiment.",
+      "watch": "NVDA, Broader Tech"
     }
   ]
 }
