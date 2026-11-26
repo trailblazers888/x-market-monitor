@@ -1,0 +1,57 @@
+{
+  "generated_at_utc": "2026-11-26T08:43:24+00:00",
+  "window_hours": 30,
+  "accounts": [
+    "Elon Musk",
+    "Bill Ackman",
+    "Unusual Whales",
+    "Zero Hedge",
+    "Ray Dalio",
+    "Michael Burry"
+  ],
+  "ai_filtered": true,
+  "summary": "Semiconductor stocks face massive volatility as Nvidia shares plunge following regulatory scrutiny and supply cuts, while high-profile AI fund losses and broader tech sector sell-offs weigh on market sentiment.",
+  "notes": [],
+  "picks": [
+    {
+      "name": "Unusual Whales",
+      "text": "Nvidia’s Huang rally is fading fast.\n\n$NVDA is down another 7.4% today to $144, after an 8% drop yesterday.\n\nThat’s about 13% lost in two days. Roughly $500 billion of Monday’s $1 trillion gain is already gone.\n\nThe stock is back near where it was before Jensen Huang returned. https://t.co/uy0Umk1log",
+      "likes": 508,
+      "url": "https://x.com/unusual_whales/status/2125642420389888365",
+      "why": "Nvidia's rapid two-day 13% drop erases a massive chunk of recent market gains, signaling sharp reversal in semiconductor momentum.",
+      "watch": "NVDA, Semiconductors, Tech Sector"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Semiconductor heatmap is red for the second straight day.\n\n$MU −10.1%\n$NVDA −7.3%\n$MRVL −6.8%\n$AMD −6.8%\n$INTC −6.5%\n$MPWR −5.0%\n$AVGO −4.6% https://t.co/0K9Okp3Kof",
+      "likes": 300,
+      "url": "https://x.com/unusual_whales/status/2125646195435442628",
+      "why": "Broad-based red heatmap across semiconductor stocks highlights severe selling pressure hitting key chipmakers like Micron, AMD, and Broadcom.",
+      "watch": "MU, NVDA, MRVL, AMD, INTC, AVGO"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "BREAKING: Nvidia, $NVDA, has halted chip shipments to South East Asia, per FT",
+      "likes": 819,
+      "url": "https://x.com/unusual_whales/status/2125840482899288560",
+      "why": "Reports of Nvidia halting chip shipments to South East Asia add geopolitical and logistical headwinds to supply chains.",
+      "watch": "NVDA, Semiconductors"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Nvidia is reportedly cutting gaming GPU supply by another 20–30% this quarter, per Chinese distributor forum Board Channels.\n\nRTX 50-series stock is already low, and distributors could face more price hikes. In China, GPU makers are steering distributors toward older RTX 3060 and 3050 cards.",
+      "likes": 4167,
+      "url": "https://x.com/unusual_whales/status/2125710619965800644",
+      "why": "Nvidia cutting gaming GPU supply further could drive additional price hikes and impact downstream component distributors.",
+      "watch": "NVDA, GPU suppliers"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "\"How Merciless The Market Is\": Leopold Aschenbrenner Admits 65% Q3 Loss... Says Now Is The Best Time Ever To Buy https://t.co/zSjYpcvoe4",
+      "likes": 119,
+      "url": "https://x.com/zerohedge/status/2125782958137094494",
+      "why": "Prominent AI fund Situational Awareness reporting a massive 65% Q3 loss highlights extreme risk and drawdown in high-flying AI-focused investments.",
+      "watch": "AI sector, Tech funds"
+    }
+  ]
+}
