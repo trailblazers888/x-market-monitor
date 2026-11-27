@@ -1,0 +1,81 @@
+{
+  "generated_at_utc": "2026-11-27T08:54:14+00:00",
+  "window_hours": 30,
+  "accounts": [
+    "Elon Musk",
+    "Bill Ackman",
+    "Unusual Whales",
+    "Zero Hedge",
+    "Ray Dalio",
+    "Michael Burry"
+  ],
+  "ai_filtered": true,
+  "summary": "Financial markets digest systemic risks in the AI trade, including Fed warnings on circular financing, export restrictions, and geopolitical friction affecting tech infrastructure and semiconductor equities.",
+  "notes": [],
+  "picks": [
+    {
+      "name": "Unusual Whales",
+      "text": "The Fed is warning about “circular financing” in AI.\n\nBig tech companies are lending to, investing in and guaranteeing smaller, riskier AI firms, which then buy their products, according to the Fed’s latest Financial Stability Report. In a downturn, the Fed says, their exposure “may be substantially larger than suggested by their on-balance-sheet liabilities.”\n\nNvidia alone has $530 billion in off-balance-sheet commitments, including up to $105 b",
+      "likes": 4206,
+      "url": "https://x.com/unusual_whales/status/2125998265707483323",
+      "why": "Federal Reserve warning on circular financing and hidden exposure in AI infrastructure creates systemic risk for big tech.",
+      "watch": "Big tech, AI infrastructure, Nvidia"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Nvidia has halted AI server shipments to Singapore, Malaysia, Thailand and Indonesia following tighter US export controls, per the FT.\n\nNvidia told manufacturing partners including Dell and Super Micro to stop delivering servers with its AI chips to the four countries. Those partners have told customers in the region that Nvidia won’t authorize their orders.",
+      "likes": 1528,
+      "url": "https://x.com/unusual_whales/status/2125924894315831301",
+      "why": "Nvidia halting AI server shipments to several Asian countries under tighter US export controls impacts regional tech supply chains.",
+      "watch": "Nvidia, Dell, Super Micro, semiconductor supply chain"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "BREAKING: Huawei Technologies is preparing to release details of a new high-bandwidth memory chip that could surpass current offerings from Samsung Electronics and SK Hynix, moving to launch Chinese production of a key AI component currently blocked by US sanctions, per Bloomberg",
+      "likes": 5214,
+      "url": "https://x.com/unusual_whales/status/2125968066752516505",
+      "why": "Huawei's preparation of a new high-bandwidth memory chip challenges US export sanctions and threatens competitors.",
+      "watch": "Huawei, Samsung Electronics, SK Hynix, memory chips"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "BREAKING: The Dutch government says it will resist US plans to further restrict ASML's sales to China",
+      "likes": 6385,
+      "url": "https://x.com/unusual_whales/status/2125959118397882820",
+      "why": "Dutch government resisting US plans to further restrict ASML's sales to China highlights international tech policy friction.",
+      "watch": "ASML, semiconductor equipment"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "The EU is planning a tech fund of up to €50 billion to cut its reliance on US and Chinese technology, per the FT.\n\nThe Sovereign Tech Equity Fund would invest in AI and quantum computing companies. It would make larger, riskier and longer-term investments.",
+      "likes": 809,
+      "url": "https://x.com/unusual_whales/status/2126103961975365708",
+      "why": "EU planning a €50 billion tech fund to cut reliance on US and Chinese tech impacts global AI and quantum computing allocations.",
+      "watch": "European tech sector, AI, quantum computing"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "Venezuela Admits Its $237.5 Billion Debt Is Unsustainable https://t.co/wQ6vQrmX3x",
+      "likes": 221,
+      "url": "https://x.com/zerohedge/status/2126101308386017633",
+      "why": "Venezuela admitting its $237.5 billion debt is unsustainable flags sovereign debt risks in emerging markets.",
+      "watch": "Emerging market debt, Venezuelan bonds"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "Gold, silver just went vertical https://t.co/o3cB9aXNYA",
+      "likes": 7307,
+      "url": "https://x.com/zerohedge/status/2126137822922850616",
+      "why": "Gold and silver seeing vertical price action signals strong safe-haven demand or currency devaluation hedges.",
+      "watch": "Gold, silver, precious metals, commodities"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "“Grand Theft Auto VI” sold 47 million copies over its launch weekend, according to data from Sensor Tower. \n\nMeanwhile, engagement with other video games has fallen. “Call of Duty” saw a 46% plunge, while “Fortnite” fell 25%.",
+      "likes": 5971,
+      "url": "https://x.com/unusual_whales/status/2126088862544121865",
+      "why": "GTA VI massive launch weekend sales cannibalizing engagement in Call of Duty and Fortnite impacts gaming sector revenues.",
+      "watch": "Take-Two Interactive, Electronic Arts, gaming stocks"
+    }
+  ]
+}

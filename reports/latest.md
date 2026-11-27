@@ -1,50 +1,62 @@
-# X Market Monitor - 2026-11-26 (UTC)
+# X Market Monitor - 2026-11-27 (UTC)
 
-Themes: Semiconductor stocks face massive volatility as Nvidia shares plunge following regulatory scrutiny and supply cuts, while high-profile AI fund losses and broader tech sector sell-offs weigh on market sentiment.
+Themes: Financial markets digest systemic risks in the AI trade, including Fed warnings on circular financing, export restrictions, and geopolitical friction affecting tech infrastructure and semiconductor equities.
 
 
-## Unusual Whales (508 likes)
-Nvidia’s Huang rally is fading fast.
+## Unusual Whales (4,206 likes)
+The Fed is warning about “circular financing” in AI.
 
-$NVDA is down another 7.4% today to $144, after an 8% drop yesterday.
+Big tech companies are lending to, investing in and guaranteeing smaller, riskier AI firms, which then buy their products, according to the Fed’s latest Financial Stability Report. In a downturn, the Fed says, their exposure “may be substantially larger than suggested by their on-balance-sheet liabilities.”
 
-That’s about 13% lost in two days. Roughly $500 billion of Monday’s $1 trillion gain is already gone.
+Nvidia alone has $530 billion in off-balance-sheet commitments, including up to $105 b
+Why it matters: Federal Reserve warning on circular financing and hidden exposure in AI infrastructure creates systemic risk for big tech.
+Watch: Big tech, AI infrastructure, Nvidia
+https://x.com/unusual_whales/status/2125998265707483323
 
-The stock is back near where it was before Jensen Huang returned. https://t.co/uy0Umk1log
-Why it matters: Nvidia's rapid two-day 13% drop erases a massive chunk of recent market gains, signaling sharp reversal in semiconductor momentum.
-Watch: NVDA, Semiconductors, Tech Sector
-https://x.com/unusual_whales/status/2125642420389888365
+## Unusual Whales (1,528 likes)
+Nvidia has halted AI server shipments to Singapore, Malaysia, Thailand and Indonesia following tighter US export controls, per the FT.
 
-## Unusual Whales (300 likes)
-Semiconductor heatmap is red for the second straight day.
+Nvidia told manufacturing partners including Dell and Super Micro to stop delivering servers with its AI chips to the four countries. Those partners have told customers in the region that Nvidia won’t authorize their orders.
+Why it matters: Nvidia halting AI server shipments to several Asian countries under tighter US export controls impacts regional tech supply chains.
+Watch: Nvidia, Dell, Super Micro, semiconductor supply chain
+https://x.com/unusual_whales/status/2125924894315831301
 
-$MU −10.1%
-$NVDA −7.3%
-$MRVL −6.8%
-$AMD −6.8%
-$INTC −6.5%
-$MPWR −5.0%
-$AVGO −4.6% https://t.co/0K9Okp3Kof
-Why it matters: Broad-based red heatmap across semiconductor stocks highlights severe selling pressure hitting key chipmakers like Micron, AMD, and Broadcom.
-Watch: MU, NVDA, MRVL, AMD, INTC, AVGO
-https://x.com/unusual_whales/status/2125646195435442628
+## Unusual Whales (5,214 likes)
+BREAKING: Huawei Technologies is preparing to release details of a new high-bandwidth memory chip that could surpass current offerings from Samsung Electronics and SK Hynix, moving to launch Chinese production of a key AI component currently blocked by US sanctions, per Bloomberg
+Why it matters: Huawei's preparation of a new high-bandwidth memory chip challenges US export sanctions and threatens competitors.
+Watch: Huawei, Samsung Electronics, SK Hynix, memory chips
+https://x.com/unusual_whales/status/2125968066752516505
 
-## Unusual Whales (819 likes)
-BREAKING: Nvidia, $NVDA, has halted chip shipments to South East Asia, per FT
-Why it matters: Reports of Nvidia halting chip shipments to South East Asia add geopolitical and logistical headwinds to supply chains.
-Watch: NVDA, Semiconductors
-https://x.com/unusual_whales/status/2125840482899288560
+## Unusual Whales (6,385 likes)
+BREAKING: The Dutch government says it will resist US plans to further restrict ASML's sales to China
+Why it matters: Dutch government resisting US plans to further restrict ASML's sales to China highlights international tech policy friction.
+Watch: ASML, semiconductor equipment
+https://x.com/unusual_whales/status/2125959118397882820
 
-## Unusual Whales (4,167 likes)
-Nvidia is reportedly cutting gaming GPU supply by another 20–30% this quarter, per Chinese distributor forum Board Channels.
+## Unusual Whales (809 likes)
+The EU is planning a tech fund of up to €50 billion to cut its reliance on US and Chinese technology, per the FT.
 
-RTX 50-series stock is already low, and distributors could face more price hikes. In China, GPU makers are steering distributors toward older RTX 3060 and 3050 cards.
-Why it matters: Nvidia cutting gaming GPU supply further could drive additional price hikes and impact downstream component distributors.
-Watch: NVDA, GPU suppliers
-https://x.com/unusual_whales/status/2125710619965800644
+The Sovereign Tech Equity Fund would invest in AI and quantum computing companies. It would make larger, riskier and longer-term investments.
+Why it matters: EU planning a €50 billion tech fund to cut reliance on US and Chinese tech impacts global AI and quantum computing allocations.
+Watch: European tech sector, AI, quantum computing
+https://x.com/unusual_whales/status/2126103961975365708
 
-## Zero Hedge (119 likes)
-"How Merciless The Market Is": Leopold Aschenbrenner Admits 65% Q3 Loss... Says Now Is The Best Time Ever To Buy https://t.co/zSjYpcvoe4
-Why it matters: Prominent AI fund Situational Awareness reporting a massive 65% Q3 loss highlights extreme risk and drawdown in high-flying AI-focused investments.
-Watch: AI sector, Tech funds
-https://x.com/zerohedge/status/2125782958137094494
+## Zero Hedge (221 likes)
+Venezuela Admits Its $237.5 Billion Debt Is Unsustainable https://t.co/wQ6vQrmX3x
+Why it matters: Venezuela admitting its $237.5 billion debt is unsustainable flags sovereign debt risks in emerging markets.
+Watch: Emerging market debt, Venezuelan bonds
+https://x.com/zerohedge/status/2126101308386017633
+
+## Zero Hedge (7,307 likes)
+Gold, silver just went vertical https://t.co/o3cB9aXNYA
+Why it matters: Gold and silver seeing vertical price action signals strong safe-haven demand or currency devaluation hedges.
+Watch: Gold, silver, precious metals, commodities
+https://x.com/zerohedge/status/2126137822922850616
+
+## Unusual Whales (5,971 likes)
+“Grand Theft Auto VI” sold 47 million copies over its launch weekend, according to data from Sensor Tower. 
+
+Meanwhile, engagement with other video games has fallen. “Call of Duty” saw a 46% plunge, while “Fortnite” fell 25%.
+Why it matters: GTA VI massive launch weekend sales cannibalizing engagement in Call of Duty and Fortnite impacts gaming sector revenues.
+Watch: Take-Two Interactive, Electronic Arts, gaming stocks
+https://x.com/unusual_whales/status/2126088862544121865
