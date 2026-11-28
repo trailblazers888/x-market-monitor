@@ -1,0 +1,73 @@
+{
+  "generated_at_utc": "2026-11-28T08:14:27+00:00",
+  "window_hours": 30,
+  "accounts": [
+    "Elon Musk",
+    "Bill Ackman",
+    "Unusual Whales",
+    "Zero Hedge",
+    "Ray Dalio",
+    "Michael Burry"
+  ],
+  "ai_filtered": true,
+  "summary": "Markets are reacting to shifting monetary and fiscal data, AI sector volatility, and mounting geopolitical trade pressures.",
+  "notes": [],
+  "picks": [
+    {
+      "name": "Unusual Whales",
+      "text": "Huawei Technologies is preparing to release details of a new high-bandwidth memory chip that could surpass current offerings from Samsung Electronics and SK Hynix, moving to launch Chinese production of a key AI component currently blocked by US sanctions, per Bloomberg",
+      "likes": 1021,
+      "url": "https://x.com/unusual_whales/status/2126338818299068916",
+      "why": "Huawei's new high-bandwidth memory chip challenges US semiconductor sanctions and impacts key memory makers.",
+      "watch": "Samsung, SK Hynix, semiconductors, tech sector"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "*FRANCE OUTLOOK TO NEGATIVE FROM STABLE BY S&P",
+      "likes": 952,
+      "url": "https://x.com/zerohedge/status/2126424370142957890",
+      "why": "S&P revising France's outlook to negative increases fiscal risks and pressures European sovereign debt.",
+      "watch": "EUR, French bonds, European banks"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "NEWS: Lawmakers have struck a bipartisan deal to ban Chinese cars from the US, per Politico. But the \"permanent\" ban comes with an expiration date.\n\nThe Moreno-Slotkin bill would bar vehicles and connected tech tied to China and other foreign adversaries. A sunset clause was added, and Volvo and Mercedes could keep selling here despite their Chinese ownership stakes.\n\nSponsors want a Senate vote in December.",
+      "likes": 998,
+      "url": "https://x.com/unusual_whales/status/2126370971145879971",
+      "why": "Proposed bipartisan legislation to ban Chinese-linked cars in the US affects global auto supply chains.",
+      "watch": "Volvo, Mercedes, auto sector, China trade"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "The French economy shrank 0.2% in the third quarter, worse than the 0.1% first estimated, per INSEE.\n\nExports fell 1.6% and investment dropped 0.9%. France is now one negative quarter away from a technical recession.",
+      "likes": 1288,
+      "url": "https://x.com/unusual_whales/status/2126271145670513002",
+      "why": "France's Q3 GDP contraction brings the country to the brink of a technical recession, weighing on the Eurozone.",
+      "watch": "EUR, European equities"
+    },
+    {
+      "name": "Zero Hedge",
+      "text": "Real Yield Curve Hints A Dollar Top Is Nearing https://t.co/AwFuEYFHXK",
+      "likes": 342,
+      "url": "https://x.com/zerohedge/status/2126458660905730517",
+      "why": "Real yield curve dynamics suggest a potential peak for the US dollar, altering FX and commodity flows.",
+      "watch": "USD, US Treasuries, Gold"
+    },
+    {
+      "name": "Michael Burry",
+      "text": "Must read. This is not me. But it must be read.   \nMark to Swap: How the Market is Mispricing the AI Boom https://t.co/RXKojhQ9EI",
+      "likes": 3752,
+      "url": "https://x.com/michaeljburry/status/2126150924955521043",
+      "why": "Michael Burry highlights market mispricing of the AI boom, posing risks to high-flying tech valuations.",
+      "watch": "AI stocks, Nasdaq, tech sector"
+    },
+    {
+      "name": "Unusual Whales",
+      "text": "Hackers have breached the US Air Force's flagship Cloud One computing platform, per Reuters.\n\nCloud One runs everything from pay and logistics to air defense radar feeds across North America and munitions tracking at more than 200 sites. One source says the intruders reached the system's \"control plane.\"",
+      "likes": 5113,
+      "url": "https://x.com/unusual_whales/status/2126344534447505432",
+      "why": "A major cyber breach of the US Air Force's Cloud One platform raises cybersecurity and defense infrastructure concerns.",
+      "watch": "Cybersecurity stocks, defense sector"
+    }
+  ]
+}

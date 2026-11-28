@@ -1,62 +1,55 @@
-# X Market Monitor - 2026-11-27 (UTC)
+# X Market Monitor - 2026-11-28 (UTC)
 
-Themes: Financial markets digest systemic risks in the AI trade, including Fed warnings on circular financing, export restrictions, and geopolitical friction affecting tech infrastructure and semiconductor equities.
+Themes: Markets are reacting to shifting monetary and fiscal data, AI sector volatility, and mounting geopolitical trade pressures.
 
 
-## Unusual Whales (4,206 likes)
-The Fed is warning about “circular financing” in AI.
+## Unusual Whales (1,021 likes)
+Huawei Technologies is preparing to release details of a new high-bandwidth memory chip that could surpass current offerings from Samsung Electronics and SK Hynix, moving to launch Chinese production of a key AI component currently blocked by US sanctions, per Bloomberg
+Why it matters: Huawei's new high-bandwidth memory chip challenges US semiconductor sanctions and impacts key memory makers.
+Watch: Samsung, SK Hynix, semiconductors, tech sector
+https://x.com/unusual_whales/status/2126338818299068916
 
-Big tech companies are lending to, investing in and guaranteeing smaller, riskier AI firms, which then buy their products, according to the Fed’s latest Financial Stability Report. In a downturn, the Fed says, their exposure “may be substantially larger than suggested by their on-balance-sheet liabilities.”
+## Zero Hedge (952 likes)
+*FRANCE OUTLOOK TO NEGATIVE FROM STABLE BY S&P
+Why it matters: S&P revising France's outlook to negative increases fiscal risks and pressures European sovereign debt.
+Watch: EUR, French bonds, European banks
+https://x.com/zerohedge/status/2126424370142957890
 
-Nvidia alone has $530 billion in off-balance-sheet commitments, including up to $105 b
-Why it matters: Federal Reserve warning on circular financing and hidden exposure in AI infrastructure creates systemic risk for big tech.
-Watch: Big tech, AI infrastructure, Nvidia
-https://x.com/unusual_whales/status/2125998265707483323
+## Unusual Whales (998 likes)
+NEWS: Lawmakers have struck a bipartisan deal to ban Chinese cars from the US, per Politico. But the "permanent" ban comes with an expiration date.
 
-## Unusual Whales (1,528 likes)
-Nvidia has halted AI server shipments to Singapore, Malaysia, Thailand and Indonesia following tighter US export controls, per the FT.
+The Moreno-Slotkin bill would bar vehicles and connected tech tied to China and other foreign adversaries. A sunset clause was added, and Volvo and Mercedes could keep selling here despite their Chinese ownership stakes.
 
-Nvidia told manufacturing partners including Dell and Super Micro to stop delivering servers with its AI chips to the four countries. Those partners have told customers in the region that Nvidia won’t authorize their orders.
-Why it matters: Nvidia halting AI server shipments to several Asian countries under tighter US export controls impacts regional tech supply chains.
-Watch: Nvidia, Dell, Super Micro, semiconductor supply chain
-https://x.com/unusual_whales/status/2125924894315831301
+Sponsors want a Senate vote in December.
+Why it matters: Proposed bipartisan legislation to ban Chinese-linked cars in the US affects global auto supply chains.
+Watch: Volvo, Mercedes, auto sector, China trade
+https://x.com/unusual_whales/status/2126370971145879971
 
-## Unusual Whales (5,214 likes)
-BREAKING: Huawei Technologies is preparing to release details of a new high-bandwidth memory chip that could surpass current offerings from Samsung Electronics and SK Hynix, moving to launch Chinese production of a key AI component currently blocked by US sanctions, per Bloomberg
-Why it matters: Huawei's preparation of a new high-bandwidth memory chip challenges US export sanctions and threatens competitors.
-Watch: Huawei, Samsung Electronics, SK Hynix, memory chips
-https://x.com/unusual_whales/status/2125968066752516505
+## Unusual Whales (1,288 likes)
+The French economy shrank 0.2% in the third quarter, worse than the 0.1% first estimated, per INSEE.
 
-## Unusual Whales (6,385 likes)
-BREAKING: The Dutch government says it will resist US plans to further restrict ASML's sales to China
-Why it matters: Dutch government resisting US plans to further restrict ASML's sales to China highlights international tech policy friction.
-Watch: ASML, semiconductor equipment
-https://x.com/unusual_whales/status/2125959118397882820
+Exports fell 1.6% and investment dropped 0.9%. France is now one negative quarter away from a technical recession.
+Why it matters: France's Q3 GDP contraction brings the country to the brink of a technical recession, weighing on the Eurozone.
+Watch: EUR, European equities
+https://x.com/unusual_whales/status/2126271145670513002
 
-## Unusual Whales (809 likes)
-The EU is planning a tech fund of up to €50 billion to cut its reliance on US and Chinese technology, per the FT.
+## Zero Hedge (342 likes)
+Real Yield Curve Hints A Dollar Top Is Nearing https://t.co/AwFuEYFHXK
+Why it matters: Real yield curve dynamics suggest a potential peak for the US dollar, altering FX and commodity flows.
+Watch: USD, US Treasuries, Gold
+https://x.com/zerohedge/status/2126458660905730517
 
-The Sovereign Tech Equity Fund would invest in AI and quantum computing companies. It would make larger, riskier and longer-term investments.
-Why it matters: EU planning a €50 billion tech fund to cut reliance on US and Chinese tech impacts global AI and quantum computing allocations.
-Watch: European tech sector, AI, quantum computing
-https://x.com/unusual_whales/status/2126103961975365708
+## Michael Burry (3,752 likes)
+Must read. This is not me. But it must be read.   
+Mark to Swap: How the Market is Mispricing the AI Boom https://t.co/RXKojhQ9EI
+Why it matters: Michael Burry highlights market mispricing of the AI boom, posing risks to high-flying tech valuations.
+Watch: AI stocks, Nasdaq, tech sector
+https://x.com/michaeljburry/status/2126150924955521043
 
-## Zero Hedge (221 likes)
-Venezuela Admits Its $237.5 Billion Debt Is Unsustainable https://t.co/wQ6vQrmX3x
-Why it matters: Venezuela admitting its $237.5 billion debt is unsustainable flags sovereign debt risks in emerging markets.
-Watch: Emerging market debt, Venezuelan bonds
-https://x.com/zerohedge/status/2126101308386017633
+## Unusual Whales (5,113 likes)
+Hackers have breached the US Air Force's flagship Cloud One computing platform, per Reuters.
 
-## Zero Hedge (7,307 likes)
-Gold, silver just went vertical https://t.co/o3cB9aXNYA
-Why it matters: Gold and silver seeing vertical price action signals strong safe-haven demand or currency devaluation hedges.
-Watch: Gold, silver, precious metals, commodities
-https://x.com/zerohedge/status/2126137822922850616
-
-## Unusual Whales (5,971 likes)
-“Grand Theft Auto VI” sold 47 million copies over its launch weekend, according to data from Sensor Tower. 
-
-Meanwhile, engagement with other video games has fallen. “Call of Duty” saw a 46% plunge, while “Fortnite” fell 25%.
-Why it matters: GTA VI massive launch weekend sales cannibalizing engagement in Call of Duty and Fortnite impacts gaming sector revenues.
-Watch: Take-Two Interactive, Electronic Arts, gaming stocks
-https://x.com/unusual_whales/status/2126088862544121865
+Cloud One runs everything from pay and logistics to air defense radar feeds across North America and munitions tracking at more than 200 sites. One source says the intruders reached the system's "control plane."
+Why it matters: A major cyber breach of the US Air Force's Cloud One platform raises cybersecurity and defense infrastructure concerns.
+Watch: Cybersecurity stocks, defense sector
+https://x.com/unusual_whales/status/2126344534447505432
